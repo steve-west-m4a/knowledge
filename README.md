@@ -11,3 +11,6 @@ sfdx force:package:install --wait 10 --publishwait 10 --package "m4a-product-lov
  # Need to push with Ignore Warnings so that we don't get "Occasionally, when deployed to a destination org, ID values can become invalid..." errors
  # preventing the push
 sfdx force:source:push -g
+
+# We can then do a pull from the new Org with the Force option (not quite sure why this is required)
+sfdx force:source:pull -f

@@ -26,6 +26,7 @@
   }, {
     "components" : [ {
       "componentAttributes" : {
+        "customHeadTags" : "",
         "description" : "",
         "title" : "ERP Cloud Toolbox"
       },

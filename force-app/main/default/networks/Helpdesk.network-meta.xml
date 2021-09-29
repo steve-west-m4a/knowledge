@@ -3,7 +3,7 @@
     <allowInternalUserLogin>true</allowInternalUserLogin>
     <allowMembersToFlag>false</allowMembersToFlag>
     <changePasswordTemplate>unfiled$public/Community_Password_Changed_Email</changePasswordTemplate>
-    <communityRoles />
+    <communityRoles/>
     <disableReputationRecordConversations>false</disableReputationRecordConversations>
     <emailSenderAddress>vienna.pahi@more4apps.com</emailSenderAddress>
     <emailSenderName>More4apps Support</emailSenderName>
@@ -26,19 +26,19 @@
     <enableUpDownVote>true</enableUpDownVote>
     <forgotPasswordTemplate>unfiled$public/Community_Forgot_Password_Reset_Email</forgotPasswordTemplate>
     <gatherCustomerSentimentData>true</gatherCustomerSentimentData>
-    <logoutUrl>https://sandbox-fun-nosoftware-6448-17b9e1754f9.cs6.force.com/helpdesk/s/</logoutUrl>
+    <logoutUrl>https://sandbox-force-customer-6156-17c2efcb522.cs73.force.com/helpdesk/s/</logoutUrl>
     <maxFileSizeKb>2048000</maxFileSizeKb>
     <networkMemberGroups>
-        <permissionSet>Knowledge_Manager_Permission_Set</permissionSet>
-        <permissionSet>More4apps_Product_Downloads</permissionSet>
         <permissionSet>m4a_search</permissionSet>
+        <permissionSet>More4apps_Product_Downloads</permissionSet>
+        <permissionSet>Knowledge_Manager_Permission_Set</permissionSet>
         <profile>admin</profile>
         <profile>trial customer portal user</profile>
         <profile>high volume customer portal user</profile>
-        <profile>portal user</profile>
         <profile>ebs customer portal</profile>
-        <profile>erp cloud portal users</profile>
         <profile>portal super user</profile>
+        <profile>portal user</profile>
+        <profile>erp cloud portal users</profile>
     </networkMemberGroups>
     <networkPageOverrides>
         <changePasswordPageOverrideSetting>Standard</changePasswordPageOverrideSetting>

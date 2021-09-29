@@ -240,14 +240,6 @@
     }, {
       "components" : [ {
         "componentAttributes" : {
-          "richTextValue" : "<p>Use this HTML Editor to add your own markup.</p>"
-        },
-        "componentName" : "forceCommunity:htmlBlock",
-        "id" : "69c9d31f-81c6-416a-9949-2919e3f5d83e",
-        "renditionMap" : { },
-        "type" : "component"
-      }, {
-        "componentAttributes" : {
           "richTextValue" : "<div align=\"center\" style=\"background-color: #d7d7d7\"> \n <div style=\"line-height: 20px; padding-top: 20px\"> \n  <h3>Follow us on Social Media</h3> \n </div> \n <div style=\"padding-bottom: 15px; padding-top: 15px;\"> \n  <a href=\"https://youtube.com/more4apps\" target=\"_blank\"><img alt=\"YouTube\" style=\"padding-right: 10px; width: 55px; height: 45px;\" src=\"{!contentAsset.YoutubeIcon.1}\" /></a> \n  <a href=\"https://twitter.com/more4apps\" target=\"_blank\"><img alt=\"Twitter\" style=\"padding-right: 10px; width: 55px; height: 45px;\" src=\"{!contentAsset.TwitterIcon.1}\" /></a> \n  <a href=\"https://linkedin.com/company/more4apps\" target=\"_blank\"><img alt=\"LinkedIn\" style=\"padding-right: 10px; width: 55px; height: 45px;\" src=\"{!contentAsset.LinkedInIcon.1}\" /></a> \n  <a href=\"https://www.facebook.com/more4apps/\" target=\"_blank\"><img alt=\"Facebook\" style=\"width: 45px; height: 45px;\" src=\"{!contentAsset.FacebookIcon.1}\" /></a> \n </div> \n <div> \n  <h3><a href=\"https://more4apps.com/privacy-policy/\" target=\"_blank\" style=\"padding-right: 10px; color: #63666A\">Privacy Policy</a><a href=\"https://more4apps.com/cookie-policy/\" target=\"_blank\" style=\"padding-right: 10px; color: #63666A\">Cookie Policy</a><a href=\"https://more4apps.com/terms-of-use/\" target=\"_blank\" style=\"color: #63666A\">Terms of Use</a></h3> \n </div> \n <div style=\"padding-top: 5px; padding-bottom: 20px\"> \n  <p>&copy; 2020, More4apps.</p>\n </div> \n</div>"
         },
         "componentName" : "forceCommunity:htmlBlock",

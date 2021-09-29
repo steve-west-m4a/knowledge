@@ -67,6 +67,7 @@
   }, {
     "components" : [ {
       "componentAttributes" : {
+        "customHeadTags" : "",
         "title" : "Contact Support"
       },
       "componentName" : "forceCommunity:seoAssistant",

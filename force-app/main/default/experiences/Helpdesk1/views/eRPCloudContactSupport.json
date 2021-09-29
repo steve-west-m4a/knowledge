@@ -68,6 +68,7 @@
   }, {
     "components" : [ {
       "componentAttributes" : {
+        "customHeadTags" : "",
         "title" : "ERP Cloud Contact Support"
       },
       "componentName" : "forceCommunity:seoAssistant",

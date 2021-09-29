@@ -41,6 +41,7 @@
   }, {
     "components" : [ {
       "componentAttributes" : {
+        "customHeadTags" : "",
         "title" : "EBS My Cases"
       },
       "componentName" : "forceCommunity:seoAssistant",

@@ -41,6 +41,7 @@
   }, {
     "components" : [ {
       "componentAttributes" : {
+        "customHeadTags" : "",
         "description" : "",
         "title" : "My Cases"
       },
