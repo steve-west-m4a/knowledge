@@ -33,13 +33,13 @@
         <permissionSet>Knowledge_Manager_Permission_Set</permissionSet>
         <permissionSet>More4apps_Product_Downloads</permissionSet>
         <permissionSet>m4a_search</permissionSet>
-        <profile>Admin</profile>
-        <profile>Trial Customer Portal User</profile>
+        <profile>admin</profile>
+        <profile>trial customer portal user</profile>
         <profile>high volume customer portal user</profile>
-        <profile>Portal User</profile>
-        <profile>EBS Customer Portal</profile>
-        <profile>ERP Cloud Portal Users</profile>
-        <profile>Portal Super User</profile>
+        <profile>portal user</profile>
+        <profile>ebs customer portal</profile>
+        <profile>erp cloud portal users</profile>
+        <profile>portal super user</profile>
     </networkMemberGroups>
     <networkPageOverrides>
         <changePasswordPageOverrideSetting>Standard</changePasswordPageOverrideSetting>
