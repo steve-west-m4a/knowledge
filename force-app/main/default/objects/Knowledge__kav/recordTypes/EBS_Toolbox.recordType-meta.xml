@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <fullName>EBS_Toolbox</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>M4AKnowledgeCompactAssignment</compactLayoutAssignment>
+    <description>This Record Type should be used for all EBS Toolbox Articles</description>
+    <label>EBS Toolbox</label>
+</RecordType>

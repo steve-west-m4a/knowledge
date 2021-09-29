@@ -1,0 +1,84 @@
+{
+  "appPageId" : "15c18bce-cd20-41ce-bea0-694f6d19ded6",
+  "componentName" : "siteforce:sldsTwoCol66Layout",
+  "id" : "2bf18829-6f55-4bd9-bc80-7c7d401d68e0",
+  "label" : "EBS Contact Support",
+  "regions" : [ {
+    "id" : "a2f50c84-e77a-4a46-99e7-08a86d1210f5",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "allowAttachments" : true,
+        "attachmentLabel" : "Upload File",
+        "buttonAlignment" : "center",
+        "buttonBgColor" : "rgb(0, 65, 200)",
+        "buttonBgHoverColor" : "rgb(255, 255, 255)",
+        "buttonMaxWidth" : 20,
+        "buttonRadius" : 0,
+        "buttonTextHoverColor" : "rgb(0, 65, 200)",
+        "callToAction" : false,
+        "callToActionText" : "Test",
+        "confirmationSubtext" : "One of our Support Team will get back to you shortly.",
+        "confirmationText" : "Your Case has been submitted!",
+        "guestQuickActionName" : "GuestEBSPortalCase",
+        "headerSubtitle" : "Tell us how we can help",
+        "headerTitle" : "EBS Support Request",
+        "quickActionName" : "NewEBSPortalCase",
+        "requestSummaryText" : "Case summary"
+      },
+      "componentName" : "forceCommunity:contactSupportForm",
+      "id" : "fde0d898-0a7b-4470-9af4-701587f86b16",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2dc49154-78e9-406c-84ee-93cdc7be28d3",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "askConfirmationQuestion" : true,
+        "confirmationMessageLabel" : "Got it!",
+        "deflectionTitle" : "Here are some Suggestions that may help!",
+        "firstQuestion" : "Did this solve your issue?",
+        "maxResults" : 5,
+        "measureDeflection" : true,
+        "secondQuestion" : "Stop creating your case?",
+        "showArticles" : true,
+        "showDiscussions" : false,
+        "topicId" : "{!topicId}"
+      },
+      "componentName" : "forceCommunity:caseDeflection",
+      "id" : "f1ac869a-3655-4b84-abba-41c15c14f852",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e015dd43-15aa-4f76-b1fd-ac0f6a589643",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "1affec3a-548f-4204-9cee-bb2dd0061ef6",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "title" : "Contact Support"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "da531c32-5c58-4c00-8e21-5067c8918f8c",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2d67d07c-dc65-438e-a7ef-14cd5297caa2",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "GStP9iAyIh1m0oVshoc89yROwxGpoG",
+  "type" : "view",
+  "viewType" : "custom-ebs-contact-support"
+}

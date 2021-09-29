@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "2bf18829-6f55-4bd9-bc80-7c7d401d68e0",
+  "appPageId" : "15c18bce-cd20-41ce-bea0-694f6d19ded6",
+  "configurationTags" : [ ],
+  "id" : "d8234b42-fd10-425b-972f-9ba4f7ec88cb",
+  "label" : "EBS Contact Support",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-ebs-contact-support",
+  "type" : "route",
+  "urlPrefix" : "ebs-contact-support"
+}

@@ -1,0 +1,65 @@
+{
+  "appPageId" : "15c18bce-cd20-41ce-bea0-694f6d19ded6",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "09a95049-f07d-4a8c-ab7b-29a628de349b",
+  "label" : "Record List",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div style=\"padding-top: 20px\" />"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "14b2083b-80e9-4515-8318-7958e4ea4de8",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "939c7481-62dc-44f2-9e66-db753b3670ca",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "enableInlineEdit" : false,
+        "filterName" : "{!filterId}",
+        "layout" : "FULL",
+        "pageSize" : 8,
+        "scope" : "{!objectName}",
+        "showActionBar" : false,
+        "showChartsPanel" : false,
+        "showDisplay" : "grid",
+        "showFilterPanel" : false,
+        "showImageIcon" : false,
+        "showManualRefreshButton" : false,
+        "showObjectName" : false,
+        "showPinnedList" : false,
+        "showSearchBar" : true
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "d906b753-7de3-4606-9986-48b7bc0d62aa",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f6579486-1eab-4e4a-a65a-daf11a922a07",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div style=\"padding-top: 20px\" />"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "87397a8e-c4a8-4588-8b20-a39214c1d8df",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ec83f167-7f91-47a9-ab68-d0eda24af018",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "0HYiZjDMduJGZnLgMu6xrenTlrhkiF",
+  "type" : "view",
+  "viewType" : "list"
+}

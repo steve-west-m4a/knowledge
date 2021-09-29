@@ -1,0 +1,60 @@
+{
+  "appPageId" : "15c18bce-cd20-41ce-bea0-694f6d19ded6",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "aef4c3cb-1b57-4aa7-a5f0-3b28a17f3a1c",
+  "label" : "EBS My Cases",
+  "regions" : [ {
+    "id" : "911dfc2b-0bc9-44e5-84f7-1bf7ebcc216e",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "enableInlineEdit" : false,
+        "filterName" : "00BN0000004zTCbMAM",
+        "layout" : "FULL",
+        "pageSize" : 20,
+        "scope" : "Case",
+        "showActionBar" : false,
+        "showChartsPanel" : false,
+        "showDisplay" : "grid",
+        "showFilterPanel" : false,
+        "showImageIcon" : false,
+        "showManualRefreshButton" : false,
+        "showObjectName" : false,
+        "showPinnedList" : false,
+        "showSearchBar" : true
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "3ce07aef-da9a-4bc4-9621-d2b6e3e90528",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9f659f34-6393-4b64-8a18-35e74a542530",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "c811b09d-75af-4a52-acbc-af01f8a0028c",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "EBS My Cases"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "9b7cc75f-a1aa-45c8-af6a-ae23f1d17d93",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f6ca3a6a-7030-4363-abc3-c84dbaf8d895",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "GStP9iAyIh1m0oVshoc89yROwxGpoG",
+  "type" : "view",
+  "viewType" : "custom-ebs-toolbox-my-cases"
+}

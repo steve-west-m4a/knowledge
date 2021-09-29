@@ -1,0 +1,26 @@
+{
+  "orgName": "Knowledge Backup company",
+  "edition": "Enterprise",
+  "hasSampleData": false,
+  "features": [
+    "Communities",
+    "Knowledge",
+    "PublishExpBuilderBasedSna",
+    "PublishAuraExpBuilderBasedSna"
+  ],
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "experienceBundleSettings": {
+      "enableExperienceBundleMetadata": true
+    },
+    "communitiesSettings": {
+      "enableNetworksEnabled": true
+    },
+    "knowledgeSettings": {
+      "enableKnowledge": true,
+      "enableLightningKnowledge": true
+    }
+  }
+}

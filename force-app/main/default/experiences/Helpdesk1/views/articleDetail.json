@@ -1,0 +1,122 @@
+{
+  "appPageId" : "15c18bce-cd20-41ce-bea0-694f6d19ded6",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "id" : "1f210d73-87a6-4e7d-abc3-0ee5df6363a1",
+  "label" : "Article Detail",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div style=\"padding-top: 20px\"/>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "f5661af6-fe64-4450-8bc4-fba3242f4ae1",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "8a4b2354-5426-4463-a87c-0f6115d77ec3",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "uniqueNameOrId" : "{!urlName}"
+      },
+      "componentName" : "forceCommunity:breadcrumbs",
+      "id" : "a48f11f4-291a-4025-b4c3-15e2518ea26c",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "enableVoting" : true,
+        "recordId" : "{!recordId}",
+        "showTitleInArticleHeader" : false,
+        "showTopicPills" : true,
+        "urlName" : "{!urlName}"
+      },
+      "componentName" : "selfService:singleArticleView",
+      "id" : "8d58f2b0-743a-4dba-8827-16b3d6a034d0",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4c8bef34-634d-443e-a59e-aa6b16ca8521",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "numberOfItems" : 5,
+        "showViewCounts" : true,
+        "title" : "Related Articles"
+      },
+      "componentName" : "selfService:similarArticles42",
+      "id" : "f14bf093-1577-4a58-a3fc-d8dd979da46b",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<div align=\"center\">\n\t<form method=\"get\" action=\"/helpdesk/s/topiccatalog\">\n   \t\t<button class=\"button-topic button1\" type=\"submit\">All Topics</button>\n\t</form>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "c4b98781-86cd-4dbb-a0f1-f1a5402d3ab3",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "buttonAlignment" : "center",
+        "buttonBgColor" : "",
+        "buttonBgHoverColor" : "",
+        "buttonBorderColor" : "",
+        "buttonMaxWidth" : 50,
+        "buttonRadius" : 2,
+        "buttonTextColor" : "",
+        "buttonTextHoverColor" : "",
+        "label" : "Contact Support"
+      },
+      "componentName" : "forceCommunity:contactSupportButton",
+      "id" : "8e1ed297-d5d8-4de3-8fe4-13d1edfb79af",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9f6fb5e8-8af5-40e1-8d41-766d04f65293",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div style=\"padding-top: 20px\"/>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "04c1673e-62f0-4dc8-9917-9578e436e853",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c20c0aa5-61f8-4e0f-813c-fc4f13dfe2d5",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "{!Record.Summary}",
+        "title" : "{!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "20900dcf-59e5-440b-a74f-384742314507",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4baf134b-a126-41cd-b6be-3b2a0ed68bc6",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "0HYiZjDMduJGZnLgMu6xrenTlrhkiF",
+  "type" : "view",
+  "viewType" : "article"
+}

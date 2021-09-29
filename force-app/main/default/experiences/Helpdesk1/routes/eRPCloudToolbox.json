@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "71ae9fd0-b70c-46ab-8b71-02e74497cf11",
+  "appPageId" : "15c18bce-cd20-41ce-bea0-694f6d19ded6",
+  "configurationTags" : [ ],
+  "id" : "dae3a7ac-dbab-4f30-9797-700f13a33ca8",
+  "label" : "ERP Cloud Toolbox",
+  "pageAccess" : "RequiresLogin",
+  "routeType" : "custom-erp-cloud-toolbox-downloads",
+  "type" : "route",
+  "urlPrefix" : "erp-cloud-toolbox-downloads"
+}

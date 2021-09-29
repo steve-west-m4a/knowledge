@@ -1,0 +1,18 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true
+    }
+  ],
+  "name": "Knowledge Backup",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "52.0",
+  "packageAliases": {
+    "m4a-logging": "04t4G000000cPleQAE",
+    "m4a-product-lov": "04t4G000000cPoJQAU",
+    "Email to Case Premium": "04t2K000000SdSyQAK",
+    "m4a-common-meta-pkg": "04t4G000000YDFEQA4"
+  }
+}

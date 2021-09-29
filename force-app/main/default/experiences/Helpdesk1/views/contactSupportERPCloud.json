@@ -1,0 +1,92 @@
+{
+  "appPageId" : "15c18bce-cd20-41ce-bea0-694f6d19ded6",
+  "componentName" : "siteforce:sldsTwoCol66Layout",
+  "id" : "2b7a7432-fad5-4a8c-8de5-f56e895f0b65",
+  "label" : "Contact Support - ERP Cloud",
+  "regions" : [ {
+    "id" : "91a41eb9-4df4-4204-8355-110bf6ec7994",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "allowAttachments" : true,
+        "attachmentLabel" : "Upload File",
+        "buttonAlignment" : "center",
+        "buttonBgColor" : "rgb(153, 0, 165)",
+        "buttonBgHoverColor" : "rgb(255, 255, 255)",
+        "buttonBorderColor" : "rgb(153, 0, 165)",
+        "buttonMaxWidth" : 20,
+        "buttonRadius" : 0,
+        "buttonTextColor" : "",
+        "buttonTextHoverColor" : "rgb(153, 0, 165)",
+        "callToAction" : false,
+        "callToActionButtonText" : "",
+        "callToActionText" : "",
+        "callToActionUrl" : "",
+        "confirmationSubtext" : "One of our Support Team will get back to you shortly.",
+        "confirmationText" : "Your Case has been submitted!",
+        "guestQuickActionName" : "GuestCommunityCase",
+        "headerSubtitle" : "Tell us how we can help",
+        "headerTitle" : "Contact Customer Support",
+        "quickActionName" : "NewERPCloudPortalCase",
+        "requestSummaryText" : "Case summary"
+      },
+      "componentName" : "forceCommunity:contactSupportForm",
+      "id" : "be8cc36a-4b20-4044-99d0-36e6fe4d5726",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "85e9d863-7919-4124-960f-c4403e774c95",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "askConfirmationQuestion" : true,
+        "confirmationMessageLabel" : "Got it!",
+        "deflectionSubtitle" : "Find what you need here.",
+        "deflectionTitle" : "Here are some Suggestions that may help!",
+        "firstQuestion" : "Did this solve your issue?",
+        "maxResults" : 5,
+        "measureDeflection" : true,
+        "redirectUrl" : "",
+        "secondQuestion" : "Stop creating your case?",
+        "showArticles" : true,
+        "showDiscussions" : false,
+        "topicId" : "{!topicId}"
+      },
+      "componentName" : "forceCommunity:caseDeflection",
+      "id" : "d244838a-3ca3-48c0-a347-813390f79be3",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d970b539-c4c6-4469-82f7-aefd2b4e9e07",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "09c1af09-52e5-440f-a49d-83f4660aa432",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Contact Support"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "93027ccc-af45-43ce-83d2-13bd5df5ac01",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "8d017463-cdac-449b-9bd5-e3fb5fbadfda",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "FBas9iMBwmzXDRDPLnNwbDP7ucE2rT",
+  "type" : "view",
+  "viewType" : "contactsupport"
+}

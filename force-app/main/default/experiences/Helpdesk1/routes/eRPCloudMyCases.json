@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "39239ae7-5cd2-4096-bf08-27e0407138e5",
+  "appPageId" : "15c18bce-cd20-41ce-bea0-694f6d19ded6",
+  "configurationTags" : [ ],
+  "id" : "aed72e35-97e0-4b3e-87f1-e10634cb2ef9",
+  "label" : "ERP Cloud My Cases",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-erp-cloud-my-cases",
+  "type" : "route",
+  "urlPrefix" : "erp-cloud-my-cases"
+}

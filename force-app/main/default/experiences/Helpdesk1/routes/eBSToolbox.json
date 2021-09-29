@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "3fd3daae-a68d-460a-b8fb-f009e8f40daa",
+  "appPageId" : "15c18bce-cd20-41ce-bea0-694f6d19ded6",
+  "configurationTags" : [ ],
+  "id" : "8dc2c8a5-65ac-4b35-a4cd-c6dde6eafb9a",
+  "label" : "EBS Toolbox",
+  "pageAccess" : "RequiresLogin",
+  "routeType" : "custom-ebs-toolbox",
+  "type" : "route",
+  "urlPrefix" : "ebs-toolbox-downloads"
+}

@@ -1,0 +1,114 @@
+{
+  "appPageId" : "15c18bce-cd20-41ce-bea0-694f6d19ded6",
+  "componentName" : "siteforce:sldsTwoCol66Layout",
+  "id" : "faeb815b-d889-45ae-98d1-d5e63c13c1fc",
+  "label" : "Case Detail",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:lwcRecordHeadline",
+      "id" : "879e25f0-a81d-404e-80f6-75132f547f0c",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "6000c6f7-c9ca-4f41-86c5-7a8b20efcc87",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:lwcRecordDetail",
+      "id" : "0932d771-4357-4af6-8fa9-54458c19607c",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "119f857f-197c-44de-865d-89128bdd5659",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div style=\"padding-top: 20px\" />"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "1118e10d-e2aa-45da-8dc3-412c27b30321",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c65c4597-354a-4209-996f-72cc90754270",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "bebff4db-a6f1-406b-bd66-43892d2196e2",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9cf898e4-06b6-4b91-86f3-254e3f337777",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "relatedListApiName" : "CaseComments",
+        "relatedListComponentOverride" : "GRID",
+        "width" : "MEDIUM"
+      },
+      "componentName" : "forceCommunity:responsiveRelatedListSingle",
+      "id" : "f5ac50e6-a9eb-40f6-9134-7253c545fa76",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "relatedListApiName" : "CombinedAttachments",
+        "relatedListComponentOverride" : "GRID",
+        "width" : "MEDIUM"
+      },
+      "componentName" : "forceCommunity:responsiveRelatedListSingle",
+      "id" : "a613c288-ba99-4779-8b38-a6e8dfb5dfb1",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "activeStatusLabel" : "Close Case",
+        "id" : "{!recordId}",
+        "inActiveStatusLabel" : "Re-Open Case"
+      },
+      "componentName" : "selfService:caseStatusButton",
+      "id" : "3da41fcc-17c9-48e5-bd84-3da5cdee9e89",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<div align=\"center\">\n\t<form method=\"get\" action=\"/helpdesk/s/my-cases/\">\n   \t\t<button class=\"button button1\" type=\"submit\">All Cases</button>\n\t</form>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "927e236a-965b-47d8-99b9-3893e784daf1",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "eaea2620-0770-467e-a665-c760d562ca83",
+    "regionName" : "sidebar",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "0HYiZjDMduJGZnLgMu6xrenTlrhkiF",
+  "type" : "view",
+  "viewType" : "detail-500"
+}

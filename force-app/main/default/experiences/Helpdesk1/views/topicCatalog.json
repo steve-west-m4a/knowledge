@@ -1,0 +1,77 @@
+{
+  "appPageId" : "15c18bce-cd20-41ce-bea0-694f6d19ded6",
+  "componentName" : "siteforce:sldsTwoCol66Layout",
+  "id" : "3846cb66-3db6-4b33-bcfa-8189f88535ba",
+  "label" : "Topic Catalog",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "bannerText" : "",
+        "bannerTextWithKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineArticles\">articles</a> and <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+        "bannerTextWithoutKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+        "pageType" : "",
+        "showSubTopics" : true,
+        "title" : "Topics",
+        "uniqueNameOrId" : ""
+      },
+      "componentName" : "forceCommunity:headline",
+      "id" : "d87d8899-1964-4ffc-865f-d9c8f65ff7c1",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ef5c3dfa-577f-4b3f-9c22-fab0c1d443be",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div>\n    <table>\n        <tr>\n\t\t\t<td colspan=\"4\" style=\"border: 0px solid #FFFFFF; background-color: #0078FF; text-align: center;\"><img alt=\"EBS Toolbox\" style=\"width: 297px; height: 92px;\" src=\"{!contentAsset.EBS_Toolbox_Logo_2.1}\" /></td>\n        </tr>\n    \t<tr align=\"center\">\n            <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A;\" href=\"/helpdesk/s/topic/0TON0000000502jOAA/ebs-general\" target=\"_self\"><h4>EBS General</h4></a></td>\n            <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A;\" href=\"/helpdesk/s/topic/0TON00000004zzkOAA/finance\" target=\"_self\"><h4>Finance</h4></a></td>\n            <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A;\" href=\"/helpdesk/s/topic/0TON00000004zzpOAA/human-resources\" target=\"_self\"><h4>Human Resources</h4></a></td>\n        </tr>\n        <tr align=\"center\">\n            <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A;\" href=\"/helpdesk/s/topic/0TON00000004zzuOAA/inventory\" target=\"_self\"><h4>Inventory</h4></a></td>\n            <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A;\" href=\"/helpdesk/s/topic/0TON00000004zzzOAA/product-definition\" target=\"_self\"><h4>Product Definition</h4></a></td>\n            <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A;\" href=\"/helpdesk/s/topic/0TON00000005004OAA/order-to-cash\" target=\"_self\"><h4>Order to Cash</h4></a></td>\n        </tr>\n        <tr align=\"center\">\n            <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A;\" href=\"/helpdesk/s/topic/0TON00000005009OAA/procure-to-pay\" target=\"_self\"><h4>Procure to Pay</h4></a></td>\n            <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A;\" href=\"/helpdesk/s/topic/0TON0000000500EOAQ/projects\" target=\"_self\"><h4>Projects</h4></a></td>\n            <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A;\" href=\"/helpdesk/s/topic/0TON0000000500JOAQ/system-administrator\" target=\"_self\"><h4>System Administrator</h4></a></td>\n        </tr>\n        <tr align=\"center\">\n            <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A;\" href=\"/helpdesk/s/topic/0TON0000000500OOAQ/development-platform\" target=\"_self\"><h4>Development Platform</h4></a></td>\n            <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A;\" href=\"/helpdesk/s/topic/0TON0000000500TOAQ/ebs-installation-and-setup\" target=\"_self\"><h4>EBS Installation and Setup</h4></a></td>\n        </tr>\n    </table>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "f8ea88d7-f858-4ae1-adc2-96c0b096da8a",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b3b83fb3-1d6b-4083-99a8-776d60d2678f",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "72909d6b-bc8f-473d-818d-ae009c61813f",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Topic Catalog"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "106a3039-bae0-47d7-bdb9-bd3187b26b61",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a63c9252-2a5c-45b4-ac7a-53379e1663ec",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div>\n    <table style=\"3px solid #dddddd;\">\n        <tr>\n\t\t\t<td colspan=\"4\" style=\"border: 3px solid #FFFFFF; background-color: #9900A5; text-align: center;\"><img alt=\"ERP Cloud Toolbox\" style=\"width: 297px; height: 92px;\" src=\"{!contentAsset.ERP_Cloud_Toolbox_Logo_2.1}\" /></td>\n        </tr>\n    \t<tr align=\"center\">\n            <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A;\" href=\"/helpdesk/s/topic/0TON0000000502oOAA/erp-cloud-general\" target=\"_self\"><h4>ERP Cloud General</h4></a></td>\n            <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A;\" href=\"/helpdesk/s/topic/0TON00000005025OAA/procurement-module\" target=\"_self\"><h4>Procurement Module</h4></a></td>\n            <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A;\" href=\"/helpdesk/s/topic/0TON0000000502AOAQ/product-definition-module\" target=\"_self\"><h4>Product Definition Module</h4></a></td>\n        </tr>\n        <tr align=\"center\">\n            <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A;\" href=\"/helpdesk/s/topic/0TON0000000502FOAQ/projects-module\" target=\"_self\"><h4>Projects Module</h4></a></td>\n            <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A;\" href=\"/helpdesk/s/topic/0TON0000000502GOAQ/finance-module\" target=\"_self\"><h4>Finance Module</h4></a></td>\n            <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A;\" href=\"/helpdesk/s/topic/0TON0000000502KOAQ/erp-cloud-installation-and-setup\" target=\"_self\"><h4>ERP Cloud Installation and Setup</h4></a></td>\n        </tr>\n    </table>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "58f6ac3b-300f-4af7-889d-9e5d45294027",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "fa84c74f-b9d3-4cfd-896a-95011a636003",
+    "regionName" : "sidebar",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "0HYiZjDMduJGZnLgMu6xrenTlrhkiF",
+  "type" : "view",
+  "viewType" : "topic-catalog"
+}

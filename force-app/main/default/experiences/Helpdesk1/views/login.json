@@ -1,0 +1,101 @@
+{
+  "appPageId" : "f8a071b4-5e8f-44bb-8412-938b1a431767",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "21414871-a071-484b-8441-da216f799636",
+  "label" : "Login",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><h3 style=\"text-align: center;\">Please enter your Username and Password below to login</h3><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "72d4d181-2eca-4463-95f1-599e2118430f",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "forgotPasswordLabel" : "",
+        "forgotPasswordUrl" : "",
+        "loginButtonLabel" : "Login",
+        "passwordLabel" : "Password",
+        "selfRegisterLabel" : "Not a member?",
+        "selfRegisterUrl" : "/SelfRegister",
+        "startUrl" : "",
+        "usernameLabel" : "Username"
+      },
+      "componentName" : "salesforceIdentity:loginForm2",
+      "id" : "485de66f-f9e8-4b00-b98f-514a0f757ae6",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<div align=\"center\" style=\"padding-bottom: 20px\">\n\t<form method=\"get\" action=\"/helpdesk/s/\">\n   \t\t<button class=\"button-login button1\" type=\"submit\">Cancel</button>\n\t</form>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "e2f83e82-a3b4-4d5e-9545-2c5455ccddf7",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d957d6ab-2c66-45d8-8d67-23dec7a99732",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Login"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "aade6cc2-84e1-40b7-a944-dd0da6dee42e",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f98b9b8d-a01f-4bd7-a4d0-39f28ca970a0",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div style=\"padding-top: 50px;\" />"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "615285b1-1b9b-4b40-a2b8-115c58832329",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" src=\"{!contentAsset.Website_More4apps_Logo.1}\" /></p>\n<p>&nbsp;</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "06d86577-26a1-4431-9a96-57c23bff81fa",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "7ae9463e-8b8a-435e-a11e-31c3c28c96f9",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p style=\"text-align: center;\"><br></p><h3 style=\"text-align: center;\">If you don't have a login, please <a href=\"/helpdesk/s/contact-support/\" rel=\"noopener noreferrer\" target=\"_self\">Contact Support</a> to request one.</h3><p style=\"text-align: center;\"><br></p><h3 style=\"text-align: center;\">If you forgot your Password, please <a href=\"/helpdesk/s/login/ForgotPassword/\" rel=\"noopener noreferrer\" target=\"_self\">Reset</a> it here.</h3><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "b4fef3c3-fa1c-4d8d-81e7-310b7fe86b9a",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "81e51593-b3d2-47ef-93f7-b568c60e97a1",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "OTyUQioaTVvKCi4dYi3sZYJ4aq64VX",
+  "type" : "view",
+  "viewType" : "login-home"
+}

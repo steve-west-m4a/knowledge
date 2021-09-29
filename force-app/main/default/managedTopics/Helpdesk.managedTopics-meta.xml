@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ManagedTopics xmlns="http://soap.sforce.com/2006/04/metadata">
+    <managedTopic>
+        <fullName>Helpdesk.Content:EBS Toolbox</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>EBS Toolbox</name>
+        <parentName/>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Content:ERP Cloud Toolbox</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>ERP Cloud Toolbox</name>
+        <parentName/>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Content:Finance</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>Finance</name>
+        <parentName/>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Featured:Development Platform</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Development Platform</name>
+        <parentName/>
+        <position>9</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Featured:EBS General</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>EBS General</name>
+        <parentName/>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Featured:EBS Installation and Setup</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>EBS Installation and Setup</name>
+        <parentName/>
+        <position>10</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Featured:ERP Cloud General</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>ERP Cloud General</name>
+        <parentName/>
+        <position>11</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Featured:ERP Cloud Installation and Setup</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>ERP Cloud Installation and Setup</name>
+        <parentName/>
+        <position>16</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Featured:Finance</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Finance</name>
+        <parentName/>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Featured:Finance Module</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Finance Module</name>
+        <parentName/>
+        <position>15</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Featured:Human Resources</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Human Resources</name>
+        <parentName/>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Featured:Inventory</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Inventory</name>
+        <parentName/>
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Featured:Order To Cash</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Order To Cash</name>
+        <parentName/>
+        <position>5</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Featured:Procure To Pay</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Procure To Pay</name>
+        <parentName/>
+        <position>6</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Featured:Procurement Module</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Procurement Module</name>
+        <parentName/>
+        <position>12</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Featured:Product Definition</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Product Definition</name>
+        <parentName/>
+        <position>4</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Featured:Product Definition Module</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Product Definition Module</name>
+        <parentName/>
+        <position>13</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Featured:Projects</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Projects</name>
+        <parentName/>
+        <position>7</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Featured:Projects Module</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Projects Module</name>
+        <parentName/>
+        <position>14</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Featured:System Administrator</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>System Administrator</name>
+        <parentName/>
+        <position>8</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:AP Invoice Wizard</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>AP Invoice Wizard</name>
+        <parentName>Procure To Pay</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:AR Invoice API Wizard</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>AR Invoice API Wizard</name>
+        <parentName>Order To Cash</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:AR Notes Loader</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>AR Notes Loader</name>
+        <parentName>Order To Cash</parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:AR Receipt Wizard</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>AR Receipt Wizard</name>
+        <parentName>Order To Cash</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Agreement and Funding Wizard</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Agreement and Funding Wizard</name>
+        <parentName>Projects</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Asset Wizard</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Asset Wizard</name>
+        <parentName>Finance</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Assets and Assignments</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Assets and Assignments</name>
+        <parentName>Projects Module</parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Bank Statement Loader</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Bank Statement Loader</name>
+        <parentName>Order To Cash</parentName>
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Banks and Branches Loader</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Banks and Branches Loader</name>
+        <parentName>Procure To Pay</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Bill of Materials Wizard</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Bill of Materials Wizard</name>
+        <parentName>Product Definition</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Budget Wizard</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Budget Wizard</name>
+        <parentName>Projects</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Budgets - Non-Phased</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Budgets - Non-Phased</name>
+        <parentName>Projects Module</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Costs</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Costs</name>
+        <parentName>Projects Module</parentName>
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Customer Wizard</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Customer Wizard</name>
+        <parentName>Order To Cash</parentName>
+        <position>4</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Development Platform</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Development Platform</name>
+        <parentName/>
+        <position>8</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:EAM Work Management Loader</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>EAM Work Management Loader</name>
+        <parentName>Inventory</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:EBS General</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>EBS General</name>
+        <parentName/>
+        <position>10</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:EBS Installation and Setup</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>EBS Installation and Setup</name>
+        <parentName/>
+        <position>9</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:ERP Cloud General</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>ERP Cloud General</name>
+        <parentName/>
+        <position>16</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:ERP Cloud Installation and Setup</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>ERP Cloud Installation and Setup</name>
+        <parentName/>
+        <position>15</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Element Entry Wizard</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Element Entry Wizard</name>
+        <parentName>Human Resources</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Employee Wizard</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Employee Wizard</name>
+        <parentName>Human Resources</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Event Wizard</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Event Wizard</name>
+        <parentName>Projects</parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Finance</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Finance</name>
+        <parentName/>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Finance Module</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Finance Module</name>
+        <parentName/>
+        <position>14</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Financial Projects</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Financial Projects</name>
+        <parentName>Projects Module</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:GL Daily Rates Loader</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>GL Daily Rates Loader</name>
+        <parentName>Finance</parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:General Ledger Wizard</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>General Ledger Wizard</name>
+        <parentName>Finance</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Human Resources</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Human Resources</name>
+        <parentName/>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:ISupplier User Loader</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>ISupplier User Loader</name>
+        <parentName>Procure To Pay</parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Inventory</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Inventory</name>
+        <parentName/>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Item Cost Wizard</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Item Cost Wizard</name>
+        <parentName>Inventory</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Item Extension Wizard</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Item Extension Wizard</name>
+        <parentName>Product Definition</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Item Relationships</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Item Relationships</name>
+        <parentName>Product Definition Module</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Item Structures</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Item Structures</name>
+        <parentName>Product Definition Module</parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Item Wizard</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Item Wizard</name>
+        <parentName>Product Definition</parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Items</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Items</name>
+        <parentName>Product Definition Module</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Job and Position Loader</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Job and Position Loader</name>
+        <parentName>Human Resources</parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Labor Cost Rate Loader</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Labor Cost Rate Loader</name>
+        <parentName>Projects</parentName>
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Material Transaction Wizard</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Material Transaction Wizard</name>
+        <parentName>Inventory</parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:O2C Price List Wizard</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>O2C Price List Wizard</name>
+        <parentName>Order To Cash</parentName>
+        <position>5</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:O2C Pricing Modifiers Wizard</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>O2C Pricing Modifiers Wizard</name>
+        <parentName>Order To Cash</parentName>
+        <position>6</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:OPM Master Data Loader</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>OPM Master Data Loader</name>
+        <parentName>Product Definition</parentName>
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Order To Cash</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Order To Cash</name>
+        <parentName/>
+        <position>4</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:P2P Price List Wizard</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>P2P Price List Wizard</name>
+        <parentName>Procure To Pay</parentName>
+        <position>5</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:P2P Pricing Modifiers Wizard</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>P2P Pricing Modifiers Wizard</name>
+        <parentName>Procure To Pay</parentName>
+        <position>6</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:PO Receiving Wizard</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>PO Receiving Wizard</name>
+        <parentName>Procure To Pay</parentName>
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Payables Invoices</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Payables Invoices</name>
+        <parentName>Finance Module</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Procure To Pay</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Procure To Pay</name>
+        <parentName/>
+        <position>5</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Procurement Module</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Procurement Module</name>
+        <parentName/>
+        <position>11</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Product Definition</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Product Definition</name>
+        <parentName/>
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Product Definition Module</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Product Definition Module</name>
+        <parentName/>
+        <position>12</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Project Transaction Wizard</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Project Transaction Wizard</name>
+        <parentName>Projects</parentName>
+        <position>5</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Project Wizard</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Project Wizard</name>
+        <parentName>Projects</parentName>
+        <position>4</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Projects</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Projects</name>
+        <parentName/>
+        <position>6</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Projects Module</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Projects Module</name>
+        <parentName/>
+        <position>13</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Purchase Order Wizard</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Purchase Order Wizard</name>
+        <parentName>Procure To Pay</parentName>
+        <position>4</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Purchase Orders</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Purchase Orders</name>
+        <parentName>Procurement Module</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Receivables Invoices</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Receivables Invoices</name>
+        <parentName>Finance Module</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Requisition Wizard</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Requisition Wizard</name>
+        <parentName>Procure To Pay</parentName>
+        <position>7</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Requisitions</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Requisitions</name>
+        <parentName>Procurement Module</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Resource List Members Loader</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Resource List Members Loader</name>
+        <parentName>Projects</parentName>
+        <position>6</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Routing Wizard</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Routing Wizard</name>
+        <parentName>Product Definition</parentName>
+        <position>4</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Sales Order Wizard</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Sales Order Wizard</name>
+        <parentName>Order To Cash</parentName>
+        <position>7</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Sourcing Wizard</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Sourcing Wizard</name>
+        <parentName>Procure To Pay</parentName>
+        <position>8</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Special Information Wizard</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Special Information Wizard</name>
+        <parentName>Human Resources</parentName>
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Stocktake Loader</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Stocktake Loader</name>
+        <parentName>Inventory</parentName>
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Supplier Wizard</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Supplier Wizard</name>
+        <parentName>Procure To Pay</parentName>
+        <position>9</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:System Administrator</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>System Administrator</name>
+        <parentName/>
+        <position>7</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:Unassigned Asset Lines Loader</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Unassigned Asset Lines Loader</name>
+        <parentName>Projects</parentName>
+        <position>7</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Helpdesk.Navigational:WIP Loader</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>WIP Loader</name>
+        <parentName>Inventory</parentName>
+        <position>4</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+</ManagedTopics>

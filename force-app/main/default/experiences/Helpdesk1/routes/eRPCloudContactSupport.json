@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "3c14ec3e-f956-4ad4-8390-0bb2fced474f",
+  "appPageId" : "15c18bce-cd20-41ce-bea0-694f6d19ded6",
+  "configurationTags" : [ ],
+  "id" : "d1b1229a-da1a-4404-ba75-f68ac868346b",
+  "label" : "ERP Cloud Contact Support",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-erp-cloud-contact-support",
+  "type" : "route",
+  "urlPrefix" : "erp-cloud-contact-support"
+}

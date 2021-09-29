@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Network xmlns="http://soap.sforce.com/2006/04/metadata">
+    <allowInternalUserLogin>true</allowInternalUserLogin>
+    <allowMembersToFlag>false</allowMembersToFlag>
+    <changePasswordTemplate>unfiled$public/Community_Password_Changed_Email</changePasswordTemplate>
+    <communityRoles/>
+    <disableReputationRecordConversations>false</disableReputationRecordConversations>
+    <emailSenderAddress>vienna.pahi@more4apps.com</emailSenderAddress>
+    <emailSenderName>More4apps Support</emailSenderName>
+    <enableCustomVFErrorPageOverrides>false</enableCustomVFErrorPageOverrides>
+    <enableDirectMessages>true</enableDirectMessages>
+    <enableExperienceBundleBasedSnaOverrideEnabled>false</enableExperienceBundleBasedSnaOverrideEnabled>
+    <enableGuestChatter>true</enableGuestChatter>
+    <enableGuestFileAccess>true</enableGuestFileAccess>
+    <enableGuestMemberVisibility>false</enableGuestMemberVisibility>
+    <enableInvitation>false</enableInvitation>
+    <enableKnowledgeable>false</enableKnowledgeable>
+    <enableMemberVisibility>false</enableMemberVisibility>
+    <enableNicknameDisplay>true</enableNicknameDisplay>
+    <enablePrivateMessages>false</enablePrivateMessages>
+    <enableReputation>false</enableReputation>
+    <enableShowAllNetworkSettings>false</enableShowAllNetworkSettings>
+    <enableSiteAsContainer>true</enableSiteAsContainer>
+    <enableTalkingAboutStats>true</enableTalkingAboutStats>
+    <enableTopicAssignmentRules>true</enableTopicAssignmentRules>
+    <enableTopicSuggestions>false</enableTopicSuggestions>
+    <enableUpDownVote>true</enableUpDownVote>
+    <forgotPasswordTemplate>unfiled$public/Community_Forgot_Password_Reset_Email</forgotPasswordTemplate>
+    <gatherCustomerSentimentData>true</gatherCustomerSentimentData>
+    <logoutUrl>https://sandbox-fun-nosoftware-6448-17b9e1754f9.cs6.force.com/helpdesk/s/</logoutUrl>
+    <maxFileSizeKb>2048000</maxFileSizeKb>
+    <networkMemberGroups>
+        <permissionSet>Knowledge_Manager_Permission_Set</permissionSet>
+        <permissionSet>More4apps_Product_Downloads</permissionSet>
+        <permissionSet>m4a_search</permissionSet>
+        <profile>Admin</profile>
+        <profile>Trial Customer Portal User</profile>
+        <profile>high volume customer portal user</profile>
+        <profile>Portal User</profile>
+        <profile>EBS Customer Portal</profile>
+        <profile>ERP Cloud Portal Users</profile>
+        <profile>Portal Super User</profile>
+    </networkMemberGroups>
+    <networkPageOverrides>
+        <changePasswordPageOverrideSetting>Standard</changePasswordPageOverrideSetting>
+        <forgotPasswordPageOverrideSetting>Standard</forgotPasswordPageOverrideSetting>
+        <homePageOverrideSetting>Standard</homePageOverrideSetting>
+        <loginPageOverrideSetting>Designer</loginPageOverrideSetting>
+        <selfRegProfilePageOverrideSetting>Designer</selfRegProfilePageOverrideSetting>
+    </networkPageOverrides>
+    <picassoSite>Helpdesk1</picassoSite>
+    <selfRegistration>false</selfRegistration>
+    <sendWelcomeEmail>true</sendWelcomeEmail>
+    <site>Helpdesk</site>
+    <status>Live</status>
+    <tabs>
+        <defaultTab>home</defaultTab>
+        <standardTab>Chatter</standardTab>
+    </tabs>
+    <urlPathPrefix>helpdesk</urlPathPrefix>
+    <welcomeTemplate>unfiled$public/Community_New_Member_Welcome_Email</welcomeTemplate>
+</Network>

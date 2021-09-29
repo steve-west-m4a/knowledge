@@ -1,0 +1,45 @@
+{
+  "appPageId" : "15c18bce-cd20-41ce-bea0-694f6d19ded6",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "3fd3daae-a68d-460a-b8fb-f009e8f40daa",
+  "label" : "EBS Toolbox",
+  "regions" : [ {
+    "id" : "6cb95ca3-60c8-4d57-854a-f80db8c444af",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:productsForDownloadTreeGrid",
+      "id" : "3dee751c-c69f-4be3-96cf-6fe2d21077e3",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "7e34d0fb-5533-4c35-9927-1bb94dd9fc81",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "462c91f9-0d4a-4994-b3ef-bf431cbda020",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "EBS Toolbox"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "f721f27f-ba86-4f2f-83e7-9e2a85001444",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2ba884b4-a46e-4da5-84ac-3348ec879360",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "HfQkC95YnqkEn4PfponoWwMqzckFd7",
+  "type" : "view",
+  "viewType" : "custom-ebs-toolbox"
+}

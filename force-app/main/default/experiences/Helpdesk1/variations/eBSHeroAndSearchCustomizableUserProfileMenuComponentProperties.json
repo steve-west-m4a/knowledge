@@ -1,0 +1,15 @@
+{
+  "componentVariants" : [ {
+    "id" : "672caa23-e280-4911-b14e-f1e5448fd1e8",
+    "propertyOverrides" : {
+      "componentAttributes" : {
+        "customizableUserProfileMenuEditor" : "EBS_User_Profile_Menu"
+      }
+    },
+    "targetId" : "0b28aa1a-7dfe-4755-afcb-7e078aaf7f42",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "EBS_Hero_and_Search_Customizable_User_Profile_Menu_Component_Properties",
+  "id" : "c29e54bf-518a-4865-bb57-44cd7c0d6092",
+  "type" : "experienceVariation"
+}

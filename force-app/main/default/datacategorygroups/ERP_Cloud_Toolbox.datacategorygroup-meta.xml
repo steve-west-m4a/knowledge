@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Purchase Orders</label>
+                <name>Purchase_Orders</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Requisitions</label>
+                <name>Requisitions</name>
+            </dataCategory>
+            <label>Procurement Module</label>
+            <name>Procurement_Module</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Items</label>
+                <name>Items</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Item Relationships</label>
+                <name>Item_Relationships</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Item Structures</label>
+                <name>Item_Structures</name>
+            </dataCategory>
+            <label>Product Definition Module</label>
+            <name>Product_Definition_Module</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Financial Projects</label>
+                <name>Financial_Projects</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Budgets - Non-Phased</label>
+                <name>Budgets_Non_Phased</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Assets and Assignments</label>
+                <name>Assets_and_Assignments</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Costs</label>
+                <name>Costs</name>
+            </dataCategory>
+            <label>Projects Module</label>
+            <name>Projects_Module</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Payables Invoices</label>
+                <name>Payables_Invoices</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Receivables Invoices</label>
+                <name>Receivables_Invoices</name>
+            </dataCategory>
+            <label>Finance Module</label>
+            <name>Finance_Module</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Installation and Setup</label>
+            <name>Installation_and_Setup</name>
+        </dataCategory>
+        <label>All</label>
+        <name>All</name>
+    </dataCategory>
+    <label>ERP Cloud Toolbox</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>

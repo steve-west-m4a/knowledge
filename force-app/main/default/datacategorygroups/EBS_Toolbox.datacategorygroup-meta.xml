@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Asset Wizard</label>
+                <name>Asset_Wizard</name>
+            </dataCategory>
+            <dataCategory>
+                <label>General Ledger Wizard</label>
+                <name>General_Ledger_Wizard</name>
+            </dataCategory>
+            <dataCategory>
+                <label>GL Daily Rates Loader</label>
+                <name>GL_Daily_Rates_Loader</name>
+            </dataCategory>
+            <label>Finance</label>
+            <name>Finance</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Element Entry Wizard</label>
+                <name>Element_Entry_Wizard</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Employee Wizard</label>
+                <name>Employee_Wizard</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Job and Position Loader</label>
+                <name>Job_and_Position_Loader</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Special Information Wizard</label>
+                <name>Special_Information_Wizard</name>
+            </dataCategory>
+            <label>Human Resources</label>
+            <name>Human_Resources</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>EAM Work Management Loader</label>
+                <name>EAM_Work_Management_Loader</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Item Cost Wizard</label>
+                <name>Item_Cost_Wizard</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Material Transaction Wizard</label>
+                <name>Material_Transaction_Wizard</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Stocktake Loader</label>
+                <name>Stocktake_Loader</name>
+            </dataCategory>
+            <dataCategory>
+                <label>WIP Loader</label>
+                <name>WIP_Loader</name>
+            </dataCategory>
+            <label>Inventory</label>
+            <name>Inventory</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Bill of Materials Wizard</label>
+                <name>Bill_of_Materials_Wizard</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Item Extension Wizard</label>
+                <name>Item_Extension_Wizard</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Item Wizard</label>
+                <name>Item_Wizard</name>
+            </dataCategory>
+            <dataCategory>
+                <label>OPM Master Data Loader</label>
+                <name>OPM_Master_Data_Loader</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Routing Wizard</label>
+                <name>Routing_Wizard</name>
+            </dataCategory>
+            <label>Product Definition</label>
+            <name>Product_Definition</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>AR Invoice API Wizard</label>
+                <name>AR_Invoice_API_Wizard</name>
+            </dataCategory>
+            <dataCategory>
+                <label>AR Receipt Wizard</label>
+                <name>AR_Receipt_Wizard</name>
+            </dataCategory>
+            <dataCategory>
+                <label>AR Notes Loader</label>
+                <name>AR_Notes_Loader</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Bank Statement Loader</label>
+                <name>Bank_Statement_Loader</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Customer Wizard</label>
+                <name>Customer_Wizard</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Price List Wizard</label>
+                <name>Price_List_Wizard_O2C</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Pricing Modifiers Wizard</label>
+                <name>Pricing_Modifiers_Wizard_O2C</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Sales Order Wizard</label>
+                <name>Sales_Order_Wizard</name>
+            </dataCategory>
+            <label>Order to Cash</label>
+            <name>Order_to_Cash</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>AP Invoice Wizard</label>
+                <name>AP_Invoice_Wizard</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Banks and Branches Loader</label>
+                <name>Banks_and_Branches_Loader</name>
+            </dataCategory>
+            <dataCategory>
+                <label>iSupplier User Loader</label>
+                <name>iSupplier_User_Loader</name>
+            </dataCategory>
+            <dataCategory>
+                <label>PO Receiving Wizard</label>
+                <name>PO_Receiving_Wizard</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Price List Wizard</label>
+                <name>Price_List_Wizard_P2P</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Pricing Modifiers Wizard</label>
+                <name>Pricing_Modifiers_Wizard_P2P</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Purchase Order Wizard</label>
+                <name>Purchase_Order_Wizard</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Requisition Wizard</label>
+                <name>Requisition_Wizard</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Sourcing Wizard</label>
+                <name>Sourcing_Wizard</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Supplier Wizard</label>
+                <name>Supplier_Wizard</name>
+            </dataCategory>
+            <label>Procure to Pay</label>
+            <name>Procure_to_Pay</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Agreement and Funding Wizard</label>
+                <name>Agreement_and_Funding_Wizard</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Budget Wizard</label>
+                <name>Budget_Wizard</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Event Wizard</label>
+                <name>Event_Wizard</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Labor Cost Rate Loader</label>
+                <name>Labor_Cost_Rate_Loader</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Project Wizard</label>
+                <name>Project_Wizard</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Project Transaction Wizard</label>
+                <name>Project_Transaction_Wizard</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Resource List Members Loader</label>
+                <name>Resource_List_Members_Loader</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Unassigned Asset Lines Loader</label>
+                <name>Unassigned_Asset_Lines_Loader</name>
+            </dataCategory>
+            <label>Projects</label>
+            <name>Projects</name>
+        </dataCategory>
+        <dataCategory>
+            <label>System Administrator</label>
+            <name>System_Administrator</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Development Platform</label>
+            <name>Development_Platform</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Installation and Setup</label>
+            <name>Installation_and_Setup</name>
+        </dataCategory>
+        <dataCategory>
+            <label>General</label>
+            <name>General</name>
+        </dataCategory>
+        <label>All</label>
+        <name>All</name>
+    </dataCategory>
+    <label>EBS Toolbox</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>

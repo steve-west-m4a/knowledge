@@ -1,0 +1,15 @@
+{
+  "componentVariants" : [ {
+    "id" : "356f32fb-cdba-4c38-abd1-c4a87d516cba",
+    "propertyOverrides" : {
+      "componentAttributes" : {
+        "customizableUserProfileMenuEditor" : "ERP_Cloud_User_Profile_Menu"
+      }
+    },
+    "targetId" : "0b28aa1a-7dfe-4755-afcb-7e078aaf7f42",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "EBS_Hero_and_Search_Customizable_User_Profile_Menu_1_Component_Properties",
+  "id" : "974a4eb1-e95c-48e7-8a60-4b9edd2e84af",
+  "type" : "experienceVariation"
+}

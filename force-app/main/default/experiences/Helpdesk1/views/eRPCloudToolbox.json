@@ -1,0 +1,44 @@
+{
+  "appPageId" : "15c18bce-cd20-41ce-bea0-694f6d19ded6",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "71ae9fd0-b70c-46ab-8b71-02e74497cf11",
+  "label" : "ERP Cloud Toolbox",
+  "regions" : [ {
+    "id" : "b7842a33-1f65-4feb-b17f-a6275a8c1bf3",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:productsForDownloadCloud",
+      "id" : "98b9623e-6277-4416-8e13-0c770a0da95a",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e31f468e-a666-4d14-a428-7d5fd5b4ec58",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "6da1a3ec-55af-4449-abc4-b114262a51fc",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "description" : "",
+        "title" : "ERP Cloud Toolbox"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "e5b72ba0-9b30-442c-8895-c0feb13dc401",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "46aa4c7c-9403-4347-b12b-aa6688b1c713",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "31HmGH9R3PlWwmzjK2fPmhNzPqxu4y",
+  "type" : "view",
+  "viewType" : "custom-erp-cloud-toolbox-downloads"
+}
