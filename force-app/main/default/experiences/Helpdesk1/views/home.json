@@ -11,7 +11,7 @@
         "bannerTextWithoutKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
         "pageType" : "",
         "showSubTopics" : true,
-        "title" : "Welcome to the More4apps Helpdesk!",
+        "title" : "Welcome to the More4apps Helpdesk",
         "uniqueNameOrId" : ""
       },
       "componentName" : "forceCommunity:headline",
@@ -60,7 +60,7 @@
   }, {
     "components" : [ {
       "componentAttributes" : {
-        "richTextValue" : "<div style=\"padding-top: 20px\"/>"
+        "richTextValue" : "<div style=\"padding-top: 50px\"/>"
       },
       "componentName" : "forceCommunity:htmlBlock",
       "id" : "d6cac91d-535d-43df-ab0d-3aedf49fd027",

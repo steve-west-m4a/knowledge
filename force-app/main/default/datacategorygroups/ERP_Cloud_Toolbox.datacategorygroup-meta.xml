@@ -3,6 +3,10 @@
     <active>true</active>
     <dataCategory>
         <dataCategory>
+            <label>General</label>
+            <name>General</name>
+        </dataCategory>
+        <dataCategory>
             <dataCategory>
                 <label>Purchase Orders</label>
                 <name>Purchase_Orders</name>

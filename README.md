@@ -1,3 +1,5 @@
+sfdx force:org:create -s -f config/project-scratch-def.json -a bkp-setup --durationdays 30
+
 # Install packages
 
 sfdx force:package:install --wait 10 --publishwait 10 --package "m4a-logging"

@@ -26,19 +26,17 @@
     <enableUpDownVote>true</enableUpDownVote>
     <forgotPasswordTemplate>unfiled$public/Community_Forgot_Password_Reset_Email</forgotPasswordTemplate>
     <gatherCustomerSentimentData>true</gatherCustomerSentimentData>
-    <logoutUrl>https://sandbox-force-customer-6156-17c2efcb522.cs73.force.com/helpdesk/s/</logoutUrl>
+    <logoutUrl>https://sandbox-flow-page-7421-17c3347d6cb.cs114.force.com/helpdesk/s</logoutUrl>
     <maxFileSizeKb>2048000</maxFileSizeKb>
     <networkMemberGroups>
         <permissionSet>m4a_search</permissionSet>
         <permissionSet>More4apps_Product_Downloads</permissionSet>
         <permissionSet>Knowledge_Manager_Permission_Set</permissionSet>
-        <profile>admin</profile>
-        <profile>trial customer portal user</profile>
+        <profile>Portal Super User</profile>
+        <profile>Portal User</profile>
+        <profile>Admin</profile>
         <profile>high volume customer portal user</profile>
-        <profile>ebs customer portal</profile>
-        <profile>portal super user</profile>
-        <profile>portal user</profile>
-        <profile>erp cloud portal users</profile>
+        <profile>Trial Customer Portal User</profile>
     </networkMemberGroups>
     <networkPageOverrides>
         <changePasswordPageOverrideSetting>Standard</changePasswordPageOverrideSetting>

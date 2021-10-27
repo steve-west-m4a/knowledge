@@ -11,9 +11,9 @@
     "components" : [ {
       "componentAttributes" : {
         "enableInlineEdit" : false,
-        "filterName" : "00BN0000005042nMAA",
+        "filterName" : "00B1y000002Oi6uEAC",
         "layout" : "FULL",
-        "pageSize" : 8,
+        "pageSize" : 10,
         "scope" : "Case",
         "showActionBar" : false,
         "showChartsPanel" : false,
@@ -22,7 +22,7 @@
         "showImageIcon" : false,
         "showManualRefreshButton" : false,
         "showObjectName" : false,
-        "showPinnedList" : false,
+        "showPinnedList" : true,
         "showSearchBar" : true
       },
       "componentName" : "forceCommunity:objectHome",
