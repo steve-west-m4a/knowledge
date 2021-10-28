@@ -283,6 +283,12 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>true</default>
+        <recordType>Case.SF</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+
+    <recordTypeVisibilities>
+        <default>true</default>
         <recordType>Knowledge__kav.EBS_Toolbox</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>

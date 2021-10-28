@@ -14,5 +14,7 @@ sfdx force:package:install --wait 10 --publishwait 10 --package "m4a-product-lov
  # preventing the push
 sfdx force:source:push -g
 
+# Now go to the Product LOV Project and load the Product data
+
 # We can then do a pull from the new Org with the Force option (not quite sure why this is required)
 sfdx force:source:pull -f
