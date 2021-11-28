@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>ERP_Cloud</fullName>
-    <active>false</active>
-    <compactLayoutAssignment>M4AKnowledgeCompactAssignment</compactLayoutAssignment>
-    <description>This Record Type should be used for all ERP Cloud Toolbox Articles</description>
-    <label>ERP Cloud</label>
-</RecordType>

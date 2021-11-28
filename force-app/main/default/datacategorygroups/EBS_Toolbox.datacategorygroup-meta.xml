@@ -215,8 +215,8 @@
             <name>Installation_and_Setup</name>
         </dataCategory>
         <dataCategory>
-            <label>General</label>
-            <name>General</name>
+            <label>EBS General</label>
+            <name>EBS_General</name>
         </dataCategory>
         <label>All</label>
         <name>All</name>

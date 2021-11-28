@@ -156,10 +156,7 @@
         <layout>Knowledge__kav-Knowledge Layout</layout>
     </layoutAssignments>
 
-    <layoutAssignments>
-        <layout>Knowledge__kav-Knowledge Layout</layout>
-        <recordType>Knowledge__kav.ERP_Cloud</recordType>
-    </layoutAssignments>
+
     <layoutAssignments>
         <layout>Knowledge__kav-Knowledge Layout</layout>
         <recordType>Knowledge__kav.FAQ</recordType>
@@ -284,11 +281,7 @@
         <visible>true</visible>
     </recordTypeVisibilities>
 
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>Knowledge__kav.ERP_Cloud</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
+
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Knowledge__kav.FAQ</recordType>

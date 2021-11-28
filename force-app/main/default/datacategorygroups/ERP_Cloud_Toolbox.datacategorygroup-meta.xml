@@ -3,10 +3,6 @@
     <active>true</active>
     <dataCategory>
         <dataCategory>
-            <label>General</label>
-            <name>General</name>
-        </dataCategory>
-        <dataCategory>
             <dataCategory>
                 <label>Purchase Orders</label>
                 <name>Purchase_Orders</name>
@@ -69,6 +65,10 @@
         <dataCategory>
             <label>Installation and Setup</label>
             <name>Installation_and_Setup</name>
+        </dataCategory>
+        <dataCategory>
+            <label>ERP Cloud General</label>
+            <name>ERP_Cloud_General</name>
         </dataCategory>
         <label>All</label>
         <name>All</name>
