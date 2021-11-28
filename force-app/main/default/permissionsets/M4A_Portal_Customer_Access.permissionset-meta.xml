@@ -1115,10 +1115,7 @@
         <recordType>Case.SF</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <recordType>Knowledge__kav.EBS_Toolbox</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
+
     <recordTypeVisibilities>
         <recordType>Knowledge__kav.ERP_Cloud</recordType>
         <visible>true</visible>

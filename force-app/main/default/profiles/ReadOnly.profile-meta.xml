@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
-    <categoryGroupVisibilities>
-        <dataCategoryGroup>ERP_Cloud_Toolbox</dataCategoryGroup>
-        <visibility>ALL</visibility>
-    </categoryGroupVisibilities>
-    <categoryGroupVisibilities>
-        <dataCategoryGroup>EBS_Toolbox</dataCategoryGroup>
-        <visibility>ALL</visibility>
-    </categoryGroupVisibilities>
     <classAccesses>
         <apexClass>ChangePasswordController</apexClass>
         <enabled>false</enabled>
@@ -150,10 +142,7 @@
         <readable>false</readable>
     </fieldPermissions>
     <layoutAssignments>
-        <layout>Account-M4A Account Portal Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Contact-M4A Contact Portal Layout</layout>
+        <layout>Contact-Contact Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Knowledge__kav-M4A Knowledge Layout</layout>
@@ -173,24 +162,6 @@
     <layoutAssignments>
         <layout>More4appsDocumentation__x-More4appsDocumentation Layout</layout>
     </layoutAssignments>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>Knowledge__kav</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>More4appsDocumentation__x</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
     <pageAccesses>
         <apexPage>AnswersHome</apexPage>
         <enabled>false</enabled>
@@ -280,23 +251,18 @@
         <enabled>false</enabled>
     </pageAccesses>
     <recordTypeVisibilities>
-        <default>true</default>
-        <personAccountDefault>true</personAccountDefault>
+        <default>false</default>
         <recordType>Knowledge__kav.M4A_Knowledge</recordType>
-        <visible>true</visible>
+        <visible>false</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
         <tab>Knowledge__kav</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
-    <userLicense>High Volume Customer Portal</userLicense>
+    <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
         <name>ActivitiesAccess</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>AddDirectMessageMembers</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -304,11 +270,63 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>AllowViewKnowledge</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ApexRestServices</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ApiEnabled</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>AssignTopics</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>ChatterEditOwnPost</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ChatterFileLink</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ChatterInternalUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ChatterInviteExternalUsers</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>ChatterOwnGroups</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ContentWorkspaces</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CreateCustomizeFilters</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CreateCustomizeReports</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CreateTopics</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EditOppLineItemUnitPrice</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EditTopics</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -320,7 +338,19 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>RemoveDirectMessageMembers</name>
+        <name>ExportReport</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>LightningConsoleAllowedForUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>LightningExperienceUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>RunReports</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -328,7 +358,19 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>SendSitRequests</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>ShowCompanyNameAsUserBadge</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>SubmitMacrosAllowed</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>SubscribeToLightningReports</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -336,6 +378,14 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ViewGlobalHeader</name>
+        <name>ViewHelpLink</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewRoles</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewSetup</name>
     </userPermissions>
 </Profile>

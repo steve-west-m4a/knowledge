@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>EBS_Toolbox</fullName>
+    <fullName>M4A_Knowledge</fullName>
     <active>true</active>
     <compactLayoutAssignment>M4AKnowledgeCompactAssignment</compactLayoutAssignment>
-    <description>This Record Type should be used for all EBS Toolbox Articles</description>
-    <label>EBS Toolbox</label>
+    <description>This Record Type should be used for all Articles</description>
+    <label>M4A Knowledge</label>
 </RecordType>
