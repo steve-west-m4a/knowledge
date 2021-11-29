@@ -277,7 +277,6 @@
     </pageAccesses>
     <recordTypeVisibilities>
         <default>true</default>
-        <personAccountDefault>true</personAccountDefault>
         <recordType>Knowledge__kav.M4A_Knowledge</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
