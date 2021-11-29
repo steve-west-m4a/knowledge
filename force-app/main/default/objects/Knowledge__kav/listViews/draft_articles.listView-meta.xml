@@ -2,9 +2,16 @@
 <ListView xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>draft_articles</fullName>
     <columns>TITLE</columns>
-    <columns>Question__c</columns>
-    <columns>Answer__c</columns>
+    <columns>PUBLISH_STATUS</columns>
+    <columns>VALIDATION_STATUS_ENUM</columns>
+    <columns>IS_CHANNEL_PKB</columns>
+    <columns>IS_CHANNEL_CSP</columns>
+    <columns>IS_CHANNEL_PRM</columns>
+    <columns>ARTICLE_TOTAL_VIEW_COUNT</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>CREATEDBY_USER</columns>
     <columns>LAST_UPDATE</columns>
+    <columns>UPDATEDBY_USER</columns>
     <filterScope>Everything</filterScope>
     <filters>
         <field>PUBLISH_STATUS</field>
