@@ -160,10 +160,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Knowledge__kav-M4A Knowledge Layout</layout>
-        <recordType>Knowledge__kav.ERP_Cloud</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Knowledge__kav-M4A Knowledge Layout</layout>
         <recordType>Knowledge__kav.FAQ</recordType>
     </layoutAssignments>
     <layoutAssignments>

@@ -13,6 +13,9 @@
                 <field>UrlName</field>
             </layoutItems>
             <layoutItems>
+                <field>Summary</field>
+            </layoutItems>
+            <layoutItems>
                 <field>Answer__c</field>
             </layoutItems>
         </layoutColumns>
@@ -38,11 +41,14 @@
     <layoutSections>
         <customLabel>true</customLabel>
         <detailHeading>true</detailHeading>
-        <editHeading>true</editHeading>
+        <editHeading>false</editHeading>
         <label>Custom Links</label>
         <layoutColumns/>
         <layoutColumns/>
         <layoutColumns/>
         <style>CustomLinks</style>
     </layoutSections>
+    <platformActionList>
+        <actionListContext>Record</actionListContext>
+    </platformActionList>
 </Layout>
