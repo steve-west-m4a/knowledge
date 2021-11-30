@@ -26,17 +26,17 @@
     <enableUpDownVote>true</enableUpDownVote>
     <forgotPasswordTemplate>unfiled$public/Community_Forgot_Password_Reset_Email</forgotPasswordTemplate>
     <gatherCustomerSentimentData>true</gatherCustomerSentimentData>
-    <logoutUrl>https://sandbox-flow-page-7421-17c3347d6cb.cs114.force.com/helpdesk/s</logoutUrl>
+    <logoutUrl>https://sandbox-fun-power-7479-17d68e2ef4f.cs76.force.com/community/s</logoutUrl>
     <maxFileSizeKb>2048000</maxFileSizeKb>
     <networkMemberGroups>
         <permissionSet>m4a_search</permissionSet>
         <permissionSet>More4apps_Product_Downloads</permissionSet>
         <permissionSet>Knowledge_Manager_Permission_Set</permissionSet>
-        <profile>Portal Super User</profile>
-        <profile>Portal User</profile>
         <profile>Admin</profile>
+        <profile>trial customer portal user</profile>
         <profile>high volume customer portal user</profile>
-        <profile>Trial Customer Portal User</profile>
+        <profile>portal user</profile>
+        <profile>portal super user</profile>
     </networkMemberGroups>
     <networkPageOverrides>
         <changePasswordPageOverrideSetting>Standard</changePasswordPageOverrideSetting>
@@ -45,15 +45,15 @@
         <loginPageOverrideSetting>Designer</loginPageOverrideSetting>
         <selfRegProfilePageOverrideSetting>Designer</selfRegProfilePageOverrideSetting>
     </networkPageOverrides>
-    <picassoSite>Helpdesk1</picassoSite>
+    <picassoSite>More4apps_Community1</picassoSite>
     <selfRegistration>false</selfRegistration>
     <sendWelcomeEmail>true</sendWelcomeEmail>
-    <site>Helpdesk</site>
+    <site>More4apps_Community</site>
     <status>Live</status>
     <tabs>
         <defaultTab>home</defaultTab>
         <standardTab>Chatter</standardTab>
     </tabs>
-    <urlPathPrefix>helpdesk</urlPathPrefix>
+    <urlPathPrefix>community</urlPathPrefix>
     <welcomeTemplate>unfiled$public/Community_New_Member_Welcome_Email</welcomeTemplate>
 </Network>

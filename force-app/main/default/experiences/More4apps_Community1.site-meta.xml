@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ExperienceBundle xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label>Helpdesk</label>
+    <label>More4apps Community</label>
     <type>ChatterNetworkPicasso</type>
-    <urlPathPrefix>helpdesk/s</urlPathPrefix>
+    <urlPathPrefix>community/s</urlPathPrefix>
 </ExperienceBundle>

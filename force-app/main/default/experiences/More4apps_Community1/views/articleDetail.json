@@ -58,7 +58,7 @@
       "type" : "component"
     }, {
       "componentAttributes" : {
-        "richTextValue" : "<div align=\"center\">\n\t<form method=\"get\" action=\"/helpdesk/s/topiccatalog\">\n   \t\t<button class=\"button-topic button1\" type=\"submit\">All Topics</button>\n\t</form>\n</div>"
+        "richTextValue" : "<div align=\"center\">\n\t<form method=\"get\" action=\"/community/s/topiccatalog\">\n   \t\t<button class=\"button-topic button1\" type=\"submit\">All Topics</button>\n\t</form>\n</div>"
       },
       "componentName" : "forceCommunity:htmlBlock",
       "id" : "c4b98781-86cd-4dbb-a0f1-f1a5402d3ab3",
