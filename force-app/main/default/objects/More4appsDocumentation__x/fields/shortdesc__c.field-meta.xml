@@ -3,12 +3,11 @@
     <fullName>shortdesc__c</fullName>
     <externalDeveloperName>shortdesc</externalDeveloperName>
     <externalId>false</externalId>
-    <isFilteringDisabled>true</isFilteringDisabled>
+    <isFilteringDisabled>false</isFilteringDisabled>
     <isNameField>false</isNameField>
-    <isSortingDisabled>true</isSortingDisabled>
+    <isSortingDisabled>false</isSortingDisabled>
     <label>shortdesc</label>
     <length>255</length>
-    <readOnlyProxy>true</readOnlyProxy>
     <required>false</required>
     <type>Text</type>
     <unique>false</unique>

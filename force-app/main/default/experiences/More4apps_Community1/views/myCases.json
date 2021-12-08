@@ -4,6 +4,24 @@
   "id" : "c1088812-3bf1-4e8d-813c-9979b40d907d",
   "label" : "My Cases",
   "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "buttonAlignment" : "center",
+        "buttonBgColor" : "",
+        "buttonBgHoverColor" : "",
+        "buttonBorderColor" : "",
+        "buttonMaxWidth" : 20,
+        "buttonRadius" : 2,
+        "buttonTextColor" : "",
+        "buttonTextHoverColor" : "",
+        "label" : "Contact Support"
+      },
+      "componentName" : "forceCommunity:contactSupportButton",
+      "id" : "1c1e3016-60db-4bfa-b8f8-2be32aa507f6",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
     "id" : "4c070e7e-198f-4e12-8bcf-34be0b6643af",
     "regionName" : "header",
     "type" : "region"
@@ -11,7 +29,7 @@
     "components" : [ {
       "componentAttributes" : {
         "enableInlineEdit" : false,
-        "filterName" : "00B1y000002Oi6uEAC",
+        "filterName" : "00B9D000002Wo8KUAS",
         "layout" : "FULL",
         "pageSize" : 10,
         "scope" : "Case",
@@ -54,7 +72,7 @@
     "regionName" : "sfdcHiddenRegion",
     "type" : "region"
   } ],
-  "themeLayoutType" : "0HYiZjDMduJGZnLgMu6xrenTlrhkiF",
+  "themeLayoutType" : "3fXSdNLU6jLxJAcXldtr0uIr54lfWr",
   "type" : "view",
   "viewType" : "custom-my-cases"
 }

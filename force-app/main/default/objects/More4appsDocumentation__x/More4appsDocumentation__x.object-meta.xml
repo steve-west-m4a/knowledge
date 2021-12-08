@@ -123,7 +123,11 @@
     <label>Documentation</label>
     <pluralLabel>Documentation</pluralLabel>
     <searchLayouts>
+        <customTabListAdditionalFields>Title__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Title__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Title__c</lookupPhoneDialogsAdditionalFields>
         <searchResultsAdditionalFields>Title__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Summary__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>DisplayUrl</searchResultsAdditionalFields>
     </searchLayouts>
 </CustomObject>

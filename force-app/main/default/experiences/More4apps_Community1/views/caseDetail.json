@@ -1,6 +1,6 @@
 {
   "appPageId" : "15c18bce-cd20-41ce-bea0-694f6d19ded6",
-  "componentName" : "siteforce:sldsTwoCol66Layout",
+  "componentName" : "siteforce:sldsTwoCol48Layout",
   "id" : "faeb815b-d889-45ae-98d1-d5e63c13c1fc",
   "label" : "Case Detail",
   "regions" : [ {
@@ -20,10 +20,23 @@
   }, {
     "components" : [ {
       "componentAttributes" : {
-        "recordId" : "{!recordId}"
+        "relatedListApiName" : "CaseComments",
+        "relatedListComponentOverride" : "GRID",
+        "width" : "MEDIUM"
       },
-      "componentName" : "forceCommunity:lwcRecordDetail",
-      "id" : "0932d771-4357-4af6-8fa9-54458c19607c",
+      "componentName" : "forceCommunity:responsiveRelatedListSingle",
+      "id" : "3c94bf65-31cb-40d0-a660-bba78e058a1e",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "relatedListApiName" : "CombinedAttachments",
+        "relatedListComponentOverride" : "GRID",
+        "width" : "MEDIUM"
+      },
+      "componentName" : "forceCommunity:responsiveRelatedListSingle",
+      "id" : "a613c288-ba99-4779-8b38-a6e8dfb5dfb1",
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"
@@ -63,23 +76,10 @@
   }, {
     "components" : [ {
       "componentAttributes" : {
-        "relatedListApiName" : "CaseComments",
-        "relatedListComponentOverride" : "GRID",
-        "width" : "MEDIUM"
+        "recordId" : "{!recordId}"
       },
-      "componentName" : "forceCommunity:responsiveRelatedListSingle",
-      "id" : "f5ac50e6-a9eb-40f6-9134-7253c545fa76",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    }, {
-      "componentAttributes" : {
-        "relatedListApiName" : "CombinedAttachments",
-        "relatedListComponentOverride" : "GRID",
-        "width" : "MEDIUM"
-      },
-      "componentName" : "forceCommunity:responsiveRelatedListSingle",
-      "id" : "a613c288-ba99-4779-8b38-a6e8dfb5dfb1",
+      "componentName" : "forceCommunity:lwcRecordDetail",
+      "id" : "0932d771-4357-4af6-8fa9-54458c19607c",
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"
@@ -96,7 +96,7 @@
       "type" : "component"
     }, {
       "componentAttributes" : {
-        "richTextValue" : "<div align=\"center\">\n\t<form method=\"get\" action=\"/helpdesk/s/my-cases/\">\n   \t\t<button class=\"button button1\" type=\"submit\">All Cases</button>\n\t</form>\n</div>"
+        "richTextValue" : "<div align=\"center\">\n\t<form method=\"get\" action=\"/community/s/my-cases/\">\n   \t\t<button class=\"button button1\" type=\"submit\">All Cases</button>\n\t</form>\n</div>"
       },
       "componentName" : "forceCommunity:htmlBlock",
       "id" : "927e236a-965b-47d8-99b9-3893e784daf1",

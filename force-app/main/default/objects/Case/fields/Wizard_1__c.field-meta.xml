@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Wizard_1__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Choose the Wizard this case is about.</inlineHelpText>
+    <label>Wizard.</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Agreement &amp; Funding Wizard</fullName>
+                <default>false</default>
+                <label>Agreement &amp; Funding Wizard</label>
+            </value>
+            <value>
+                <fullName>All</fullName>
+                <default>false</default>
+                <label>All</label>
+            </value>
+            <value>
+                <fullName>AP Invoice Wizard</fullName>
+                <default>false</default>
+                <label>AP Invoice Wizard</label>
+            </value>
+            <value>
+                <fullName>Application Interface Wizard</fullName>
+                <default>false</default>
+                <label>Application Interface Wizard</label>
+            </value>
+            <value>
+                <fullName>AR Invoice API Wizard</fullName>
+                <default>false</default>
+                <label>AR Invoice API Wizard</label>
+            </value>
+            <value>
+                <fullName>AR Invoice Wizard</fullName>
+                <default>false</default>
+                <label>AR Invoice Wizard</label>
+            </value>
+            <value>
+                <fullName>AR Receipt Wizard</fullName>
+                <default>false</default>
+                <label>AR Receipt Wizard</label>
+            </value>
+            <value>
+                <fullName>Asset Wizard</fullName>
+                <default>false</default>
+                <label>Asset Wizard</label>
+            </value>
+            <value>
+                <fullName>Bill of Materials Wizard</fullName>
+                <default>false</default>
+                <label>Bill of Materials Wizard</label>
+            </value>
+            <value>
+                <fullName>Budget Wizard</fullName>
+                <default>false</default>
+                <label>Budget Wizard</label>
+            </value>
+            <value>
+                <fullName>Common Code</fullName>
+                <default>false</default>
+                <label>Common Code</label>
+            </value>
+            <value>
+                <fullName>Core Code</fullName>
+                <default>false</default>
+                <label>Core Code</label>
+            </value>
+            <value>
+                <fullName>Customer Wizard</fullName>
+                <default>false</default>
+                <label>Customer Wizard</label>
+            </value>
+            <value>
+                <fullName>Custom Query / Downloader</fullName>
+                <default>false</default>
+                <label>Custom Query / Downloader</label>
+            </value>
+            <value>
+                <fullName>Element Entry Wizard</fullName>
+                <default>false</default>
+                <label>Element Entry Wizard</label>
+            </value>
+            <value>
+                <fullName>Employee Wizard</fullName>
+                <default>false</default>
+                <label>Employee Wizard</label>
+            </value>
+            <value>
+                <fullName>Enterprise Asset Management</fullName>
+                <default>false</default>
+                <label>Enterprise Asset Management</label>
+            </value>
+            <value>
+                <fullName>Event Wizard</fullName>
+                <default>false</default>
+                <label>Event Wizard</label>
+            </value>
+            <value>
+                <fullName>Excel-Out</fullName>
+                <default>false</default>
+                <label>Excel-Out</label>
+            </value>
+            <value>
+                <fullName>GL Wizard</fullName>
+                <default>false</default>
+                <label>GL Wizard</label>
+            </value>
+            <value>
+                <fullName>Horizon</fullName>
+                <default>false</default>
+                <label>Horizon</label>
+            </value>
+            <value>
+                <fullName>Intelligent AP Invoice Capture</fullName>
+                <default>false</default>
+                <label>Intelligent AP Invoice Capture</label>
+            </value>
+            <value>
+                <fullName>AP Invoice Wizard - Approval Workflow</fullName>
+                <default>false</default>
+                <label>Invoice Approval Workflow</label>
+            </value>
+            <value>
+                <fullName>Item Catalog UDA Wizard</fullName>
+                <default>false</default>
+                <label>Item Catalog UDA Wizard</label>
+            </value>
+            <value>
+                <fullName>Item Cost Wizard</fullName>
+                <default>false</default>
+                <label>Item Cost Wizard</label>
+            </value>
+            <value>
+                <fullName>Item Extension Wizard</fullName>
+                <default>false</default>
+                <label>Item Extension Wizard</label>
+            </value>
+            <value>
+                <fullName>Item Wizard</fullName>
+                <default>false</default>
+                <label>Item Wizard</label>
+            </value>
+            <value>
+                <fullName>Labor Cost Rate Wizard</fullName>
+                <default>false</default>
+                <label>Labor Cost Rate Wizard</label>
+            </value>
+            <value>
+                <fullName>M4A Cloud Framework</fullName>
+                <default>false</default>
+                <label>M4A Cloud Framework</label>
+            </value>
+            <value>
+                <fullName>M4A Cloud Services</fullName>
+                <default>false</default>
+                <label>M4A Cloud Services</label>
+            </value>
+            <value>
+                <fullName>Mail-It</fullName>
+                <default>false</default>
+                <label>Mail-It</label>
+            </value>
+            <value>
+                <fullName>Material Transaction Wizard</fullName>
+                <default>false</default>
+                <label>Material Transaction Wizard</label>
+            </value>
+            <value>
+                <fullName>Meter Reader Wizard</fullName>
+                <default>false</default>
+                <label>Meter Reader Wizard</label>
+            </value>
+            <value>
+                <fullName>Mobile Control Wizard</fullName>
+                <default>false</default>
+                <label>Mobile Control Wizard</label>
+            </value>
+            <value>
+                <fullName>Mobile Item App</fullName>
+                <default>false</default>
+                <label>Mobile Item App</label>
+            </value>
+            <value>
+                <fullName>Mobile PO Receiving App</fullName>
+                <default>false</default>
+                <label>Mobile PO Receiving App</label>
+            </value>
+            <value>
+                <fullName>Mobile Stock Take</fullName>
+                <default>false</default>
+                <label>Mobile Stock Take</label>
+            </value>
+            <value>
+                <fullName>Mobile WIP App</fullName>
+                <default>false</default>
+                <label>Mobile WIP App</label>
+            </value>
+            <value>
+                <fullName>PO Receiving Wizard</fullName>
+                <default>false</default>
+                <label>PO Receiving Wizard</label>
+            </value>
+            <value>
+                <fullName>PO Wizard</fullName>
+                <default>false</default>
+                <label>PO Wizard</label>
+            </value>
+            <value>
+                <fullName>Price List Wizard</fullName>
+                <default>false</default>
+                <label>Price List Wizard</label>
+            </value>
+            <value>
+                <fullName>Pricing Modifiers Wizard</fullName>
+                <default>false</default>
+                <label>Pricing Modifiers Wizard</label>
+            </value>
+            <value>
+                <fullName>Project Wizard</fullName>
+                <default>false</default>
+                <label>Project Wizard</label>
+            </value>
+            <value>
+                <fullName>Requisition Wizard</fullName>
+                <default>false</default>
+                <label>Requisition Wizard</label>
+            </value>
+            <value>
+                <fullName>Routing Wizard</fullName>
+                <default>false</default>
+                <label>Routing Wizard</label>
+            </value>
+            <value>
+                <fullName>Sales Order Wizard</fullName>
+                <default>false</default>
+                <label>Sales Order Wizard</label>
+            </value>
+            <value>
+                <fullName>Sales Quote Wizard</fullName>
+                <default>false</default>
+                <label>Sales Quote Wizard</label>
+            </value>
+            <value>
+                <fullName>Sourcing Wizard</fullName>
+                <default>false</default>
+                <label>Sourcing Wizard</label>
+            </value>
+            <value>
+                <fullName>Special Information Wizard</fullName>
+                <default>false</default>
+                <label>Special Information Wizard</label>
+            </value>
+            <value>
+                <fullName>Supplier Wizard</fullName>
+                <default>false</default>
+                <label>Supplier Wizard</label>
+            </value>
+            <value>
+                <fullName>Transaction Wizard</fullName>
+                <default>false</default>
+                <label>Transaction Wizard</label>
+            </value>
+            <value>
+                <fullName>Upload Wizard</fullName>
+                <default>false</default>
+                <label>Upload Wizard</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

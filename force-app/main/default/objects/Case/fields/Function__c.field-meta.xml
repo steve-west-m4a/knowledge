@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Function__c</fullName>
+    <deprecated>false</deprecated>
+    <description>For internal use to allow reporting on issues relating to specific Wizard functions</description>
+    <externalId>false</externalId>
+    <inlineHelpText>For internal use to allow reporting on issues relating to specific Wizard functions</inlineHelpText>
+    <label>Function</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Attachments</fullName>
+                <default>false</default>
+                <label>Attachments</label>
+            </value>
+            <value>
+                <fullName>Data Entry Forms</fullName>
+                <default>false</default>
+                <label>Data Entry Forms</label>
+            </value>
+            <value>
+                <fullName>Debug</fullName>
+                <default>false</default>
+                <label>Debug</label>
+            </value>
+            <value>
+                <fullName>Download</fullName>
+                <default>false</default>
+                <label>Download</label>
+            </value>
+            <value>
+                <fullName>Mode</fullName>
+                <default>false</default>
+                <label>Mode</label>
+            </value>
+            <value>
+                <fullName>Processing Form</fullName>
+                <default>false</default>
+                <label>Processing Form</label>
+            </value>
+            <value>
+                <fullName>Ribbon Main</fullName>
+                <default>false</default>
+                <label>Ribbon Main</label>
+            </value>
+            <value>
+                <fullName>Ribbon Setup</fullName>
+                <default>false</default>
+                <label>Ribbon Setup</label>
+            </value>
+            <value>
+                <fullName>Sheet</fullName>
+                <default>false</default>
+                <label>Sheet</label>
+            </value>
+            <value>
+                <fullName>Upload</fullName>
+                <default>false</default>
+                <label>Upload</label>
+            </value>
+            <value>
+                <fullName>Validate</fullName>
+                <default>false</default>
+                <label>Validate</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

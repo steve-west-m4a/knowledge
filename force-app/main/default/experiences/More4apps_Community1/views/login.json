@@ -6,7 +6,7 @@
   "regions" : [ {
     "components" : [ {
       "componentAttributes" : {
-        "richTextValue" : "<p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><h3 style=\"text-align: center;\">Please enter your Username and Password below to login</h3><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p>"
+        "richTextValue" : "<p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><h3 style=\"text-align: center;\">Please enter your Email Address and Password below to login</h3><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p>"
       },
       "componentName" : "forceCommunity:richTextInline",
       "id" : "72d4d181-2eca-4463-95f1-599e2118430f",
@@ -22,7 +22,7 @@
         "selfRegisterLabel" : "Not a member?",
         "selfRegisterUrl" : "/SelfRegister",
         "startUrl" : "",
-        "usernameLabel" : "Username"
+        "usernameLabel" : "Email Address"
       },
       "componentName" : "salesforceIdentity:loginForm2",
       "id" : "485de66f-f9e8-4b00-b98f-514a0f757ae6",
@@ -83,7 +83,7 @@
   }, {
     "components" : [ {
       "componentAttributes" : {
-        "richTextValue" : "<p style=\"text-align: center;\"><br></p><h3 style=\"text-align: center;\">If you don't have a login, please <a href=\"/community/s/contact-support/\" rel=\"noopener noreferrer\" target=\"_self\">Contact Support</a> to request one.</h3><p style=\"text-align: center;\"><br></p><h3 style=\"text-align: center;\">If you forgot your Password, please <a href=\"/community/s/login/ForgotPassword/\" rel=\"noopener noreferrer\" target=\"_self\">Reset</a> it here.</h3><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p>"
+        "richTextValue" : "<p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><h3 style=\"text-align: center;\">If you don't have a login, please <a href=\"https://more4apps.com/community-login-request/\" rel=\"noopener noreferrer\" target=\"_blank\">Request a Login</a> here.</h3><p style=\"text-align: center;\"><br></p><h3 style=\"text-align: center;\">If you forgot your Password, please <a href=\"/community/s/login/ForgotPassword/\" rel=\"noopener noreferrer\" target=\"_self\">Reset</a> it here.</h3><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p>"
       },
       "componentName" : "forceCommunity:richTextInline",
       "id" : "b4fef3c3-fa1c-4d8d-81e7-310b7fe86b9a",

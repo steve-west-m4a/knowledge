@@ -4,6 +4,16 @@
   "id" : "376c6707-2408-40da-b8d0-baaa462b1985",
   "label" : "User Profile",
   "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><h3 style=\"text-align: center;\">If you would like to update any of your details below, please submit an <a href=\"https://more4apps.com/community-login-request/\" rel=\"noopener noreferrer\" target=\"_blank\">Update Details Request</a></h3><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "b67ea4e8-735d-46bb-a237-6c666968c961",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
     "id" : "4695e808-5c2c-4042-9b43-190b999dac2b",
     "regionName" : "header",
     "type" : "region"

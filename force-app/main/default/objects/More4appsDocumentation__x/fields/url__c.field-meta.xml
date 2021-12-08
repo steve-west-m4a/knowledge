@@ -3,10 +3,13 @@
     <fullName>url__c</fullName>
     <externalDeveloperName>url</externalDeveloperName>
     <externalId>false</externalId>
-    <isFilteringDisabled>false</isFilteringDisabled>
+    <isFilteringDisabled>true</isFilteringDisabled>
     <isNameField>false</isNameField>
-    <isSortingDisabled>false</isSortingDisabled>
+    <isSortingDisabled>true</isSortingDisabled>
     <label>url</label>
+    <length>255</length>
+    <readOnlyProxy>true</readOnlyProxy>
     <required>false</required>
-    <type>Url</type>
+    <type>Text</type>
+    <unique>false</unique>
 </CustomField>

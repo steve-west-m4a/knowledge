@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AIW_Supported_Loader__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Enter the specific loader name for Application Interface Wizard templates where applicable</description>
+    <externalId>false</externalId>
+    <label>AIW Supported Loader</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>AIW_Supported_Loaders</valueSetName>
+    </valueSet>
+</CustomField>

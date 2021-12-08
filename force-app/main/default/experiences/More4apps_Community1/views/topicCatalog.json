@@ -6,16 +6,10 @@
   "regions" : [ {
     "components" : [ {
       "componentAttributes" : {
-        "bannerText" : "",
-        "bannerTextWithKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineArticles\">articles</a> and <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
-        "bannerTextWithoutKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
-        "pageType" : "",
-        "showSubTopics" : true,
-        "title" : "Topics",
-        "uniqueNameOrId" : ""
+        "richTextValue" : "<div style=\"padding-top: 20px\"/>"
       },
-      "componentName" : "forceCommunity:headline",
-      "id" : "d87d8899-1964-4ffc-865f-d9c8f65ff7c1",
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "9e221a9c-5ee5-4895-b581-0fa5ab043291",
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"
@@ -40,7 +34,7 @@
   }, {
     "components" : [ {
       "componentAttributes" : {
-        "richTextValue" : "<div style=\"padding-top: 50px\"/>"
+        "richTextValue" : "<div style=\"padding-top: 20px\"/>"
       },
       "componentName" : "forceCommunity:htmlBlock",
       "id" : "768682c5-5a27-46d8-9d39-5a0cfac241ab",
@@ -81,7 +75,7 @@
     "regionName" : "sidebar",
     "type" : "region"
   } ],
-  "themeLayoutType" : "0HYiZjDMduJGZnLgMu6xrenTlrhkiF",
+  "themeLayoutType" : "N9Hdino5bzgGOKdrtRpUhbZeZNeWkd",
   "type" : "view",
   "viewType" : "topic-catalog"
 }
