@@ -19,7 +19,7 @@
                 <field>Question__c</field>
             </layoutItems>
             <layoutItems>
-                <field>Answer__c</field>
+                <field>Details__c</field>
             </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>

@@ -16,7 +16,7 @@
                 <field>Summary</field>
             </layoutItems>
             <layoutItems>
-                <field>Answer__c</field>
+                <field>Details__c</field>
             </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>
@@ -41,7 +41,7 @@
     <layoutSections>
         <customLabel>true</customLabel>
         <detailHeading>true</detailHeading>
-        <editHeading>false</editHeading>
+        <editHeading>true</editHeading>
         <label>Custom Links</label>
         <layoutColumns/>
         <layoutColumns/>

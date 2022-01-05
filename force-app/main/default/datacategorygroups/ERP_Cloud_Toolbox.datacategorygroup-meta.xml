@@ -4,8 +4,16 @@
     <dataCategory>
         <dataCategory>
             <dataCategory>
-                <label>Purchase Orders</label>
-                <name>Purchase_Orders</name>
+                <label>Standard Purchase Orders</label>
+                <name>Standard_Purchase_Orders</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Cancel Purchase Orders</label>
+                <name>Cancel_Purchase_Orders</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Close Purchase Order</label>
+                <name>Close_Purchase_Order</name>
             </dataCategory>
             <dataCategory>
                 <label>Requisitions</label>
@@ -63,8 +71,8 @@
             <name>Finance_Module</name>
         </dataCategory>
         <dataCategory>
-            <label>Installation and Setup</label>
-            <name>Installation_and_Setup</name>
+            <label>ERP Cloud Installation and Setup</label>
+            <name>ERP_Cloud_Installation_and_Setup</name>
         </dataCategory>
         <dataCategory>
             <label>ERP Cloud General</label>

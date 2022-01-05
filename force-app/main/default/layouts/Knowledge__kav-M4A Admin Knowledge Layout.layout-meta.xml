@@ -16,7 +16,7 @@
                 <field>Summary</field>
             </layoutItems>
             <layoutItems>
-                <field>Answer__c</field>
+                <field>Details__c</field>
             </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>
@@ -87,7 +87,7 @@
     <layoutSections>
         <customLabel>true</customLabel>
         <detailHeading>true</detailHeading>
-        <editHeading>false</editHeading>
+        <editHeading>true</editHeading>
         <label>Custom Links</label>
         <layoutColumns/>
         <layoutColumns/>
@@ -97,6 +97,11 @@
     <platformActionList>
         <actionListContext>Record</actionListContext>
         <platformActionListItems>
+            <actionName>EditDraftKnowledgeArticleVersion</actionName>
+            <actionType>StandardButton</actionType>
+            <sortOrder>0</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
             <actionName>PublishKnowledgeArticleVersion</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>1</sortOrder>
@@ -105,11 +110,6 @@
             <actionName>DeleteDraftKnowledgeArticleVersion</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>2</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
-            <actionName>EditDraftKnowledgeArticleVersion</actionName>
-            <actionType>StandardButton</actionType>
-            <sortOrder>0</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
             <actionName>CreateDraftFromOnlineKnowledgeArticleVersion</actionName>

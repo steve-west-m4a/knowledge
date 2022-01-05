@@ -211,8 +211,8 @@
             <name>Development_Platform</name>
         </dataCategory>
         <dataCategory>
-            <label>Installation and Setup</label>
-            <name>Installation_and_Setup</name>
+            <label>EBS Installation and Setup</label>
+            <name>EBS_Installation_and_Setup</name>
         </dataCategory>
         <dataCategory>
             <label>EBS General</label>
