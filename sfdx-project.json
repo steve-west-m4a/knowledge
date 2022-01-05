@@ -8,7 +8,7 @@
   "name": "Knowledge Backup",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "51.0",
+  "sourceApiVersion": "52.0",
   "packageAliases": {
     "m4a-logging": "04t4G000000cPleQAE",
     "m4a-product-lov": "04t4G000000cPoJQAU",

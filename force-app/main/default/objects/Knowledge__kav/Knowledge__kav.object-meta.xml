@@ -24,11 +24,7 @@
     <enableHistory>false</enableHistory>
     <label>Knowledge</label>
     <pluralLabel>Knowledge</pluralLabel>
-    <profileSearchLayouts>
-        <fields>TITLE</fields>
-        <fields>LAST_PUBLISHED_DATE</fields>
-        <profileName>Helpdesk Profile</profileName>
-    </profileSearchLayouts>
+
     <profileSearchLayouts>
         <fields>TITLE</fields>
         <fields>LAST_PUBLISHED_DATE</fields>

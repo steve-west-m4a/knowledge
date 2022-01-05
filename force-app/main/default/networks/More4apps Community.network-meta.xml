@@ -9,6 +9,7 @@
     <emailSenderName>More4apps Support</emailSenderName>
     <enableCustomVFErrorPageOverrides>false</enableCustomVFErrorPageOverrides>
     <enableDirectMessages>true</enableDirectMessages>
+    <enableExperienceBundleBasedSnaOverrideEnabled>true</enableExperienceBundleBasedSnaOverrideEnabled>
     <enableGuestChatter>true</enableGuestChatter>
     <enableGuestFileAccess>true</enableGuestFileAccess>
     <enableGuestMemberVisibility>false</enableGuestMemberVisibility>
@@ -22,21 +23,21 @@
     <enableSiteAsContainer>true</enableSiteAsContainer>
     <enableTalkingAboutStats>true</enableTalkingAboutStats>
     <enableTopicAssignmentRules>true</enableTopicAssignmentRules>
-    <enableTopicSuggestions>false</enableTopicSuggestions>
+    <enableTopicSuggestions>true</enableTopicSuggestions>
     <enableUpDownVote>true</enableUpDownVote>
     <forgotPasswordTemplate>unfiled$public/Community_Forgot_Password_Reset_Email</forgotPasswordTemplate>
     <gatherCustomerSentimentData>true</gatherCustomerSentimentData>
-    <logoutUrl>https://sandbox-fun-power-7479-17d68e2ef4f.cs76.force.com/community/s</logoutUrl>
+    <logoutUrl>https://sandbox-business-ability-5109-17e0ca1fdea.cs75.force.com/community/s/</logoutUrl>
     <maxFileSizeKb>2048000</maxFileSizeKb>
     <networkMemberGroups>
         <permissionSet>m4a_search</permissionSet>
         <permissionSet>More4apps_Product_Downloads</permissionSet>
         <permissionSet>Knowledge_Manager_Permission_Set</permissionSet>
-        <profile>Admin</profile>
-        <profile>trial customer portal user</profile>
-        <profile>high volume customer portal user</profile>
-        <profile>portal user</profile>
         <profile>portal super user</profile>
+        <profile>portal user</profile>
+        <profile>admin</profile>
+        <profile>high volume customer portal user</profile>
+        <profile>trial customer portal user</profile>
     </networkMemberGroups>
     <networkPageOverrides>
         <changePasswordPageOverrideSetting>Standard</changePasswordPageOverrideSetting>

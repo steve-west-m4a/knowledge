@@ -10,21 +10,21 @@
     <authorizationRequiredPage>CommunitiesLogin</authorizationRequiredPage>
     <bandwidthExceededPage>BandwidthExceeded</bandwidthExceededPage>
     <browserXssProtection>true</browserXssProtection>
+    <cachePublicVisualforcePagesInProxyServers>false</cachePublicVisualforcePagesInProxyServers>
     <clickjackProtectionLevel>AllowAllFraming</clickjackProtectionLevel>
     <contentSniffingProtection>true</contentSniffingProtection>
-    <cspUpgradeInsecureRequests>true</cspUpgradeInsecureRequests>
     <enableAuraRequests>true</enableAuraRequests>
     <fileNotFoundPage>FileNotFound</fileNotFoundPage>
     <genericErrorPage>Exception</genericErrorPage>
     <inMaintenancePage>InMaintenance</inMaintenancePage>
     <indexPage>CommunitiesLanding</indexPage>
     <masterLabel>More4apps Community</masterLabel>
+    <redirectToCustomDomain>false</redirectToCustomDomain>
     <referrerPolicyOriginWhenCrossOrigin>true</referrerPolicyOriginWhenCrossOrigin>
-    <requireHttps>true</requireHttps>
     <selfRegPage>CommunitiesSelfReg</selfRegPage>
-    <siteAdmin>test-8adragybush7@example.com</siteAdmin>
-    <siteGuestRecordDefaultOwner>test.user@more4apps.com</siteGuestRecordDefaultOwner>
+    <siteAdmin>vienna.pahi@more4apps.com</siteAdmin>
+    <siteGuestRecordDefaultOwner>vienna.pahi@more4apps.com</siteGuestRecordDefaultOwner>
     <siteType>ChatterNetwork</siteType>
-    <subdomain>fun-power-7479-17d68e2ef4f</subdomain>
+    <subdomain>business-ability-5109-17e0ca1fdea</subdomain>
     <urlPathPrefix>community</urlPathPrefix>
 </CustomSite>
