@@ -111,7 +111,7 @@
     </externalDataSourceAccesses>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Knowledge__kav.Answer__c</field>
+        <field>Knowledge__kav.Details__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>

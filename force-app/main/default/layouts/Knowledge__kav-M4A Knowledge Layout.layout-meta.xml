@@ -51,4 +51,7 @@
     <platformActionList>
         <actionListContext>Record</actionListContext>
     </platformActionList>
+    <relatedLists>
+        <relatedList>KnowledgeArticleVersionFilesRelatedList</relatedList>
+    </relatedLists>
 </Layout>

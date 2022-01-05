@@ -24,14 +24,10 @@
     <enableHistory>false</enableHistory>
     <label>Knowledge</label>
     <pluralLabel>Knowledge</pluralLabel>
-
-    <profileSearchLayouts>
-        <fields>TITLE</fields>
-        <fields>LAST_PUBLISHED_DATE</fields>
-        <profileName>Portal User</profileName>
-    </profileSearchLayouts>
     <searchLayouts>
+        <customTabListAdditionalFields>TITLE</customTabListAdditionalFields>
         <searchResultsAdditionalFields>TITLE</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>LAST_PUBLISHED_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Topics__c</searchResultsAdditionalFields>
     </searchLayouts>
 </CustomObject>

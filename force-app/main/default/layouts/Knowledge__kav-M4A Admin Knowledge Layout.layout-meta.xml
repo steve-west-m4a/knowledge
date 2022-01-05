@@ -18,6 +18,9 @@
             <layoutItems>
                 <field>Details__c</field>
             </layoutItems>
+            <layoutItems>
+                <field>Topics__c</field>
+            </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>
     </layoutSections>
@@ -122,4 +125,7 @@
             <sortOrder>4</sortOrder>
         </platformActionListItems>
     </platformActionList>
+    <relatedLists>
+        <relatedList>KnowledgeArticleVersionFilesRelatedList</relatedList>
+    </relatedLists>
 </Layout>

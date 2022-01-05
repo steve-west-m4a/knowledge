@@ -33,9 +33,9 @@
         <topicDescription> </topicDescription>
     </managedTopic>
     <managedTopic>
-        <fullName>More4apps Community.Navigational:Agreement And Funding Wizard</fullName>
+        <fullName>More4apps Community.Navigational:Agreement and Funding Wizard</fullName>
         <managedTopicType>Navigational</managedTopicType>
-        <name>Agreement And Funding Wizard</name>
+        <name>Agreement and Funding Wizard</name>
         <parentName>Projects</parentName>
         <position>0</position>
         <topicDescription> </topicDescription>
@@ -49,9 +49,9 @@
         <topicDescription> </topicDescription>
     </managedTopic>
     <managedTopic>
-        <fullName>More4apps Community.Navigational:Assets And Assignments</fullName>
+        <fullName>More4apps Community.Navigational:Assets and Assignments</fullName>
         <managedTopicType>Navigational</managedTopicType>
-        <name>Assets And Assignments</name>
+        <name>Assets and Assignments</name>
         <parentName>Projects Module</parentName>
         <position>2</position>
         <topicDescription> </topicDescription>
@@ -65,9 +65,9 @@
         <topicDescription> </topicDescription>
     </managedTopic>
     <managedTopic>
-        <fullName>More4apps Community.Navigational:Banks And Branches Loader</fullName>
+        <fullName>More4apps Community.Navigational:Banks and Branches Loader</fullName>
         <managedTopicType>Navigational</managedTopicType>
-        <name>Banks And Branches Loader</name>
+        <name>Banks and Branches Loader</name>
         <parentName>Procure To Pay</parentName>
         <position>1</position>
         <topicDescription> </topicDescription>
@@ -153,9 +153,9 @@
         <topicDescription> </topicDescription>
     </managedTopic>
     <managedTopic>
-        <fullName>More4apps Community.Navigational:EBS Installation And Setup</fullName>
+        <fullName>More4apps Community.Navigational:EBS Installation and Setup</fullName>
         <managedTopicType>Navigational</managedTopicType>
-        <name>EBS Installation And Setup</name>
+        <name>EBS Installation and Setup</name>
         <parentName/>
         <position>15</position>
         <topicDescription> </topicDescription>
@@ -169,9 +169,9 @@
         <topicDescription> </topicDescription>
     </managedTopic>
     <managedTopic>
-        <fullName>More4apps Community.Navigational:ERP Cloud Installation And Setup</fullName>
+        <fullName>More4apps Community.Navigational:ERP Cloud Installation and Setup</fullName>
         <managedTopicType>Navigational</managedTopicType>
-        <name>ERP Cloud Installation And Setup</name>
+        <name>ERP Cloud Installation and Setup</name>
         <parentName/>
         <position>4</position>
         <topicDescription> </topicDescription>
@@ -313,9 +313,9 @@
         <topicDescription> </topicDescription>
     </managedTopic>
     <managedTopic>
-        <fullName>More4apps Community.Navigational:Job And Position Loader</fullName>
+        <fullName>More4apps Community.Navigational:Job and Position Loader</fullName>
         <managedTopicType>Navigational</managedTopicType>
-        <name>Job And Position Loader</name>
+        <name>Job and Position Loader</name>
         <parentName>Human Resources</parentName>
         <position>2</position>
         <topicDescription> </topicDescription>
