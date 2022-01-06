@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Community_Reopened_Case</fullName>
+        <description>Community - Reopened Case</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>vienna.pahi@more4apps.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Community_Reopened_Case</template>
+    </alerts>
+    <alerts>
+        <fullName>Unassigned_Case_Email</fullName>
+        <description>Unassigned Case Email</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>vienna.pahi@more4apps.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Unassigned_Case_Email</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>ChangePriorityToHigh</fullName>
+        <field>Priority</field>
+        <literalValue>High</literalValue>
+        <name>Changes the case priority to high.</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_the_Case_Status</fullName>
+        <description>Updates the Case Status from New to Open</description>
+        <field>Status</field>
+        <literalValue>Open</literalValue>
+        <name>Update the Case Status</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Community - Reopened Case</fullName>
+        <actions>
+            <name>Community_Reopened_Case</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Update_the_Case_Status</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.OwnerId</field>
+            <operation>equals</operation>
+            <value>Case Queue</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>New</value>
+        </criteriaItems>
+        <description>Updates the Status for a Reopened Case from the default &quot;New&quot; to &quot;Open&quot; and sends an email to the Support Team to advise of the reopen Case</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Unassigned Case Email</fullName>
+        <actions>
+            <name>Unassigned_Case_Email</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.OwnerId</field>
+            <operation>equals</operation>
+            <value>Case Queue</value>
+        </criteriaItems>
+        <description>Email sent out to 24/7 queue support team</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+</Workflow>

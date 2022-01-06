@@ -1,0 +1,9 @@
+Unassigned Cases
+
+Case Number: {!Case.CaseNumber}
+Case Priority: {!Case.Priority}
+Account Name: {!Case.Account}
+Product: {!Case.Product_1__c}
+Subject: {!Case.Subject}
+Case Open: {!Case.CreatedDate}
+{!Case.Link}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This email template will be used to notify the the Support that a Case has been reopened via the More4apps Community</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Community - Reopened Case</name>
+    <style>none</style>
+    <subject>More4apps Community Case Reopened</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,10 @@
+A More4apps Community has been reopened by {!Contact.Name}.
+Can you please review the Case and reassign it as needed.
+
+Case Number: {!Case.CaseNumber}
+Case Priority: {!Case.Priority}
+Account Name: {!Case.Account}
+Product: {!Case.Product_1__c}
+Subject: {!Case.Subject}
+Case Open: {!Case.CreatedDate}
+{!Case.Link}

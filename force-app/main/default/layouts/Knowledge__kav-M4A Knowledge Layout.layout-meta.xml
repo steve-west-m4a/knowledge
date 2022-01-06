@@ -13,9 +13,6 @@
                 <field>UrlName</field>
             </layoutItems>
             <layoutItems>
-                <field>Summary</field>
-            </layoutItems>
-            <layoutItems>
                 <field>Details__c</field>
             </layoutItems>
         </layoutColumns>
