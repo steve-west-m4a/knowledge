@@ -5,10 +5,14 @@ sfdx force:org:create -s -f config/project-scratch-def.json -a bkp-setup --durat
 sfdx force:package:install --wait 10 --publishwait 10 --package "m4a-logging"
 sfdx force:package:install --wait 10 --publishwait 10 --package "Email to Case Premium"
 sfdx force:package:install --wait 10 --publishwait 10 --package "m4a-common-meta-pkg"
-sfdx force:package:install --wait 10 --publishwait 10 --package "m4a-product-lov"
+sfdx force:package:install --wait 10 --publishwait 10 --package "m4a-product-lov" --noprompt
 
  sfdx force:source:deploy -m datacategorygroup:EBS_Toolbox
  sfdx force:source:deploy -m datacategorygroup:ERP_Cloud_Toolbox
+
+ # Case origin & status is weird, does not get installed correctly by the metadata package. Go to the metdata package, switch to this scratch org, and do this:
+sfdx force:source:deploy -m StandardValueSet:CaseOrigin
+sfdx force:source:deploy -m StandardValueSet:CaseStatus
  
  # Need to push with Ignore Warnings so that we don't get "Occasionally, when deployed to a destination org, ID values can become invalid..." errors
  # preventing the push
