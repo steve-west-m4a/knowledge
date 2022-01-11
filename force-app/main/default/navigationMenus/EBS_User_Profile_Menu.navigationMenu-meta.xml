@@ -11,13 +11,6 @@
         <type>InternalLink</type>
     </navigationMenuItem>
     <navigationMenuItem>
-        <label>My Cases</label>
-        <position>2</position>
-        <publiclyAvailable>false</publiclyAvailable>
-        <target>/ebs-my-cases</target>
-        <type>InternalLink</type>
-    </navigationMenuItem>
-    <navigationMenuItem>
         <label>Logout</label>
         <position>3</position>
         <publiclyAvailable>false</publiclyAvailable>

@@ -1,6 +1,6 @@
 {
   "appPageId" : "15c18bce-cd20-41ce-bea0-694f6d19ded6",
-  "componentName" : "siteforce:sldsTwoCol66Layout",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
   "id" : "3c14ec3e-f956-4ad4-8390-0bb2fced474f",
   "label" : "ERP Cloud Contact Support",
   "regions" : [ {
@@ -50,7 +50,7 @@
         "secondQuestion" : "Stop creating your case?",
         "showArticles" : true,
         "showDiscussions" : false,
-        "topicId" : "{!topicId}"
+        "topicId" : "0TO0w0000004aVOGAY"
       },
       "componentName" : "forceCommunity:caseDeflection",
       "id" : "fac9bca9-1677-409f-8531-acba83cffafd",

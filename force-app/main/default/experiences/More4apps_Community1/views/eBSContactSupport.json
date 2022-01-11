@@ -1,6 +1,6 @@
 {
   "appPageId" : "15c18bce-cd20-41ce-bea0-694f6d19ded6",
-  "componentName" : "siteforce:sldsTwoCol66Layout",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
   "id" : "2bf18829-6f55-4bd9-bc80-7c7d401d68e0",
   "label" : "EBS Contact Support",
   "regions" : [ {
@@ -49,7 +49,7 @@
         "secondQuestion" : "Stop creating your case?",
         "showArticles" : true,
         "showDiscussions" : false,
-        "topicId" : "{!topicId}"
+        "topicId" : "0TO0w0000004aVZGAY"
       },
       "componentName" : "forceCommunity:caseDeflection",
       "id" : "f1ac869a-3655-4b84-abba-41c15c14f852",

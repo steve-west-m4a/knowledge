@@ -95,7 +95,7 @@
               "buttonTextColor" : "#fff",
               "buttonTextHoverColor" : "rgb(0, 65, 200)",
               "customizableUserProfileMenuEditor" : "Default_User_Profile_Menu1",
-              "menuStyleSettings" : ""
+              "menuStyleSettings" : "{\"selectedMenuStyleSetting\":\"iconAndName\",\"selectedIconSetting\":\"userAvatar\",\"includeCompanyName\":true,\"selectedTextOrientationSetting\":\"left\"}"
             },
             "componentName" : "forceCommunity:customizableUserProfileMenu",
             "id" : "185690e3-ea84-4956-ae36-6a0fc1a92be7",
@@ -1287,7 +1287,7 @@
           "ctaShowBtnTwo" : true,
           "fixedHeroWidth" : true,
           "heroHeight" : 75,
-          "heroWidth" : 1440,
+          "heroWidth" : 1300,
           "showCaption" : false,
           "showSubtitle" : false,
           "showTitle" : false,
@@ -1338,6 +1338,14 @@
         } ],
         "renditionMap" : { },
         "type" : "component"
+      }, {
+        "componentAttributes" : {
+          "richTextValue" : "<div align=\"center\" style=\"background-color:#F2F2F2; padding: 20px 0;\">\n    <h1>Do you need to raise an <a href=\"/community/s/erp-cloud-contact-support/\" target=\"_self\">ERP Cloud Support Request</a> instead?</h1>\n</div>"
+        },
+        "componentName" : "forceCommunity:htmlBlock",
+        "id" : "a360ec8f-f263-40d8-97d0-eb1116e6f960",
+        "renditionMap" : { },
+        "type" : "component"
       } ],
       "id" : "11b516a4-8578-4ba3-860b-7655ca79b851",
       "regionName" : "themeHero",
@@ -1359,7 +1367,7 @@
     "type" : "view"
   }, {
     "componentAttributes" : {
-      "fixedPageWidth" : 1440,
+      "fixedPageWidth" : 1300,
       "headerBgColor" : "rgba(28, 22, 28, 0.9)",
       "isHeaderPinned" : false,
       "isHeroUnderHeader" : false,
@@ -1553,6 +1561,14 @@
           "regionName" : "search",
           "type" : "region"
         } ],
+        "renditionMap" : { },
+        "type" : "component"
+      }, {
+        "componentAttributes" : {
+          "richTextValue" : "<div align=\"center\" style=\"background-color:#F2F2F2; padding: 20px 0;\">\n    <h1>Do you need to raise an <a href=\"/community/s/ebs-contact-support/\" target=\"_self\">EBS Support Request</a> instead?</h1>\n</div>"
+        },
+        "componentName" : "forceCommunity:htmlBlock",
+        "id" : "48cb5b9f-3520-483e-a3d7-7f675b690dc7",
         "renditionMap" : { },
         "type" : "component"
       } ],
@@ -2493,7 +2509,7 @@
               "buttonTextColor" : "#fff",
               "buttonTextHoverColor" : "rgb(0, 65, 200)",
               "customizableUserProfileMenuEditor" : "Default_User_Profile_Menu1",
-              "menuStyleSettings" : ""
+              "menuStyleSettings" : "{\"selectedMenuStyleSetting\":\"iconAndName\",\"selectedIconSetting\":\"userAvatar\",\"includeCompanyName\":true,\"selectedTextOrientationSetting\":\"left\"}"
             },
             "componentName" : "forceCommunity:customizableUserProfileMenu",
             "id" : "b2fa685d-e8f1-4ab2-8384-de48be595c18",

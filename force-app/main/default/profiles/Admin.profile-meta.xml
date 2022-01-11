@@ -73,6 +73,14 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>MicrobatchSelfRegController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>MicrobatchSelfRegControllerTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>MyProfilePageController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -567,7 +575,22 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
-        <layout>Case-M4A EBS Portal Case Layout</layout>
+        <layout>Case-Portal Case Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case-Portal Case Layout</layout>
+        <recordType>Case.ERP_Cloud</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case-Portal Case Layout</layout>
+        <recordType>Case.Internal_Marketing</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case-Portal Case Layout</layout>
+        <recordType>Case.SF</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case-Portal Case Layout</layout>
         <recordType>Case.Standard</recordType>
     </layoutAssignments>
     <layoutAssignments>
@@ -669,6 +692,10 @@
     <pageAccesses>
         <apexPage>InMaintenance</apexPage>
         <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>MicrobatchSelfReg</apexPage>
+        <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>MyProfilePage</apexPage>
