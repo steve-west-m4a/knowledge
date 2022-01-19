@@ -3,18 +3,4 @@
     <container>More4apps Community</container>
     <containerType>Network</containerType>
     <label>ERP Cloud User Profile Menu</label>
-    <navigationMenuItem>
-        <label>My Profile</label>
-        <position>1</position>
-        <publiclyAvailable>false</publiclyAvailable>
-        <target>/profile/home</target>
-        <type>InternalLink</type>
-    </navigationMenuItem>
-    <navigationMenuItem>
-        <label>Logout</label>
-        <position>2</position>
-        <publiclyAvailable>false</publiclyAvailable>
-        <target>Logout</target>
-        <type>Event</type>
-    </navigationMenuItem>
 </NavigationMenu>

@@ -4,16 +4,6 @@
   "id" : "883adaf0-19ee-4b15-889a-0f7cde2f1ddf",
   "label" : "Record Detail",
   "regions" : [ {
-    "components" : [ {
-      "componentAttributes" : {
-        "richTextValue" : "<div style=\"padding-top: 20px\" />"
-      },
-      "componentName" : "forceCommunity:htmlBlock",
-      "id" : "0f924f41-3ca6-45b5-b3cb-94efd54e1d51",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    } ],
     "id" : "3023ade4-8e7f-4f74-923b-dc7f2bff2f87",
     "regionName" : "header",
     "type" : "region"
@@ -23,7 +13,7 @@
         "recordId" : "{!recordId}"
       },
       "componentName" : "forceCommunity:lwcRecordDetail",
-      "id" : "970ef3b6-9147-4b51-a0fc-f60bacfb3201",
+      "id" : "96130ff6-aee1-474e-91fd-1307f120729f",
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"
@@ -33,7 +23,7 @@
         "width" : "MEDIUM"
       },
       "componentName" : "forceCommunity:relatedRecords",
-      "id" : "3a09a032-55b6-4b3f-b63b-823441af1a02",
+      "id" : "9869db39-1b34-4ef8-9217-e0472d5cd6f1",
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"
@@ -71,7 +61,7 @@
     "regionName" : "sfdcHiddenRegion",
     "type" : "region"
   } ],
-  "themeLayoutType" : "0HYiZjDMduJGZnLgMu6xrenTlrhkiF",
+  "themeLayoutType" : "Inner",
   "type" : "view",
   "viewType" : "detail"
 }

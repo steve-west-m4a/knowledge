@@ -6,10 +6,10 @@
   "regions" : [ {
     "components" : [ {
       "componentAttributes" : {
-        "richTextValue" : "<p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><h3 style=\"text-align: center;\">If you would like to update any of your details below, please submit an <a href=\"https://more4apps.com/community-login-request/\" rel=\"noopener noreferrer\" target=\"_blank\">Update Details Request</a></h3><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p>"
+        "richTextValue" : "<div style=\"background-color:#F2F2F2; padding: 20px 0;\" align=\"center\">\n    <h1>If you need to update your details below, please submit an <a target=\"_blank\" href=\"https://more4apps.com/community-login-request/\">Update Details Request</a></h1> \n</div>"
       },
-      "componentName" : "forceCommunity:richTextInline",
-      "id" : "b67ea4e8-735d-46bb-a237-6c666968c961",
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "7778c5ad-b209-4407-8820-97f28b3ce7a4",
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"
@@ -39,18 +39,12 @@
     "regionName" : "content",
     "type" : "region"
   }, {
-    "components" : [ {
-      "componentAttributes" : {
-        "richTextValue" : "<div style=\"padding-top: 20px\"/>"
-      },
-      "componentName" : "forceCommunity:htmlBlock",
-      "id" : "46ed5507-503e-4bc7-a1e6-d693394d304d",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    } ],
     "id" : "98c19ce8-34fc-4741-8a61-38bc161760be",
     "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "id" : "7a052084-2904-4503-8b40-143ed0f440d6",
+    "regionName" : "sidebar",
     "type" : "region"
   } ],
   "themeLayoutType" : "Inner",

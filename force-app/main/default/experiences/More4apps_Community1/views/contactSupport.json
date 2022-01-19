@@ -15,7 +15,7 @@
       "type" : "component"
     }, {
       "componentAttributes" : {
-        "richTextValue" : "<div>\n    <table>\n        <tr>\n\t\t\t<td class=\"button-homepage-top\"><a style=\"text-decoration: none; color: #63666A;\" href=\"/community/s/my-cases/\" target=\"_self\"><img alt=\"My Cases\" style=\"width: 50px; height: 50px;\" src=\"{!contentAsset.My_Cases.1}\" /><h2 style=\"padding-top: 10px;\">My Cases</h2></a></td>\n            <td style=\"width:1.5%\"></td>\n\t\t\t<td class=\"button-homepage-top\"><a style=\"text-decoration: none; color: #63666A;\" href=\"https://more4apps.com/what-we-support/\" target=\"_blank\"><img alt=\"What We Support\" style=\"width: 50px; height: 50px;\" src=\"{!contentAsset.What_we_support.1}\" /><h2 style=\"padding-top: 10px;\">What We Support</h2></a></td>\n        </tr>\n    </table>\n</div>"
+        "richTextValue" : "<div>\n    <table>\n        <tr>\n\t\t\t<td class=\"button-homepage-top\"><a style=\"text-decoration: none; color: #63666A;\" href=\"/community/s/my-cases\" target=\"_self\"><img alt=\"My Cases\" style=\"width: 50px; height: 50px;\" src=\"{!contentAsset.My_Cases.1}\" /><h2 style=\"padding-top: 10px;\">My Cases</h2></a></td>\n            <td style=\"width:1.5%\"></td>\n\t\t\t<td class=\"button-homepage-top\"><a style=\"text-decoration: none; color: #63666A;\" href=\"https://more4apps.com/what-we-support/\" target=\"_blank\"><img alt=\"What We Support\" style=\"width: 50px; height: 50px;\" src=\"{!contentAsset.What_we_support.1}\" /><h2 style=\"padding-top: 10px;\">What We Support</h2></a></td>\n        </tr>\n    </table>\n</div>"
       },
       "componentName" : "forceCommunity:htmlBlock",
       "id" : "e22e6be8-377e-4451-a12d-5a4b87a1a3fc",

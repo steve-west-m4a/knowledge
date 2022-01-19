@@ -11,14 +11,14 @@
     "components" : [ {
       "componentAttributes" : {
         "enableInlineEdit" : false,
-        "filterName" : "00BN0000004zSqeMAE",
+        "filterName" : "00B0w000002cB8EEAU",
         "layout" : "FULL",
-        "pageSize" : 20,
+        "pageSize" : 10,
         "scope" : "Case",
         "showActionBar" : false,
         "showChartsPanel" : false,
         "showDisplay" : "grid",
-        "showFilterPanel" : true,
+        "showFilterPanel" : false,
         "showImageIcon" : false,
         "showManualRefreshButton" : false,
         "showObjectName" : false,

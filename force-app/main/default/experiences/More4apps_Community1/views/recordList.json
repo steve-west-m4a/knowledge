@@ -23,7 +23,7 @@
         "enableInlineEdit" : false,
         "filterName" : "{!filterId}",
         "layout" : "FULL",
-        "pageSize" : 8,
+        "pageSize" : 10,
         "scope" : "{!objectName}",
         "showActionBar" : false,
         "showChartsPanel" : false,

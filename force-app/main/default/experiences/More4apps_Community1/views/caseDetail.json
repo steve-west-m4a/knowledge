@@ -96,7 +96,7 @@
       "type" : "component"
     }, {
       "componentAttributes" : {
-        "richTextValue" : "<div align=\"center\">\n\t<form method=\"get\" action=\"/community/s/my-cases/\">\n   \t\t<button class=\"button button1\" type=\"submit\">All Cases</button>\n\t</form>\n</div>"
+        "richTextValue" : "<div align=\"center\">\n\t<form method=\"get\" action=\"/community/s/my-cases\">\n   \t\t<button class=\"button button1\" type=\"submit\">All Cases</button>\n\t</form>\n</div>"
       },
       "componentName" : "forceCommunity:htmlBlock",
       "id" : "927e236a-965b-47d8-99b9-3893e784daf1",

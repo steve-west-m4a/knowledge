@@ -39,4 +39,11 @@
         </subMenu>
         <type>MenuLabel</type>
     </navigationMenuItem>
+    <navigationMenuItem>
+        <label>My Cases</label>
+        <position>4</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <target>/my-cases</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
 </NavigationMenu>
