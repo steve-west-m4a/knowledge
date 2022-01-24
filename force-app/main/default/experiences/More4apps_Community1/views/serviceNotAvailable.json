@@ -1,75 +1,24 @@
 {
   "appPageId" : "15c18bce-cd20-41ce-bea0-694f6d19ded6",
   "componentName" : "siteforce:sldsOneColLayout",
-  "id" : "54bbc266-b1b7-4f2e-b2a1-47a2bb013d89",
+  "id" : "f85a5330-9643-4ca1-a894-365a819267ef",
   "label" : "Service Not Available",
   "regions" : [ {
     "components" : [ {
       "componentAttributes" : {
-        "richTextValue" : "<div style=\"padding-top: 50px;\" />"
+        "richTextValue" : "<div style='display: flex; align-items: center; flex-direction: column; margin: 60px 25px 40px 25px;'><div style='background: url(/sfsites/assets/Images/serviceNotAvailable/serviceNotAvailable.svg) center no-repeat; background-size: contain; height: 331px; width: 100%; max-width: 538px;'></div></div><div style='margin: 0 25px; text-align: center;'><h1><b style='font-size: 2em'>Looks like the site is temporarily unavailable</b></h1><br/><p><span style='font-size: 1.5em;'>Please try again in a bit.</span></p></div>"
       },
       "componentName" : "forceCommunity:htmlBlock",
-      "id" : "dcb64cde-fd87-4767-bc68-54b22560f023",
+      "id" : "66b028bf-e635-4118-8fea-45412315a4e2",
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"
     } ],
-    "id" : "b686be10-f75b-42f3-8ee4-5a9a3dfff847",
-    "regionName" : "header",
-    "type" : "region"
-  }, {
-    "components" : [ {
-      "componentAttributes" : {
-        "richTextValue" : "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" src=\"{!contentAsset.Website_More4apps_Logo.1}\" /></p>"
-      },
-      "componentName" : "forceCommunity:richTextInline",
-      "id" : "e4fd9ba8-4695-4e4d-b5cc-9cb20eaba680",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    }, {
-      "componentAttributes" : {
-        "richTextValue" : "<p><br></p><p style=\"text-align: center;\"><br></p><h1 style=\"text-align: center;\"><b>Looks like the More4apps Helpdesk is down</b></h1><h3 style=\"text-align: center;\"><br></h3><h3 style=\"text-align: center;\">We're sorry for the inconvience</h3><h3 style=\"text-align: center;\">Please check back in with us again later</h3><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p>&nbsp;</p>"
-      },
-      "componentName" : "forceCommunity:richTextInline",
-      "id" : "f9a48ef6-de9e-4c28-a826-4d2de5fb566a",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    }, {
-      "componentAttributes" : {
-        "richTextValue" : "<div align=\"center\" style=\"padding-bottom: 20px\">\n\t<form method=\"get\" action=\"https://more4apps.com/\">\n   \t\t<button class=\"button-login button1\" type=\"submit\">Go to More4apps Homepage</button>\n\t</form>\n</div>"
-      },
-      "componentName" : "forceCommunity:htmlBlock",
-      "id" : "f2d9f2ff-a879-41c5-a777-e9df782d7625",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    } ],
-    "id" : "803b92f1-999d-4768-9e0d-6006f1dcebc5",
+    "id" : "305742b1-8cf0-41b8-b14d-53d31d41c3a6",
     "regionName" : "content",
     "type" : "region"
-  }, {
-    "id" : "693fe507-9ec4-4236-a606-4c12e8a8de67",
-    "regionName" : "footer",
-    "type" : "region"
-  }, {
-    "components" : [ {
-      "componentAttributes" : {
-        "customHeadTags" : "",
-        "description" : "",
-        "title" : "Service Not Available"
-      },
-      "componentName" : "forceCommunity:seoAssistant",
-      "id" : "054487f7-202c-44d6-8804-7e546ffc7692",
-      "renditionMap" : { },
-      "type" : "component"
-    } ],
-    "id" : "e5a271da-f224-47cf-8c85-917ba3d9e6de",
-    "regionName" : "sfdcHiddenRegion",
-    "type" : "region"
   } ],
-  "themeLayoutType" : "OTyUQioaTVvKCi4dYi3sZYJ4aq64VX",
+  "themeLayoutType" : "5oDT5oPl516R4LUskEU6CW0s4dHuEX",
   "type" : "view",
-  "viewType" : "custom-service-not-available"
+  "viewType" : "service-not-available"
 }

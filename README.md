@@ -1,5 +1,12 @@
 sfdx force:org:create -s -f config/project-scratch-def.json -a bkp-setup --durationdays 30
 
+# To make it create in the next API version, do it like this:
+ sfdx force:org:create -s -f config/project-scratch-def.json -a doesitwork release=Preview
+# To make it create in a specific API version, do it like this:
+sfdx config:set apiVersion=51.0
+sfdx config:list
+sfdx force:org:create -s -f config/project-scratch-def.json -a oldversion 
+
 # Install packages
 
 sfdx force:package:install --wait 10 --publishwait 10 --package "m4a-logging"
