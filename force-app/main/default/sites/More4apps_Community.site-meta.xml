@@ -23,9 +23,9 @@
     <redirectToCustomDomain>false</redirectToCustomDomain>
     <referrerPolicyOriginWhenCrossOrigin>true</referrerPolicyOriginWhenCrossOrigin>
     <selfRegPage>CommunitiesSelfReg</selfRegPage>
-    <siteAdmin>vienna.pahi@more4apps.com</siteAdmin>
-    <siteGuestRecordDefaultOwner>vienna.pahi@more4apps.com</siteGuestRecordDefaultOwner>
+    <siteAdmin>test-bouegn2iddil@example.com</siteAdmin>
+    <siteGuestRecordDefaultOwner>test-bouegn2iddil@example.com</siteGuestRecordDefaultOwner>
     <siteType>ChatterNetwork</siteType>
-    <subdomain>business-ability-5109-17e0ca1fdea</subdomain>
+    <subdomain>energy-business-2251-17e9e9edced</subdomain>
     <urlPathPrefix>community</urlPathPrefix>
 </CustomSite>
