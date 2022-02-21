@@ -1,6 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
-    <description>This is the permission set to assign to all Public Portal users/profiles</description>
+    <description
+  >This is the permission set to assign to all Public Portal users/profiles</description>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.AIW_Supported_Loader__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>Case.Client_Operating_System__c</field>
@@ -82,14 +88,14 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Knowledge__kav.Details__c</field>
+        <editable>true</editable>
+        <field>Case.Wizard_Version__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Knowledge__kav.Question__c</field>
-        <readable>false</readable>
+        <field>Knowledge__kav.Details__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>

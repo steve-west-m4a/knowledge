@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <label>Tutorials</label>
+            <name>Tutorials</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Troubleshooting</label>
+            <name>Troubleshooting</name>
+        </dataCategory>
+        <dataCategory>
+            <label>FAQ</label>
+            <name>FAQ</name>
+        </dataCategory>
+        <label>All</label>
+        <name>All</name>
+    </dataCategory>
+    <label>Article Types</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>

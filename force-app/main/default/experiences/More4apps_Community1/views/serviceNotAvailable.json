@@ -1,24 +1,28 @@
 {
-  "appPageId" : "15c18bce-cd20-41ce-bea0-694f6d19ded6",
-  "componentName" : "siteforce:sldsOneColLayout",
-  "id" : "f85a5330-9643-4ca1-a894-365a819267ef",
-  "label" : "Service Not Available",
-  "regions" : [ {
-    "components" : [ {
-      "componentAttributes" : {
-        "richTextValue" : "<div style='display: flex; align-items: center; flex-direction: column; margin: 60px 25px 40px 25px;'><div style='background: url(/sfsites/assets/Images/serviceNotAvailable/serviceNotAvailable.svg) center no-repeat; background-size: contain; height: 331px; width: 100%; max-width: 538px;'></div></div><div style='margin: 0 25px; text-align: center;'><h1><b style='font-size: 2em'>Looks like the site is temporarily unavailable</b></h1><br/><p><span style='font-size: 1.5em;'>Please try again in a bit.</span></p></div>"
-      },
-      "componentName" : "forceCommunity:htmlBlock",
-      "id" : "66b028bf-e635-4118-8fea-45412315a4e2",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    } ],
-    "id" : "305742b1-8cf0-41b8-b14d-53d31d41c3a6",
-    "regionName" : "content",
-    "type" : "region"
-  } ],
-  "themeLayoutType" : "5oDT5oPl516R4LUskEU6CW0s4dHuEX",
-  "type" : "view",
-  "viewType" : "service-not-available"
+  "appPageId": "15c18bce-cd20-41ce-bea0-694f6d19ded6",
+  "componentName": "siteforce:sldsOneColLayout",
+  "id": "f85a5330-9643-4ca1-a894-365a819267ef",
+  "label": "Service Not Available",
+  "regions": [
+    {
+      "components": [
+        {
+          "componentAttributes": {
+            "richTextValue": "<div style='display: flex; align-items: center; flex-direction: column; margin: 60px 25px 40px 25px;'><div style='background: url(/sfsites/assets/Images/serviceNotAvailable/serviceNotAvailable.svg) center no-repeat; background-size: contain; height: 331px; width: 100%; max-width: 538px;'></div></div><div style='margin: 0 25px; text-align: center;'><h1><b style='font-size: 2em'>Looks like the site is temporarily unavailable</b></h1><br/><p><span style='font-size: 1.5em;'>Please try again in a bit.</span></p></div>"
+          },
+          "componentName": "forceCommunity:htmlBlock",
+          "id": "66b028bf-e635-4118-8fea-45412315a4e2",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
+      "id": "305742b1-8cf0-41b8-b14d-53d31d41c3a6",
+      "regionName": "content",
+      "type": "region"
+    }
+  ],
+  "themeLayoutType": "ServiceNotAvailable",
+  "type": "view",
+  "viewType": "service-not-available"
 }

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <classAccesses>
         <apexClass>ChangePasswordController</apexClass>
@@ -578,11 +578,23 @@
         <layout>Account-M4A Account Portal Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Case-M4A EBS Portal Case Layout</layout>
+        <recordType>Case.SF</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Case-M4A ERP Cloud Portal Case Layout</layout>
         <recordType>Case.ERP_Cloud</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Contact-Contact Layout</layout>
+        <layout>Case-Portal Case Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case-Portal Case Layout</layout>
+        <recordType>Case.Internal_Marketing</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case-Portal Case Layout</layout>
+        <recordType>Case.Standard</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Knowledge__kav-M4A Knowledge Layout</layout>
@@ -597,6 +609,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>More4appsDocumentation__x-More4appsDocumentation Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Product2-Product Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>

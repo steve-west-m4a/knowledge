@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <classAccesses>
         <apexClass>ChangePasswordController</apexClass>
@@ -594,9 +594,6 @@
         <recordType>Case.Standard</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Contact-Contact Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Knowledge__kav-M4A Admin Knowledge Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -609,6 +606,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>More4appsDocumentation__x-More4appsDocumentation Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Product2-Product Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -746,12 +746,12 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>true</default>
+        <personAccountDefault>true</personAccountDefault>
         <recordType>Case.Standard</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>true</default>
-        <personAccountDefault>true</personAccountDefault>
         <recordType>Knowledge__kav.M4A_Knowledge</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>

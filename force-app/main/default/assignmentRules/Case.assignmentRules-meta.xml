@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
     <assignmentRule>
         <fullName>Case Queue</fullName>
@@ -10,6 +10,11 @@
                 <field>Case.RecordTypeId</field>
                 <operation>equals</operation>
                 <value>ERP Cloud,SF</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Self-Service Portal</value>
             </criteriaItems>
             <template>unfiled$public/Unassigned_Case_Email</template>
         </ruleEntry>

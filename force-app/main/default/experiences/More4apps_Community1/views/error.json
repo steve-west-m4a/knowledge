@@ -1,65 +1,56 @@
 {
-  "appPageId" : "15c18bce-cd20-41ce-bea0-694f6d19ded6",
-  "componentName" : "siteforce:sldsOneColLayout",
-  "id" : "0d2b0ff3-9c79-4a60-b2b2-6b6442db3e01",
-  "label" : "Error",
-  "regions" : [ {
-    "id" : "b13af50b-4306-4879-89d0-c0f2c259dcd2",
-    "regionName" : "header",
-    "type" : "region"
-  }, {
-    "components" : [ {
-      "componentAttributes" : {
-        "richTextValue" : "<h1 style=\"text-align: center;\"><br></h1><h1 style=\"text-align: center;\"><b style=\"font-size: 28px;\">We're sorry, but the page you tried cannot be found.</b></h1><h1 style=\"text-align: center;\"><b style=\"font-size: 28px;\">Please try using the Search or Contact Support for further assistance.</b></h1><h1 style=\"text-align: center;\"><b style=\"font-size: 28px;\"><span class=\"ql-cursor\">﻿</span></b></h1>"
-      },
-      "componentName" : "forceCommunity:richTextInline",
-      "id" : "6ca4726b-8727-41db-9ea9-4798699ad121",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    } ],
-    "id" : "6eb1d4be-abbd-4880-aa57-f1d890880931",
-    "regionName" : "content",
-    "type" : "region"
-  }, {
-    "components" : [ {
-      "componentAttributes" : {
-        "buttonAlignment" : "center",
-        "buttonBgColor" : "",
-        "buttonBgHoverColor" : "rgb(255, 255, 255)",
-        "buttonBorderColor" : "",
-        "buttonMaxWidth" : 20,
-        "buttonRadius" : 0,
-        "buttonTextColor" : "",
-        "buttonTextHoverColor" : "rgb(0, 65, 200)",
-        "label" : "Contact Support"
-      },
-      "componentName" : "forceCommunity:contactSupportButton",
-      "id" : "3a91f198-bc53-4e70-b862-cd7133da11a8",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    } ],
-    "id" : "f8482a15-c73e-442d-b137-269cc986b885",
-    "regionName" : "footer",
-    "type" : "region"
-  }, {
-    "components" : [ {
-      "componentAttributes" : {
-        "customHeadTags" : "",
-        "description" : "",
-        "title" : "Error"
-      },
-      "componentName" : "forceCommunity:seoAssistant",
-      "id" : "8f4eb6dc-a3bc-4cf6-b5e3-363808a067b7",
-      "renditionMap" : { },
-      "type" : "component"
-    } ],
-    "id" : "da18e9f4-0fcf-4d71-a3ab-18b3cea7d472",
-    "regionName" : "sfdcHiddenRegion",
-    "type" : "region"
-  } ],
-  "themeLayoutType" : "0HYiZjDMduJGZnLgMu6xrenTlrhkiF",
-  "type" : "view",
-  "viewType" : "error"
+  "appPageId": "15c18bce-cd20-41ce-bea0-694f6d19ded6",
+  "componentName": "siteforce:sldsOneColLayout",
+  "id": "0d2b0ff3-9c79-4a60-b2b2-6b6442db3e01",
+  "label": "Error",
+  "regions": [
+    {
+      "id": "b13af50b-4306-4879-89d0-c0f2c259dcd2",
+      "regionName": "header",
+      "type": "region"
+    },
+    {
+      "components": [
+        {
+          "componentAttributes": {
+            "richTextValue": "<h1 style=\"text-align: center;\"><br></h1><h1 style=\"text-align: center;\"><b style=\"font-size: 28px;\">We're sorry, but the page you tried cannot be found.</b></h1><h1 style=\"text-align: center;\"><b style=\"font-size: 28px;\">Please try using the Search or Contact Support&nbsp;for further assistance.</b></h1><h1 style=\"text-align: center;\"><b style=\"font-size: 28px;\">﻿</b></h1>"
+          },
+          "componentName": "forceCommunity:richTextInline",
+          "id": "6ca4726b-8727-41db-9ea9-4798699ad121",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
+      "id": "6eb1d4be-abbd-4880-aa57-f1d890880931",
+      "regionName": "content",
+      "type": "region"
+    },
+    {
+      "id": "f8482a15-c73e-442d-b137-269cc986b885",
+      "regionName": "footer",
+      "type": "region"
+    },
+    {
+      "components": [
+        {
+          "componentAttributes": {
+            "customHeadTags": "",
+            "description": "",
+            "title": "Error"
+          },
+          "componentName": "forceCommunity:seoAssistant",
+          "id": "8f4eb6dc-a3bc-4cf6-b5e3-363808a067b7",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
+      "id": "da18e9f4-0fcf-4d71-a3ab-18b3cea7d472",
+      "regionName": "sfdcHiddenRegion",
+      "type": "region"
+    }
+  ],
+  "themeLayoutType": "0HYiZjDMduJGZnLgMu6xrenTlrhkiF",
+  "type": "view",
+  "viewType": "error"
 }

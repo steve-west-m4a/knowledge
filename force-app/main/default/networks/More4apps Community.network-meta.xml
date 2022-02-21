@@ -1,15 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <Network xmlns="http://soap.sforce.com/2006/04/metadata">
     <allowInternalUserLogin>true</allowInternalUserLogin>
     <allowMembersToFlag>false</allowMembersToFlag>
-    <changePasswordTemplate>unfiled$public/Community_Password_Changed_Email</changePasswordTemplate>
-    <communityRoles/>
-    <disableReputationRecordConversations>false</disableReputationRecordConversations>
+    <changePasswordTemplate
+  >unfiled$public/Community_Password_Changed_Email</changePasswordTemplate>
+    <communityRoles />
+    <disableReputationRecordConversations
+  >false</disableReputationRecordConversations>
     <emailSenderAddress>vienna.pahi@more4apps.com</emailSenderAddress>
     <emailSenderName>More4apps Support</emailSenderName>
     <enableCustomVFErrorPageOverrides>false</enableCustomVFErrorPageOverrides>
     <enableDirectMessages>true</enableDirectMessages>
-    <enableExperienceBundleBasedSnaOverrideEnabled>true</enableExperienceBundleBasedSnaOverrideEnabled>
+    <enableExperienceBundleBasedSnaOverrideEnabled
+  >true</enableExperienceBundleBasedSnaOverrideEnabled>
     <enableGuestChatter>true</enableGuestChatter>
     <enableGuestFileAccess>true</enableGuestFileAccess>
     <enableGuestMemberVisibility>false</enableGuestMemberVisibility>
@@ -25,9 +28,11 @@
     <enableTopicAssignmentRules>true</enableTopicAssignmentRules>
     <enableTopicSuggestions>true</enableTopicSuggestions>
     <enableUpDownVote>true</enableUpDownVote>
-    <forgotPasswordTemplate>unfiled$public/Community_Forgot_Password_Reset_Email</forgotPasswordTemplate>
+    <forgotPasswordTemplate
+  >unfiled$public/Community_Forgot_Password_Reset_Email</forgotPasswordTemplate>
     <gatherCustomerSentimentData>true</gatherCustomerSentimentData>
-    <logoutUrl>https://sandbox-business-ability-5109-17e0ca1fdea.cs75.force.com/community/s/</logoutUrl>
+    <logoutUrl
+  >https://sandbox-energy-business-2251-17e9e9edced.cs76.force.com/community/s/</logoutUrl>
     <maxFileSizeKb>2048000</maxFileSizeKb>
     <networkMemberGroups>
         <permissionSet>m4a_search</permissionSet>
@@ -38,21 +43,26 @@
         <profile>admin</profile>
     </networkMemberGroups>
     <networkPageOverrides>
-        <changePasswordPageOverrideSetting>Standard</changePasswordPageOverrideSetting>
-        <forgotPasswordPageOverrideSetting>Standard</forgotPasswordPageOverrideSetting>
+        <changePasswordPageOverrideSetting
+    >Standard</changePasswordPageOverrideSetting>
+        <forgotPasswordPageOverrideSetting
+    >Standard</forgotPasswordPageOverrideSetting>
         <homePageOverrideSetting>Standard</homePageOverrideSetting>
         <loginPageOverrideSetting>Designer</loginPageOverrideSetting>
-        <selfRegProfilePageOverrideSetting>Designer</selfRegProfilePageOverrideSetting>
+        <selfRegProfilePageOverrideSetting
+    >Designer</selfRegProfilePageOverrideSetting>
     </networkPageOverrides>
     <picassoSite>More4apps_Community1</picassoSite>
     <selfRegistration>false</selfRegistration>
     <sendWelcomeEmail>true</sendWelcomeEmail>
     <site>More4apps_Community</site>
+    <siteArchiveStatus>NotArchived</siteArchiveStatus>
     <status>Live</status>
     <tabs>
         <defaultTab>home</defaultTab>
         <standardTab>Chatter</standardTab>
     </tabs>
     <urlPathPrefix>community</urlPathPrefix>
-    <welcomeTemplate>unfiled$public/Community_New_Member_Welcome_Email</welcomeTemplate>
+    <welcomeTemplate
+  >unfiled$public/Community_New_Member_Welcome_Email</welcomeTemplate>
 </Network>

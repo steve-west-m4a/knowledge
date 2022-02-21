@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <categoryGroupVisibilities>
         <dataCategoryGroup>ERP_Cloud_Toolbox</dataCategoryGroup>
@@ -609,6 +609,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>More4appsDocumentation__x-More4appsDocumentation Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Product2-Product Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>User-M4A Portal User Layout</layout>

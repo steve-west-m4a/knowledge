@@ -1,78 +1,69 @@
 {
-  "appPageId" : "15c18bce-cd20-41ce-bea0-694f6d19ded6",
-  "componentName" : "siteforce:sldsOneColLayout",
-  "id" : "c1088812-3bf1-4e8d-813c-9979b40d907d",
-  "label" : "My Cases",
-  "regions" : [ {
-    "components" : [ {
-      "componentAttributes" : {
-        "buttonAlignment" : "center",
-        "buttonBgColor" : "",
-        "buttonBgHoverColor" : "",
-        "buttonBorderColor" : "",
-        "buttonMaxWidth" : 20,
-        "buttonRadius" : 2,
-        "buttonTextColor" : "",
-        "buttonTextHoverColor" : "",
-        "label" : "Contact Support"
-      },
-      "componentName" : "forceCommunity:contactSupportButton",
-      "id" : "1c1e3016-60db-4bfa-b8f8-2be32aa507f6",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    } ],
-    "id" : "4c070e7e-198f-4e12-8bcf-34be0b6643af",
-    "regionName" : "header",
-    "type" : "region"
-  }, {
-    "components" : [ {
-      "componentAttributes" : {
-        "enableInlineEdit" : false,
-        "filterName" : "00B0w000002cB8EEAU",
-        "layout" : "FULL",
-        "pageSize" : 10,
-        "scope" : "Case",
-        "showActionBar" : false,
-        "showChartsPanel" : false,
-        "showDisplay" : "grid",
-        "showFilterPanel" : false,
-        "showImageIcon" : false,
-        "showManualRefreshButton" : false,
-        "showObjectName" : false,
-        "showPinnedList" : true,
-        "showSearchBar" : true
-      },
-      "componentName" : "forceCommunity:objectHome",
-      "id" : "e059b566-2878-4d02-8138-5c850880c7f0",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    } ],
-    "id" : "064c1dd3-6329-48be-be21-919bc0af71c0",
-    "regionName" : "content",
-    "type" : "region"
-  }, {
-    "id" : "da710c10-f835-43ca-a593-dc3be67ba5a9",
-    "regionName" : "footer",
-    "type" : "region"
-  }, {
-    "components" : [ {
-      "componentAttributes" : {
-        "customHeadTags" : "",
-        "description" : "",
-        "title" : "My Cases"
-      },
-      "componentName" : "forceCommunity:seoAssistant",
-      "id" : "4d1f73e1-8cee-4bfa-926f-4f2d4fb0a444",
-      "renditionMap" : { },
-      "type" : "component"
-    } ],
-    "id" : "951cd707-0b95-42ab-bb1c-5e187bb35fa4",
-    "regionName" : "sfdcHiddenRegion",
-    "type" : "region"
-  } ],
-  "themeLayoutType" : "3fXSdNLU6jLxJAcXldtr0uIr54lfWr",
-  "type" : "view",
-  "viewType" : "custom-my-cases"
+  "appPageId": "15c18bce-cd20-41ce-bea0-694f6d19ded6",
+  "componentName": "siteforce:sldsOneColLayout",
+  "id": "c1088812-3bf1-4e8d-813c-9979b40d907d",
+  "label": "My Cases",
+  "regions": [
+    {
+      "id": "4c070e7e-198f-4e12-8bcf-34be0b6643af",
+      "regionName": "header",
+      "type": "region"
+    },
+    {
+      "components": [
+        {
+          "componentAttributes": {
+            "enableInlineEdit": false,
+            "filterName": "00B9D000002fIEwUAM",
+            "layout": "FULL",
+            "pageSize": 10,
+            "scope": "Case",
+            "showActionBar": false,
+            "showChartsPanel": false,
+            "showDisplay": "grid",
+            "showFilterPanel": false,
+            "showImageIcon": false,
+            "showManualRefreshButton": false,
+            "showObjectName": false,
+            "showPinnedList": true,
+            "showSearchBar": true
+          },
+          "componentName": "forceCommunity:objectHome",
+          "id": "e059b566-2878-4d02-8138-5c850880c7f0",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
+      "id": "064c1dd3-6329-48be-be21-919bc0af71c0",
+      "regionName": "content",
+      "type": "region"
+    },
+    {
+      "id": "da710c10-f835-43ca-a593-dc3be67ba5a9",
+      "regionName": "footer",
+      "type": "region"
+    },
+    {
+      "components": [
+        {
+          "componentAttributes": {
+            "customHeadTags": "",
+            "description": "",
+            "title": "My Cases"
+          },
+          "componentName": "forceCommunity:seoAssistant",
+          "id": "4d1f73e1-8cee-4bfa-926f-4f2d4fb0a444",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
+      "id": "951cd707-0b95-42ab-bb1c-5e187bb35fa4",
+      "regionName": "sfdcHiddenRegion",
+      "type": "region"
+    }
+  ],
+  "themeLayoutType": "3fXSdNLU6jLxJAcXldtr0uIr54lfWr",
+  "type": "view",
+  "viewType": "custom-my-cases"
 }
