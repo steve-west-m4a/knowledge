@@ -1,107 +1,111 @@
 {
-  "appPageId" : "15c18bce-cd20-41ce-bea0-694f6d19ded6",
-  "componentName" : "siteforce:sldsTwoCol84Layout",
-  "id" : "66beb489-144f-4233-8e4c-c9705f1bc9ea",
-  "label" : "Home",
-  "regions" : [ {
-    "components" : [ {
-      "componentAttributes" : {
-        "bannerText" : "",
-        "bannerTextWithKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineArticles\">articles</a> and <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
-        "bannerTextWithoutKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
-        "pageType" : "",
-        "showSubTopics" : true,
-        "title" : "Welcome to the More4apps Community",
-        "uniqueNameOrId" : ""
-      },
-      "componentName" : "forceCommunity:headline",
-      "id" : "5cc78c2d-e19d-454b-be83-754fad2fe1aa",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    } ],
-    "id" : "b768b463-718f-4810-9b21-ff224d21811d",
-    "regionName" : "header",
-    "type" : "region"
-  }, {
-    "id" : "7d9c1505-544a-418e-a449-3288b5bb5f48",
-    "regionName" : "featured",
-    "type" : "region"
-  }, {
-    "components" : [ {
-      "componentAttributes" : {
-        "richTextValue" : "<div>\n    <table>\n        <tr>\n\t\t\t<td class=\"button-homepage\"><a style=\"text-decoration: none; color: #63666A;\" href=\"/community/s/topiccatalog\" target=\"_self\"><img alt=\"Topics\" style=\"width: 100px; height: 100px;\" src=\"{!contentAsset.Solutions.1}\" /><h2 style=\"padding-top: 10px;\">Topics</h2></a></td>\n            <td class=\"button-homepage\"><a style=\"text-decoration: none; color: #63666A;\" href=\"/community/s/contact-support\" target=\"_self\"><img alt=\"Support\" style=\"width: 100px; height: 100px;\" src=\"{!contentAsset.Request_Product_Support.1}\" /><h2 style=\"padding-top: 10px;\">Support</h2></a></td>\n            <td class=\"button-homepage\"><a style=\"text-decoration: none; color: #63666A;\" href=\"/community/s/my-cases\" target=\"_self\"><img alt=\"My Cases\" style=\"width: 100px; height: 100px;\" src=\"{!contentAsset.My_Cases.1}\" /><h2 style=\"padding-top: 10px;\">My Cases</h2></a></td>\n        </tr>\n    </table>\n</div>"
-      },
-      "componentName" : "forceCommunity:htmlBlock",
-      "id" : "0d892224-df47-45c0-b59e-9dfd73ba8b7b",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    } ],
-    "id" : "49a0ba08-8b27-4b4c-8f64-6aa30316ac42",
-    "regionName" : "content",
-    "type" : "region"
-  }, {
-    "components" : [ {
-      "componentAttributes" : {
-        "numberOfArticles" : 4,
-        "title" : "Trending Articles",
-        "topicId" : "{!topicId}"
-      },
-      "componentName" : "selfService:topicTrendingArticles42",
-      "id" : "278a081a-0f1e-40c4-8e1b-a935f3f665e7",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    } ],
-    "id" : "8f16d200-2bb3-46b1-b9da-d0feded7bcc8",
-    "regionName" : "sidebar",
-    "type" : "region"
-  }, {
-    "components" : [ {
-      "componentAttributes" : {
-        "richTextValue" : "<div style=\"padding-top: 20px\"/>"
-      },
-      "componentName" : "forceCommunity:htmlBlock",
-      "id" : "d6cac91d-535d-43df-ab0d-3aedf49fd027",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    } ],
-    "id" : "03bcc6c8-27f1-4a11-b56e-a54e7588b6c2",
-    "regionName" : "footer",
-    "type" : "region"
-  }, {
-    "components" : [ {
-      "componentAttributes" : {
-        "customHeadTags" : "",
-        "description" : "",
-        "title" : "Home"
-      },
-      "componentName" : "forceCommunity:seoAssistant",
-      "id" : "4fd04604-e7ac-4aa9-9d21-31a88d657250",
-      "renditionMap" : { },
-      "type" : "component"
-    } ],
-    "id" : "0195a754-6f49-4756-81fa-04238178d3c6",
-    "regionName" : "sfdcHiddenRegion",
-    "type" : "region"
-  }, {
-    "components" : [ {
-      "componentAttributes" : {
-        "richTextValue" : "<p><b style=\"font-size: 16px;\">Recent Discussions</b></p><p><br></p><p><span style=\"font-size: 12px;\">Discussions would go here<span class=\"ql-cursor\">﻿</span></span></p>"
-      },
-      "componentName" : "forceCommunity:richTextInline",
-      "id" : "8e6f1ff0-3737-4978-aafe-aede71b8ee66",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    } ],
-    "id" : "47b5b9b2-33f4-41de-850a-c5d7fcf3a87b",
-    "regionName" : "sidebarAlt",
-    "type" : "region"
-  } ],
-  "themeLayoutType" : "Home",
-  "type" : "view",
-  "viewType" : "home"
+  "appPageId": "15c18bce-cd20-41ce-bea0-694f6d19ded6",
+  "componentName": "siteforce:sldsOneColLayout",
+  "id": "66beb489-144f-4233-8e4c-c9705f1bc9ea",
+  "label": "Home",
+  "regions": [
+    {
+      "components": [
+        {
+          "componentAttributes": {
+            "bannerText": "",
+            "bannerTextWithKnowledge": "Explore other <a href=\"javascript:void(0)\" class=\"headlineArticles\">articles</a> and <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+            "bannerTextWithoutKnowledge": "Explore other <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+            "pageType": "",
+            "showSubTopics": true,
+            "title": "Welcome to the More4apps Community",
+            "uniqueNameOrId": ""
+          },
+          "componentName": "forceCommunity:headline",
+          "id": "5cc78c2d-e19d-454b-be83-754fad2fe1aa",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
+        {
+          "componentAttributes": {
+            "richTextValue": "<div>\n\t<table>\n        <tr>\n\t\t\t<td colspan=\"2\" style=\"color: #ffffff; border: 0px solid #dddddd; background-color: #0078FF; text-align: center; padding: 10px 10px;\"><h1>EBS Toolbox</h1></td>\n            <td colspan=\"2\" style=\"color: #ffffff; border: 0px solid #dddddd; background-color: #9900A5; text-align: center; padding: 10px 10px;\"><h1>ERP Cloud Toolbox</h1></td>\n        </tr>\n        <tr>\n        \t\t<table>\n                    <tr>\n                        <td class=\"button-homepage\"><a style=\"text-decoration: none; color: #63666A;\" href=\"/community/s/ebs-contact-support/\" target=\"_self\"><img alt=\"EBS Contact Support\" style=\"width: 50px; height: 50px;\" src=\"{!contentAsset.Request_Product_Support.1}\" /><h2 style=\"padding-top: 10px;\">Product Support Request</h2></a></td>\n                        <td class=\"button-homepage\"><a style=\"text-decoration: none; color: #63666A;\" href=\"https://more4apps.com/support/ebs-toolbox-support/ebs-toolbox-user-documentation/\" target=\"_blank\"><img alt=\"EBS User Documentation\" style=\"width: 50px; height: 50px;\" src=\"{!contentAsset.User_documentation.1}\" /><h2 style=\"padding-top: 10px;\">User Documentation</h2></a></td>\n                    </tr>\n                    <tr>\n                        <td class=\"button-homepage\"><a style=\"text-decoration: none; color: #63666A;\" href=\"https://more4apps.com/support/latest-release-details-ebs-toolbox/\" target=\"_blank\"><img alt=\"EBS Latest Release Details\" style=\"width: 50px; height: 50px;\" src=\"{!contentAsset.Latest_release_details.1}\" /><h2 style=\"padding-top: 10px;\">Latest Release Details</h2></a></td>\n                        <td class=\"button-homepage\"><a style=\"text-decoration: none; color: #63666A;\" href=\"https://more4apps.com/support/ebs-installation-guide/\" target=\"_blank\"><img alt=\"EBS Installation Guide\" style=\"width: 50px; height: 50px;\" src=\"{!contentAsset.Installation_Guide.1}\" /><h2 style=\"padding-top: 10px;\">Installation Guide</h2></a></td>\n                    </tr>    \n\t\t\t\t</table>\n            \t<table>\n                    <tr>\n                        <td class=\"button-homepage\"><a style=\"text-decoration: none; color: #63666A;\" href=\"/community/s/erp-cloud-contact-support/\" target=\"_self\"><img alt=\"ERP Cloud Contact Support\" style=\"width: 50px; height: 50px;\" src=\"{!contentAsset.Request_Product_Support.1}\" /><h2 style=\"padding-top: 10px;\">Product Support Request</h2></a></td>\n            \t\t\t<td class=\"button-homepage\"><a style=\"text-decoration: none; color: #63666A;\" href=\"https://more4apps.com/support/erp-cloud-toolbox-support/erp-cloud-toolbox-user-documentation/\" target=\"_blank\"><img alt=\"ERP Cloud User Documentation\" style=\"width: 50px; height: 50px;\" src=\"{!contentAsset.User_documentation.1}\" /><h2 style=\"padding-top: 10px;\">User Documentation</h2></a></td>\n                    </tr>\n                    <tr>\n                        <td class=\"button-homepage\"><a style=\"text-decoration: none; color: #63666A;\" href=\"https://more4apps.com/support/latest-release-details-erp-cloud-toolbox/\" target=\"_blank\"><img alt=\"ERP Cloud Latest Release Details\" style=\"width: 50px; height: 50px;\" src=\"{!contentAsset.Latest_release_details.1}\" /><h2 style=\"padding-top: 10px;\">Latest Release Details</h2></a></td>\n        \t\t\t\t<td class=\"button-homepage\"><a style=\"text-decoration: none; color: #63666A;\" href=\"https://more4apps.com/support/erp-cloud-installation-guide/\" target=\"_blank\"><img alt=\"ERP Cloud Installation Guide\" style=\"width: 50px; height: 50px;\" src=\"{!contentAsset.Installation_Guide.1}\" /><h2 style=\"padding-top: 10px;\">Installation Guide</h2></a></td>\n                    </tr>\n    \t\t\t</table>\n        </tr>\n    </table>\n</div>"
+          },
+          "componentName": "forceCommunity:htmlBlock",
+          "id": "8d948cba-27bc-4ed1-97dc-99a97cda0953",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
+      "id": "b768b463-718f-4810-9b21-ff224d21811d",
+      "regionName": "header",
+      "type": "region"
+    },
+    {
+      "id": "7d9c1505-544a-418e-a449-3288b5bb5f48",
+      "regionName": "featured",
+      "type": "region"
+    },
+    {
+      "id": "49a0ba08-8b27-4b4c-8f64-6aa30316ac42",
+      "regionName": "content",
+      "type": "region"
+    },
+    {
+      "id": "8f16d200-2bb3-46b1-b9da-d0feded7bcc8",
+      "regionName": "sidebar",
+      "type": "region"
+    },
+    {
+      "components": [
+        {
+          "componentAttributes": {
+            "richTextValue": "<div style=\"padding-top: 20px\"/>"
+          },
+          "componentName": "forceCommunity:htmlBlock",
+          "id": "d6cac91d-535d-43df-ab0d-3aedf49fd027",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
+      "id": "03bcc6c8-27f1-4a11-b56e-a54e7588b6c2",
+      "regionName": "footer",
+      "type": "region"
+    },
+    {
+      "components": [
+        {
+          "componentAttributes": {
+            "customHeadTags": "",
+            "description": "",
+            "title": "Home"
+          },
+          "componentName": "forceCommunity:seoAssistant",
+          "id": "4fd04604-e7ac-4aa9-9d21-31a88d657250",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
+      "id": "0195a754-6f49-4756-81fa-04238178d3c6",
+      "regionName": "sfdcHiddenRegion",
+      "type": "region"
+    },
+    {
+      "components": [
+        {
+          "componentAttributes": {
+            "richTextValue": "<p><b style=\"font-size: 16px;\">Recent Discussions</b></p><p><br></p><p><span style=\"font-size: 12px;\">Discussions would go here<span class=\"ql-cursor\">﻿</span></span></p>"
+          },
+          "componentName": "forceCommunity:richTextInline",
+          "id": "8e6f1ff0-3737-4978-aafe-aede71b8ee66",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
+      "id": "47b5b9b2-33f4-41de-850a-c5d7fcf3a87b",
+      "regionName": "sidebarAlt",
+      "type": "region"
+    }
+  ],
+  "themeLayoutType": "Home",
+  "type": "view",
+  "viewType": "home"
 }
