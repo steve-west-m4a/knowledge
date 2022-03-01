@@ -550,6 +550,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>More4appsDocumentation__x.Link__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>More4appsDocumentation__x.Summary__c</field>
         <readable>true</readable>
@@ -575,22 +580,22 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
-        <layout>Case-Portal Case Layout</layout>
+        <layout>Case-M4A Admin Case Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-Portal Case Layout</layout>
+        <layout>Case-M4A Admin Case Layout</layout>
         <recordType>Case.ERP_Cloud</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-Portal Case Layout</layout>
+        <layout>Case-M4A Admin Case Layout</layout>
         <recordType>Case.Internal_Marketing</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-Portal Case Layout</layout>
+        <layout>Case-M4A Admin Case Layout</layout>
         <recordType>Case.SF</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-Portal Case Layout</layout>
+        <layout>Case-M4A Admin Case Layout</layout>
         <recordType>Case.Standard</recordType>
     </layoutAssignments>
     <layoutAssignments>
@@ -746,7 +751,6 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>true</default>
-        <personAccountDefault>true</personAccountDefault>
         <recordType>Case.Standard</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>

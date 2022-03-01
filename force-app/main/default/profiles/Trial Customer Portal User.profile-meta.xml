@@ -270,9 +270,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Case.Excel_Version__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -380,9 +380,9 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Case.Oracle_EBS_Version__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -551,6 +551,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>More4appsDocumentation__x.Link__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>More4appsDocumentation__x.Summary__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -597,14 +602,14 @@
         <recordType>Case.Standard</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Knowledge__kav-M4A Knowledge Layout</layout>
+        <layout>Knowledge__kav-Knowledge Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Knowledge__kav-M4A Knowledge Layout</layout>
+        <layout>Knowledge__kav-Knowledge Layout</layout>
         <recordType>Knowledge__kav.FAQ</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Knowledge__kav-M4A Knowledge Layout</layout>
+        <layout>Knowledge__kav-Knowledge Layout</layout>
         <recordType>Knowledge__kav.M4A_Knowledge</recordType>
     </layoutAssignments>
     <layoutAssignments>

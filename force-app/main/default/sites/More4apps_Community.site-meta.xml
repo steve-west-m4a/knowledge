@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <CustomSite xmlns="http://soap.sforce.com/2006/04/metadata">
     <active>true</active>
     <allowHomePage>false</allowHomePage>
@@ -10,7 +10,8 @@
     <authorizationRequiredPage>CommunitiesLogin</authorizationRequiredPage>
     <bandwidthExceededPage>BandwidthExceeded</bandwidthExceededPage>
     <browserXssProtection>true</browserXssProtection>
-    <cachePublicVisualforcePagesInProxyServers>true</cachePublicVisualforcePagesInProxyServers>
+    <cachePublicVisualforcePagesInProxyServers
+  >false</cachePublicVisualforcePagesInProxyServers>
     <clickjackProtectionLevel>AllowAllFraming</clickjackProtectionLevel>
     <contentSniffingProtection>true</contentSniffingProtection>
     <enableAuraRequests>true</enableAuraRequests>
@@ -21,11 +22,13 @@
     <indexPage>CommunitiesLanding</indexPage>
     <masterLabel>More4apps Community</masterLabel>
     <redirectToCustomDomain>false</redirectToCustomDomain>
-    <referrerPolicyOriginWhenCrossOrigin>true</referrerPolicyOriginWhenCrossOrigin>
+    <referrerPolicyOriginWhenCrossOrigin
+  >true</referrerPolicyOriginWhenCrossOrigin>
     <selfRegPage>CommunitiesSelfReg</selfRegPage>
-    <siteAdmin>test-bouegn2iddil@example.com</siteAdmin>
-    <siteGuestRecordDefaultOwner>test-bouegn2iddil@example.com</siteGuestRecordDefaultOwner>
+    <siteAdmin>test-giecorwkmehs@example.com</siteAdmin>
+    <siteGuestRecordDefaultOwner
+  >test-giecorwkmehs@example.com</siteGuestRecordDefaultOwner>
     <siteType>ChatterNetwork</siteType>
-    <subdomain>energy-business-2251-17e9e9edced</subdomain>
+    <subdomain>innovation-speed-1441-17f2deb0c95</subdomain>
     <urlPathPrefix>community</urlPathPrefix>
 </CustomSite>

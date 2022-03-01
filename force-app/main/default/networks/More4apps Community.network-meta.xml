@@ -32,15 +32,15 @@
   >unfiled$public/Community_Forgot_Password_Reset_Email</forgotPasswordTemplate>
     <gatherCustomerSentimentData>true</gatherCustomerSentimentData>
     <logoutUrl
-  >https://sandbox-energy-business-2251-17e9e9edced.cs76.force.com/community/s/</logoutUrl>
+  >https://sandbox-innovation-speed-1441-17f2deb0c95.cs76.force.com/community/s/</logoutUrl>
     <maxFileSizeKb>2048000</maxFileSizeKb>
     <networkMemberGroups>
         <permissionSet>m4a_search</permissionSet>
         <permissionSet>More4apps_Product_Downloads</permissionSet>
         <permissionSet>Knowledge_Manager_Permission_Set</permissionSet>
-        <profile>portal super user</profile>
-        <profile>portal user</profile>
-        <profile>admin</profile>
+        <profile>Admin</profile>
+        <profile>Portal Super User</profile>
+        <profile>Portal User</profile>
     </networkMemberGroups>
     <networkPageOverrides>
         <changePasswordPageOverrideSetting

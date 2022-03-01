@@ -48,14 +48,15 @@
           "componentAttributes": {
             "askConfirmationQuestion": true,
             "confirmationMessageLabel": "Got it!",
-            "deflectionTitle": "Here are some Suggestions that may help!",
+            "deflectionSubtitle": "",
+            "deflectionTitle": "Here are some Articles that may help!",
             "firstQuestion": "Did this solve your issue?",
             "maxResults": 5,
             "measureDeflection": true,
             "secondQuestion": "Stop creating your case?",
             "showArticles": true,
             "showDiscussions": false,
-            "topicId": "0TO9D0000008WJRWA2"
+            "topicId": "0TO9D0000000QLTWA2"
           },
           "componentName": "forceCommunity:caseDeflection",
           "id": "f1ac869a-3655-4b84-abba-41c15c14f852",

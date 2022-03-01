@@ -16,19 +16,19 @@
             "scopes": [
               {
                 "isPublic": true,
-                "name": "Knowledge__kav"
-              },
-              {
-                "isPublic": true,
-                "name": "Topic"
-              },
-              {
-                "isPublic": true,
                 "name": "More4appsDocumentation__x"
               },
               {
                 "isPublic": false,
                 "name": "Case"
+              },
+              {
+                "isPublic": true,
+                "name": "Knowledge__kav"
+              },
+              {
+                "isPublic": true,
+                "name": "Topic"
               }
             ],
             "searchResultFiltering": true,

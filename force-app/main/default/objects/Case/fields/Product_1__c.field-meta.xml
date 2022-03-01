@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_1__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Product</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage
+    >The product you entered is either not valid or has been deactivated</errorMessage>
+        <filterItems>
+            <field>Product2.IsActive</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <filterItems>
+            <field>Product2.Name</field>
+            <operation>notEqual</operation>
+            <value>Cloud AP Invoices</value>
+        </filterItems>
+        <filterItems>
+            <field>Product2.Name</field>
+            <operation>notEqual</operation>
+            <value>Cloud AR Invoices</value>
+        </filterItems>
+        <filterItems>
+            <field>Product2.Name</field>
+            <operation>notEqual</operation>
+            <value>Cloud AR Receipts</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Product2</referenceTo>
+    <relationshipLabel>Cases</relationshipLabel>
+    <relationshipName>Cases1</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -3,8 +3,6 @@
     <fullName>Internal_Marketing</fullName>
     <active>true</active>
     <businessProcess>Standard</businessProcess>
-    <compactLayoutAssignment
-  >M4A_Case_Portal_Compact_layout</compactLayoutAssignment>
     <description
   >Record type used for internal marketing and website cases</description>
     <label>Marketing</label>

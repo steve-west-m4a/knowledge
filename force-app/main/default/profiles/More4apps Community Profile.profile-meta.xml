@@ -563,6 +563,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>More4appsDocumentation__x.Link__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>More4appsDocumentation__x.Summary__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -734,7 +739,6 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>true</default>
-        <personAccountDefault>true</personAccountDefault>
         <recordType>Case.SF</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
@@ -745,7 +749,6 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>true</default>
-        <personAccountDefault>true</personAccountDefault>
         <recordType>Knowledge__kav.M4A_Knowledge</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>

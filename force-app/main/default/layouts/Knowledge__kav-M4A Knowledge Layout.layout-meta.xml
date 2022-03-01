@@ -13,6 +13,12 @@
                 <field>Details__c</field>
             </layoutItems>
             <layoutItems>
+                <field>ArticleTotalViewCount</field>
+            </layoutItems>
+            <layoutItems>
+                <field>ArticleCaseAttachCount</field>
+            </layoutItems>
+            <layoutItems>
                 <field>UrlName</field>
             </layoutItems>
         </layoutColumns>
@@ -23,16 +29,8 @@
         <detailHeading>true</detailHeading>
         <editHeading>true</editHeading>
         <label>Stats</label>
-        <layoutColumns>
-            <layoutItems>
-                <field>ArticleTotalViewCount</field>
-            </layoutItems>
-        </layoutColumns>
-        <layoutColumns>
-            <layoutItems>
-                <field>ArticleCaseAttachCount</field>
-            </layoutItems>
-        </layoutColumns>
+        <layoutColumns />
+        <layoutColumns />
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
     <layoutSections>

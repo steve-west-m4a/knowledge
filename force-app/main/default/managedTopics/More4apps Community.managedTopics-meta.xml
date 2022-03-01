@@ -290,15 +290,6 @@
         <topicDescription> </topicDescription>
     </managedTopic>
     <managedTopic>
-        <fullName
-    >More4apps Community.Navigational:ISupplier User Loader</fullName>
-        <managedTopicType>Navigational</managedTopicType>
-        <name>ISupplier User Loader</name>
-        <parentName>Procure To Pay</parentName>
-        <position>2</position>
-        <topicDescription> </topicDescription>
-    </managedTopic>
-    <managedTopic>
         <fullName>More4apps Community.Navigational:Inventory</fullName>
         <managedTopicType>Navigational</managedTopicType>
         <name>Inventory</name>
@@ -659,6 +650,15 @@
         <name>WIP Loader</name>
         <parentName>Inventory</parentName>
         <position>4</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName
+    >More4apps Community.Navigational:iSupplier User Loader</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>iSupplier User Loader</name>
+        <parentName>Procure To Pay</parentName>
+        <position>2</position>
         <topicDescription> </topicDescription>
     </managedTopic>
 </ManagedTopics>

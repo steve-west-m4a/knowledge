@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <categoryGroupVisibilities>
+        <dataCategoryGroup>Article_Types</dataCategoryGroup>
+        <visibility>ALL</visibility>
+    </categoryGroupVisibilities>
+    <categoryGroupVisibilities>
         <dataCategoryGroup>ERP_Cloud_Toolbox</dataCategoryGroup>
         <visibility>ALL</visibility>
     </categoryGroupVisibilities>
@@ -278,9 +282,9 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Case.Excel_Version__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -388,9 +392,9 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Case.Oracle_EBS_Version__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -559,6 +563,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>More4appsDocumentation__x.Link__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>More4appsDocumentation__x.Summary__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -592,6 +601,13 @@
     <layoutAssignments>
         <layout>Case-M4A ERP Cloud Portal Case Layout</layout>
         <recordType>Case.ERP_Cloud</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case-Portal Case Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case-Portal Case Layout</layout>
+        <recordType>Case.Internal_Marketing</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Contact-M4A Contact Portal User Layout</layout>
@@ -738,7 +754,7 @@
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Case.ERP_Cloud</recordType>
-        <visible>false</visible>
+        <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
@@ -746,9 +762,10 @@
         <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
-        <default>false</default>
+        <default>true</default>
+        <personAccountDefault>true</personAccountDefault>
         <recordType>Case.SF</recordType>
-        <visible>false</visible>
+        <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>

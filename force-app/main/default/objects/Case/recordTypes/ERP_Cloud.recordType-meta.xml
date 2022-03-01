@@ -3,8 +3,6 @@
     <fullName>ERP_Cloud</fullName>
     <active>true</active>
     <businessProcess>Standard</businessProcess>
-    <compactLayoutAssignment
-  >M4A_Case_Portal_Compact_layout</compactLayoutAssignment>
     <description>Record type used for external ERP Cloud cases</description>
     <label>ERP Cloud</label>
     <picklistValues>
