@@ -1,9 +1,19 @@
 {
   "appPageId": "15c18bce-cd20-41ce-bea0-694f6d19ded6",
-  "componentName": "siteforce:sldsTwoCol84Layout",
+  "componentName": "siteforce:sldsTwoCol48Layout",
   "id": "57b8ce74-8c71-4388-96ef-e7225f540a57",
   "label": "Topic Detail",
   "regions": [
+    {
+      "id": "9cb449ef-7ec1-439a-be43-5f71f146fa53",
+      "regionName": "header",
+      "type": "region"
+    },
+    {
+      "id": "e6485eb4-9185-4e02-8f99-adff45cf2ab0",
+      "regionName": "featured",
+      "type": "region"
+    },
     {
       "components": [
         {
@@ -13,7 +23,7 @@
             "bannerTextWithoutKnowledge": "Explore other <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
             "pageType": "topic",
             "showSubTopics": true,
-            "title": "Welcome!",
+            "title": "{!topicName}",
             "uniqueNameOrId": ""
           },
           "componentName": "forceCommunity:headline",
@@ -27,23 +37,11 @@
             "uniqueNameOrId": "{!topicId}"
           },
           "componentName": "forceCommunity:breadcrumbs",
-          "id": "240146f0-a60e-4403-89ff-5149539ab6e6",
+          "id": "c6c25b81-80bf-4d5e-afa9-4b4276e880d8",
           "renderPriority": "NEUTRAL",
           "renditionMap": {},
           "type": "component"
-        }
-      ],
-      "id": "9cb449ef-7ec1-439a-be43-5f71f146fa53",
-      "regionName": "header",
-      "type": "region"
-    },
-    {
-      "id": "e6485eb4-9185-4e02-8f99-adff45cf2ab0",
-      "regionName": "featured",
-      "type": "region"
-    },
-    {
-      "components": [
+        },
         {
           "componentAttributes": {
             "articleListPageSize": 10,
@@ -66,22 +64,83 @@
       "components": [
         {
           "componentAttributes": {
-            "showTopicsMetric": true,
-            "title": "Related Topics",
-            "topicId": "{!topicId}"
+            "richTextValue": "<div style=\"padding-top: 10px\"/>"
           },
-          "componentName": "forceCommunity:relatedTopics",
-          "id": "2119e42c-a8ea-453d-8f96-cb137249a679",
+          "componentName": "forceCommunity:htmlBlock",
+          "id": "f9e8ac1e-60c8-4a53-954a-ecd53413d851",
           "renderPriority": "NEUTRAL",
           "renditionMap": {},
           "type": "component"
         },
         {
           "componentAttributes": {
-            "richTextValue": "<div align=\"center\">\n\t<form method=\"get\" action=\"/community/s/topiccatalog\">\n   \t\t<button class=\"button-topic\" type=\"submit\">All Topics</button>\n\t</form>\n</div>"
+            "backgroundColor": "#FFFFFF",
+            "borderColor": "rgba(0, 0, 0, 0)",
+            "borderRadius": 5,
+            "borderStyle": "outline",
+            "buttonColor": "",
+            "buttonHoverColor": "rgb(99, 102, 106)",
+            "crossObjectTypeaheadApiNames": [
+              {
+                "isPublic": true,
+                "name": "Knowledge__kav"
+              }
+            ],
+            "iconColor": "#FFFFFF",
+            "placeholderText": "Search keywords",
+            "placeholderTextColor": "rgb(99, 102, 106)",
+            "publicDropdownBackgroundColor": "#FFFFFF",
+            "publicDropdownBackgroundHoverColor": "",
+            "publicDropdownBorderColor": "rgb(242, 242, 242)",
+            "publicDropdownTextColor": "",
+            "publicDropdownTextHoverColor": "rgb(0, 155, 255)",
+            "showSearchButton": true,
+            "textColor": "rgb(99, 102, 106)",
+            "typeaheadResultMax": 5,
+            "useTypeahead": true
+          },
+          "componentName": "forceCommunity:themeSearchHero",
+          "id": "750a18fc-1f3c-402d-be26-599846fa1de3",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
+        {
+          "componentAttributes": {
+            "richTextValue": "<div align=\"left\">\n\t<table>\n\t\t<tr>\n\t\t\t<td class=\"ebs-toolbox-headers\"><h1 style=\"color: #FFFFFF; font-size: 14pt;\"><img alt=\"EBS Toolbox\" style=\"height: 45px; width: 45px; padding: 10px 10px;\" src=\"{!contentAsset.EBSIcon.1}\"/>EBS Toolbox</h1></td>\n        </tr>\n        <tr>\n            <td class=\"toolbox-button-tile\"><a style=\"text-decoration: none; color: #63666A; --hover-color: #0047BB;\" href=\"https://more4apps.com/support/ebs-toolbox-support/ebs-toolbox-user-documentation/\" target=\"_blank\" ><p style=\"font-size: 12pt; font-weight: bold;\" >User Documentation</p></a></td>\n        </tr>\n        <tr>\n            <td class=\"toolbox-button-tile\"><a style=\"text-decoration: none; color: #63666A; --hover-color: #0047BB;\" href=\"https://more4apps.com/support/latest-release-details-ebs-toolbox/\" target=\"_blank\"><p style=\"font-size: 12pt; font-weight: bold;\">Latest Release Details</p></a></td>\n        </tr>\n        <tr>\n            <td class=\"toolbox-button-tile\"><a style=\"text-decoration: none; color: #63666A; --hover-color: #0047BB;\" href=\"https://more4apps.com/support/ebs-installation-guide/\" target=\"_blank\"><p style=\"font-size: 12pt; font-weight: bold;\">Installation Guide</p></a></td>\n        </tr>\n        <tr>\n            <td class=\"toolbox-button-tile\"><a style=\"text-decoration: none; color: #63666A; --hover-color: #0047BB;\" href=\"/community/s/ebs-contact-support/\" target=\"_self\"><p style=\"font-size: 12pt; font-weight: bold;\">Support Request</p></a></td>\n        </tr>\n    </table>\n</div>"
           },
           "componentName": "forceCommunity:htmlBlock",
           "id": "14e8297f-1e3f-475f-b81d-0677c760db2a",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
+        {
+          "componentAttributes": {
+            "richTextValue": "<div align=\"left\">\n\t<table>\n\t\t<tr>\n\t\t\t<td class=\"erp-cloud-toolbox-headers\"><h1 style=\"color: #FFFFFF; font-size: 14pt;\"><img alt=\"ERP Cloud Toolbox\" style=\"height: 45px; width: 45px; padding: 10px 10px;\" src=\"{!contentAsset.ERPCloudIcon.1}\"/>ERP Cloud Toolbox</h1></td>\n\t\t</tr>\n        <tr>\n            <td class=\"toolbox-button-tile\"><a style=\"text-decoration: none; color: #63666A; --hover-color: #0047BB;\" href=\"https://more4apps.com/support/erp-cloud-toolbox-support/erp-cloud-toolbox-user-documentation/\" target=\"_blank\"><p style=\"font-size: 12pt; font-weight: bold;\">User Documentation</p></a></td>\n        </tr>\n        <tr>\n            <td class=\"toolbox-button-tile\"><a style=\"text-decoration: none; color: #63666A; --hover-color: #0047BB;\" href=\"https://more4apps.com/support/latest-release-details-erp-cloud-toolbox/\" target=\"_blank\"><p style=\"font-size: 12pt; font-weight: bold;\">Latest Release Details</p></a></td>\n        </tr>\n        <tr>\n            <td class=\"toolbox-button-tile\"><a style=\"text-decoration: none; color: #63666A; --hover-color: #0047BB;\" href=\"https://more4apps.com/support/erp-cloud-installation-guide/\" target=\"_blank\"><p style=\"font-size: 12pt; font-weight: bold;\">Installation Guide</p></a></td>\n        </tr>\n        <tr>\n            <td class=\"toolbox-button-tile\"><a style=\"text-decoration: none; color: #63666A; --hover-color: #0047BB;\" href=\"/community/s/erp-cloud-contact-support/\" target=\"_self\"><p style=\"font-size: 12pt; font-weight: bold;\">Support Request</p></a></td>\n        </tr>\n    </table>\n</div>"
+          },
+          "componentName": "forceCommunity:htmlBlock",
+          "id": "f03d20f2-df18-4a08-9618-11ac4e1ef89e",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
+        {
+          "componentAttributes": {
+            "richTextValue": "<div style=\"width: 50%\">\n    <table>\n\t\t<tr align=\"center\">\n\t\t\t<td class=\"button-all-topics\"><a style=\"text-decoration: none; color: #FFFFFF; font-size: 14px;\" href=\"/community/s/topiccatalog/\" target=\"_self\">All Topics</a></td> \n        <tr>\n    </table>\n</div>"
+          },
+          "componentName": "forceCommunity:htmlBlock",
+          "id": "aeee93c7-1e34-4f6a-a4be-abdec4b731ff",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
+        {
+          "componentAttributes": {
+            "richTextValue": "<div style=\"padding-top: 20px\"/>"
+          },
+          "componentName": "forceCommunity:htmlBlock",
+          "id": "a571eeda-cd2e-4030-b20c-c04dc9648e74",
           "renderPriority": "NEUTRAL",
           "renditionMap": {},
           "type": "component"

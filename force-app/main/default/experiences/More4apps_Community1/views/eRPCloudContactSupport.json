@@ -1,6 +1,6 @@
 {
   "appPageId": "15c18bce-cd20-41ce-bea0-694f6d19ded6",
-  "componentName": "siteforce:sldsTwoCol84Layout",
+  "componentName": "siteforce:sldsTwoCol48Layout",
   "id": "3c14ec3e-f956-4ad4-8390-0bb2fced474f",
   "label": "ERP Cloud Contact Support",
   "regions": [
@@ -11,6 +11,16 @@
     },
     {
       "components": [
+        {
+          "componentAttributes": {
+            "richTextValue": "<div align=\"center\" class=\"header-support-erp-cloud\">\n    <p style=\"color: #FFFFFF; font-weight: normal; font-size: 30px; padding: 20px 10px;\">ERP Cloud Support Request</p>\n</div>"
+          },
+          "componentName": "forceCommunity:htmlBlock",
+          "id": "e675a783-2db3-43a1-b017-5d36514761fc",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
         {
           "componentAttributes": {
             "allowAttachments": true,
@@ -26,13 +36,23 @@
             "confirmationSubtext": "One of our Support Team will get back to you shortly.",
             "confirmationText": "Your Case has been submitted!",
             "guestQuickActionName": "GuestERPCloudPortalCase",
-            "headerSubtitle": "Tell us how we can help",
-            "headerTitle": "ERP Cloud Support Request",
+            "headerSubtitle": "",
+            "headerTitle": "",
             "quickActionName": "NewERPCloudPortalCase",
             "requestSummaryText": "Case summary"
           },
           "componentName": "forceCommunity:contactSupportForm",
           "id": "4d58939b-50e4-4851-8e40-a37d451cb133",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
+        {
+          "componentAttributes": {
+            "richTextValue": "<div style=\"padding-top: 10px\"/>"
+          },
+          "componentName": "forceCommunity:htmlBlock",
+          "id": "cf0bfe9b-a707-4b22-9b77-63f1f4f81f5e",
           "renderPriority": "NEUTRAL",
           "renditionMap": {},
           "type": "component"
@@ -46,20 +66,83 @@
       "components": [
         {
           "componentAttributes": {
+            "richTextValue": "<div style=\"padding-top: 10px\"/>"
+          },
+          "componentName": "forceCommunity:htmlBlock",
+          "id": "157e9675-c985-4bdb-b34e-cdd191a3f0dc",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
+        {
+          "componentAttributes": {
+            "backgroundColor": "#FFFFFF",
+            "borderColor": "rgba(0, 0, 0, 0)",
+            "borderRadius": 5,
+            "borderStyle": "outline",
+            "buttonColor": "rgb(255, 0, 190)",
+            "buttonHoverColor": "rgb(99, 102, 106)",
+            "crossObjectTypeaheadApiNames": [
+              {
+                "isPublic": true,
+                "name": "Knowledge__kav"
+              }
+            ],
+            "iconColor": "#FFFFFF",
+            "placeholderText": "Search keywords",
+            "placeholderTextColor": "rgb(99, 102, 106)",
+            "publicDropdownBackgroundColor": "#FFFFFF",
+            "publicDropdownBackgroundHoverColor": "",
+            "publicDropdownBorderColor": "rgb(242, 242, 242)",
+            "publicDropdownTextColor": "",
+            "publicDropdownTextHoverColor": "rgb(255, 0, 190)",
+            "showSearchButton": true,
+            "textColor": "rgb(99, 102, 106)",
+            "typeaheadResultMax": 5,
+            "useTypeahead": true
+          },
+          "componentName": "forceCommunity:themeSearchHero",
+          "id": "decb2233-777d-484f-a212-605c92afa0aa",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
+        {
+          "componentAttributes": {
             "askConfirmationQuestion": true,
             "confirmationMessageLabel": "Got it!",
-            "deflectionSubtitle": "Find what you need here.",
-            "deflectionTitle": "Here are some Suggestions that may help!",
+            "deflectionSubtitle": "",
+            "deflectionTitle": "Here are some Articles that may help!",
             "firstQuestion": "Did this solve your issue?",
             "maxResults": 5,
             "measureDeflection": true,
             "secondQuestion": "Stop creating your case?",
             "showArticles": true,
             "showDiscussions": false,
-            "topicId": "0TO9D0000000QLWWA2"
+            "topicId": "0TO9D0000000QLTWA2"
           },
           "componentName": "forceCommunity:caseDeflection",
           "id": "fac9bca9-1677-409f-8531-acba83cffafd",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
+        {
+          "componentAttributes": {
+            "richTextValue": "<div align=\"left\">\n\t<table>\n\t\t<tr>\n\t\t\t<td class=\"erp-cloud-toolbox-headers\"><h1 style=\"color: #FFFFFF; font-size: 14pt;\"><img alt=\"ERP Cloud Toolbox\" style=\"height: 45px; width: 45px; padding: 10px 10px;\" src=\"{!contentAsset.ERPCloudIcon.1}\"/>ERP Cloud Toolbox</h1></td>\n\t\t</tr>\n        <tr>\n            <td class=\"toolbox-button-tile\"><a style=\"text-decoration: none; color: #63666A; --hover-color: #0047BB;\" href=\"https://more4apps.com/support/erp-cloud-toolbox-support/erp-cloud-toolbox-user-documentation/\" target=\"_blank\"><p style=\"font-size: 12pt; font-weight: bold;\">User Documentation</p></a></td>\n        </tr>\n        <tr>\n            <td class=\"toolbox-button-tile\"><a style=\"text-decoration: none; color: #63666A; --hover-color: #0047BB;\" href=\"https://more4apps.com/support/latest-release-details-erp-cloud-toolbox/\" target=\"_blank\"><p style=\"font-size: 12pt; font-weight: bold;\">Latest Release Details</p></a></td>\n        </tr>\n        <tr>\n            <td class=\"toolbox-button-tile\"><a style=\"text-decoration: none; color: #63666A; --hover-color: #0047BB;\" href=\"https://more4apps.com/support/erp-cloud-installation-guide/\" target=\"_blank\"><p style=\"font-size: 12pt; font-weight: bold;\">Installation Guide</p></a></td>\n        </tr>\n    </table>\n</div>"
+          },
+          "componentName": "forceCommunity:htmlBlock",
+          "id": "3f915206-3eb6-4ba6-a580-fac2d4a18ae7",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
+        {
+          "componentAttributes": {
+            "richTextValue": "<div style=\"padding-top: 10px\"/>"
+          },
+          "componentName": "forceCommunity:htmlBlock",
+          "id": "5df73b6e-b6e1-4884-bde8-6b5214419b94",
           "renderPriority": "NEUTRAL",
           "renditionMap": {},
           "type": "component"

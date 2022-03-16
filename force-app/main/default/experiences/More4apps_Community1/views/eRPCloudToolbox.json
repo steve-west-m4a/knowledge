@@ -5,6 +5,18 @@
   "label": "ERP Cloud Toolbox",
   "regions": [
     {
+      "components": [
+        {
+          "componentAttributes": {
+            "richTextValue": "<div style=\"padding-top: 20px\"/>"
+          },
+          "componentName": "forceCommunity:htmlBlock",
+          "id": "be61acd5-4b77-4591-8c20-4592ca86dcdb",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
       "id": "b7842a33-1f65-4feb-b17f-a6275a8c1bf3",
       "regionName": "header",
       "type": "region"
@@ -25,6 +37,18 @@
       "type": "region"
     },
     {
+      "components": [
+        {
+          "componentAttributes": {
+            "richTextValue": "<div style=\"padding-top: 20px\"/>"
+          },
+          "componentName": "forceCommunity:htmlBlock",
+          "id": "f9772ff5-4a6d-4678-a33d-ec91d19de139",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
       "id": "6da1a3ec-55af-4449-abc4-b114262a51fc",
       "regionName": "footer",
       "type": "region"

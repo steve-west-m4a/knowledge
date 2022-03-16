@@ -7,16 +7,16 @@
         <label>Details</label>
         <layoutColumns>
             <layoutItems>
-                <field>Title</field>
-            </layoutItems>
-            <layoutItems>
                 <field>Details__c</field>
             </layoutItems>
             <layoutItems>
                 <field>ArticleTotalViewCount</field>
             </layoutItems>
             <layoutItems>
-                <field>ArticleCaseAttachCount</field>
+                <field>LastPublishedDate</field>
+            </layoutItems>
+            <layoutItems>
+                <field>Title</field>
             </layoutItems>
             <layoutItems>
                 <field>UrlName</field>

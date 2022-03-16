@@ -38,9 +38,9 @@
         <permissionSet>m4a_search</permissionSet>
         <permissionSet>More4apps_Product_Downloads</permissionSet>
         <permissionSet>Knowledge_Manager_Permission_Set</permissionSet>
-        <profile>Admin</profile>
-        <profile>Portal Super User</profile>
-        <profile>Portal User</profile>
+        <profile>admin</profile>
+        <profile>portal super user</profile>
+        <profile>portal user</profile>
     </networkMemberGroups>
     <networkPageOverrides>
         <changePasswordPageOverrideSetting

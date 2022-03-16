@@ -1,6 +1,6 @@
 {
   "appPageId": "15c18bce-cd20-41ce-bea0-694f6d19ded6",
-  "componentName": "siteforce:sldsTwoCol84Layout",
+  "componentName": "siteforce:sldsTwoCol48Layout",
   "id": "2bf18829-6f55-4bd9-bc80-7c7d401d68e0",
   "label": "EBS Contact Support",
   "regions": [
@@ -13,26 +13,46 @@
       "components": [
         {
           "componentAttributes": {
+            "richTextValue": "<div align=\"center\" class=\"header-support-ebs\">\n    <p style=\"color: #FFFFFF; font-weight: normal; font-size: 30px; padding: 20px 10px;\">EBS Support Request</p>\n</div>"
+          },
+          "componentName": "forceCommunity:htmlBlock",
+          "id": "0d20a04d-6ea3-44d1-8b63-a0141380df1e",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
+        {
+          "componentAttributes": {
             "allowAttachments": true,
             "attachmentLabel": "Upload File",
             "buttonAlignment": "center",
             "buttonBgColor": "rgb(0, 65, 200)",
             "buttonBgHoverColor": "rgb(255, 255, 255)",
             "buttonMaxWidth": 20,
-            "buttonRadius": 0,
+            "buttonRadius": 5,
             "buttonTextHoverColor": "rgb(0, 65, 200)",
             "callToAction": false,
             "callToActionText": "Test",
             "confirmationSubtext": "One of our Support Team will get back to you shortly.",
             "confirmationText": "Your Case has been submitted!",
             "guestQuickActionName": "GuestEBSPortalCase",
-            "headerSubtitle": "Tell us how we can help",
-            "headerTitle": "EBS Support Request",
+            "headerSubtitle": "",
+            "headerTitle": "",
             "quickActionName": "NewEBSPortalCase",
             "requestSummaryText": "Case summary"
           },
           "componentName": "forceCommunity:contactSupportForm",
           "id": "fde0d898-0a7b-4470-9af4-701587f86b16",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
+        {
+          "componentAttributes": {
+            "richTextValue": "<div style=\"padding-top: 10px\"/>"
+          },
+          "componentName": "forceCommunity:htmlBlock",
+          "id": "b6843d3e-ee14-4f4b-ac55-91e600422d7e",
           "renderPriority": "NEUTRAL",
           "renditionMap": {},
           "type": "component"
@@ -44,6 +64,49 @@
     },
     {
       "components": [
+        {
+          "componentAttributes": {
+            "richTextValue": "<div style=\"padding-top: 10px\"/>"
+          },
+          "componentName": "forceCommunity:htmlBlock",
+          "id": "35fc0c49-ca36-4798-b695-617a489e394c",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
+        {
+          "componentAttributes": {
+            "backgroundColor": "#FFFFFF",
+            "borderColor": "rgba(242, 242, 242, 0)",
+            "borderRadius": 5,
+            "borderStyle": "outline",
+            "buttonColor": "",
+            "buttonHoverColor": "rgb(99, 102, 106)",
+            "crossObjectTypeaheadApiNames": [
+              {
+                "isPublic": true,
+                "name": "Knowledge__kav"
+              }
+            ],
+            "iconColor": "#FFFFFF",
+            "placeholderText": "Search keywords",
+            "placeholderTextColor": "rgb(99, 102, 106)",
+            "publicDropdownBackgroundColor": "#FFFFFF",
+            "publicDropdownBackgroundHoverColor": "",
+            "publicDropdownBorderColor": "#F0F0F0",
+            "publicDropdownTextColor": "",
+            "publicDropdownTextHoverColor": "",
+            "showSearchButton": true,
+            "textColor": "rgb(99, 102, 106)",
+            "typeaheadResultMax": 5,
+            "useTypeahead": true
+          },
+          "componentName": "forceCommunity:themeSearchHero",
+          "id": "1e84afc1-b982-4f71-b895-b3efe9c397dd",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
         {
           "componentAttributes": {
             "askConfirmationQuestion": true,
@@ -60,6 +123,26 @@
           },
           "componentName": "forceCommunity:caseDeflection",
           "id": "f1ac869a-3655-4b84-abba-41c15c14f852",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
+        {
+          "componentAttributes": {
+            "richTextValue": "<div align=\"left\">\n\t<table>\n\t\t<tr>\n\t\t\t<td class=\"ebs-toolbox-headers\"><h1 style=\"color: #FFFFFF; font-size: 14pt;\"><img alt=\"EBS Toolbox\" style=\"height: 45px; width: 45px; padding: 10px 10px;\" src=\"{!contentAsset.EBSIcon.1}\"/>EBS Toolbox</h1></td>\n        </tr>\n        <tr>\n            <td class=\"toolbox-button-tile\"><a style=\"text-decoration: none; color: #63666A; --hover-color: #0047BB;\" href=\"https://more4apps.com/support/ebs-toolbox-support/ebs-toolbox-user-documentation/\" target=\"_blank\" ><p style=\"font-size: 12pt; font-weight: bold;\" >User Documentation</p></a></td>\n        </tr>\n        <tr>\n            <td class=\"toolbox-button-tile\"><a style=\"text-decoration: none; color: #63666A; --hover-color: #0047BB;\" href=\"https://more4apps.com/support/latest-release-details-ebs-toolbox/\" target=\"_blank\"><p style=\"font-size: 12pt; font-weight: bold;\">Latest Release Details</p></a></td>\n        </tr>\n        <tr>\n            <td class=\"toolbox-button-tile\"><a style=\"text-decoration: none; color: #63666A; --hover-color: #0047BB;\" href=\"https://more4apps.com/support/ebs-installation-guide/\" target=\"_blank\"><p style=\"font-size: 12pt; font-weight: bold;\">Installation Guide</p></a></td>\n        </tr>\n    </table>\n</div>"
+          },
+          "componentName": "forceCommunity:htmlBlock",
+          "id": "eb3681f4-9d80-4e69-ac5c-87cf3553b495",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
+        {
+          "componentAttributes": {
+            "richTextValue": "<div style=\"padding-top: 10px\"/>"
+          },
+          "componentName": "forceCommunity:htmlBlock",
+          "id": "58f38fd9-562f-4c3d-9250-3962d30dbf2a",
           "renderPriority": "NEUTRAL",
           "renditionMap": {},
           "type": "component"

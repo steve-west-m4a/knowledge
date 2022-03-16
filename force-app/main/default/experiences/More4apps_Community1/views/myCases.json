@@ -5,6 +5,18 @@
   "label": "My Cases",
   "regions": [
     {
+      "components": [
+        {
+          "componentAttributes": {
+            "richTextValue": "<div style=\"padding-top: 20px\"/>"
+          },
+          "componentName": "forceCommunity:htmlBlock",
+          "id": "4042fd01-a4f7-42c2-9637-87b9c58e4e77",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
       "id": "4c070e7e-198f-4e12-8bcf-34be0b6643af",
       "regionName": "header",
       "type": "region"
@@ -40,6 +52,18 @@
       "type": "region"
     },
     {
+      "components": [
+        {
+          "componentAttributes": {
+            "richTextValue": "<div style=\"padding-top: 20px\"/>"
+          },
+          "componentName": "forceCommunity:htmlBlock",
+          "id": "03c7c78d-6c96-404b-808b-d3775b96b549",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
       "id": "da710c10-f835-43ca-a593-dc3be67ba5a9",
       "regionName": "footer",
       "type": "region"

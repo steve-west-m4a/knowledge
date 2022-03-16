@@ -5,6 +5,18 @@
   "label": "EBS Toolbox",
   "regions": [
     {
+      "components": [
+        {
+          "componentAttributes": {
+            "richTextValue": "<div style=\"padding-top: 20px\"/>"
+          },
+          "componentName": "forceCommunity:htmlBlock",
+          "id": "0bd7d1e7-d3ee-4276-a70f-569d6549b233",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
       "id": "6cb95ca3-60c8-4d57-854a-f80db8c444af",
       "regionName": "header",
       "type": "region"
@@ -25,6 +37,18 @@
       "type": "region"
     },
     {
+      "components": [
+        {
+          "componentAttributes": {
+            "richTextValue": "<div style=\"padding-top: 20px\"/>"
+          },
+          "componentName": "forceCommunity:htmlBlock",
+          "id": "1f72017f-7341-4f8d-97e0-9173b62f1fb1",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
       "id": "462c91f9-0d4a-4994-b3ef-bf431cbda020",
       "regionName": "footer",
       "type": "region"

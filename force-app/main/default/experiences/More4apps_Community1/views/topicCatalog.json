@@ -25,27 +25,7 @@
       "components": [
         {
           "componentAttributes": {
-            "richTextValue": "<p style=\"background-color: #F2F2F2; color: #0047BB; font-weight: bold; font-size: 28pt; padding-top: 20px; padding-bottom: 20px; text-align: center;\">Product Topics</p>"
-          },
-          "componentName": "forceCommunity:htmlBlock",
-          "id": "c2ac8cbf-b914-435e-ae92-390ed3ea6d83",
-          "renderPriority": "NEUTRAL",
-          "renditionMap": {},
-          "type": "component"
-        },
-        {
-          "componentAttributes": {
-            "richTextValue": "<div class=\"rows\">\n    <div class=\"columns left\">\n        <table>\n            <tr>\n                <td colspan=\"3\" style=\"border: 0px solid #D2D2D2; border-radius: 10px 10px 0px 0px; background-color: #0078FF; text-align: center;\"><img alt=\"EBS Toolbox\" style=\"width: 297px; height: 92px;\" src=\"{!contentAsset.EBS_Toolbox_Logo.1}\" /></td>\n            </tr>\n            <tr style=\"height: 15px\"></tr>\n            <tr align=\"center\">\n                <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A;\" href=\"/community/s/topic/0TO9D0000000QLTWA2/ebs-general\" target=\"_self\"><h4>EBS General</h4></a></td>\n                <td style=\"width: 2%\"></td>\n                <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A;\" href=\"/community/s/topic/0TO9D0000000QLTWA2/ebs-general\" target=\"_self\"><h4>EBS Installation and Setup</h4></a></td>\n           \t</tr>\n            <tr style=\"height: 15px\"></tr>\n            <tr align=\"center\">\n                <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A;\" href=\"/community/s/topic/0TO9D0000000QLZWA2/finance\" target=\"_self\"><h4>Finance</h4></a></td>\n            \t<td style=\"width: 2%\"></td>\n                <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A;\" href=\"/community/s/topic/0TO9D0000000QLbWAM/human-resources\" target=\"_self\"><h4>Human Resources</h4></a></td>\n            <tr>\n           \t<tr style=\"height: 15px\"></tr>\n            <tr align=\"center\">\n                <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A;\" href=\"/community/s/topic/0TO9D0000000QLcWAM/inventory\" target=\"_self\"><h4>Inventory</h4></a></td>\n                <td style=\"width: 2%\"></td>\n                <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A;\" href=\"/community/s/topic/0TO9D0000000QLgWAM/product-definition\" target=\"_self\"><h4>Product Definition</h4></a></td>\n            </tr>\n            <tr style=\"height: 15px\"></tr>\n            <tr align=\"center\">\n                <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A;\" href=\"/community/s/topic/0TO9D0000000QLdWAM/order-to-cash\" target=\"_self\"><h4>Order to Cash</h4></a></td>\n                <td style=\"width: 2%\"></td>\n                <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A;\" href=\"/community/s/topic/0TO9D0000000QLeWAM/procure-to-pay\" target=\"_self\"><h4>Procure to Pay</h4></a></td>\n            </tr>\n            <tr style=\"height: 15px\"></tr>\n            <tr align=\"center\">\n                <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A;\" href=\"/community/s/topic/0TO9D0000000QLiWAM/projects\" target=\"_self\"><h4>Projects</h4></a></td>\n                <td style=\"width: 2%\"></td>\n                <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A;\" href=\"/community/s/topic/0TO9D0000000QLkWAM/system-administrator\" target=\"_self\"><h4>System Administrator</h4></a></td>\n            </tr>\n            <tr style=\"height: 15px\"></tr>\n            <tr align=\"center\">\n                <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A;\" href=\"/community/s/topic/0TO9D0000000QLVWA2/development-platform\" target=\"_self\"><h4>Development Platform</h4></a></td>\n            </tr>\n        </table>\n    </div>\n    <div class=\"columns middle\"></div>\n\t<div class=\"columns right\">\n    \t<table>\n        <tr>\n\t\t\t<td colspan=\"3\" style=\"border: 0px solid #FFFFFF; border-radius: 10px 10px 0px 0px; background-color: #9900A5; text-align: center;\"><img alt=\"ERP Cloud Toolbox\" style=\"width: 297px; height: 92px;\" src=\"{!contentAsset.ERP_Cloud_Toolbox_Logo.1}\" /></td>\n        </tr>\n        <tr style=\"height: 15px\"></tr>\n    \t<tr align=\"center\">\n            <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A;\" href=\"/community/s/topic/0TO9D0000000QLWWA2/erp-cloud-generall\" target=\"_self\"><h4>ERP Cloud General</h4></a></td>\n           \t<td style=\"width: 2%\"></td>\n            <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A;\" href=\"/community/s/topic/0TO9D0000000QLXWA2/erp-cloud-installation-and-setup\" target=\"_self\"><h4>ERP Cloud Installation and Setup</h4></a></td>\n        </tr>\n        <tr style=\"height: 15px\"></tr>\n        <tr align=\"center\">\n            <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A;\" href=\"/community/s/topic/0TO9D0000000QLfWAM/procurement-module\" target=\"_self\"><h4>Procurement Module</h4></a></td>\n            <td style=\"width: 2%\"></td>\n            <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A;\" href=\"/community/s/topic/0TO9D0000000QLhWAM/product-definition-module\" target=\"_self\"><h4>Product Definition Module</h4></a></td>\n        </tr>\n        <tr style=\"height: 15px\"></tr>\n        <tr align=\"center\">\n            <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A;\" href=\"/community/s/topic/0TO9D0000000QLjWAM/projects-module\" target=\"_self\"><h4>Projects Module</h4></a></td>\n            <td style=\"width: 2%\"></td>\n            <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A;\" href=\"/community/s/topic/0TO9D0000000QLaWAM/finance-module\" target=\"_self\"><h4>Finance Module</h4></a></td>            \n        </tr>\n    </table>\n\t</div>\n</div>"
-          },
-          "componentName": "forceCommunity:htmlBlock",
-          "id": "fdab2d11-ca6d-433b-b55b-d7e74196a426",
-          "renderPriority": "NEUTRAL",
-          "renditionMap": {},
-          "type": "component"
-        },
-        {
-          "componentAttributes": {
-            "richTextValue": "<p style=\"background-color: #F2F2F2; color: #0047BB; font-weight: bold; font-size: 28pt; padding-top: 20px; padding-bottom: 20px; text-align: center;\">Support Topics</p>"
+            "richTextValue": "<p class=\"section-headers\">Support Topics</p>"
           },
           "componentName": "forceCommunity:htmlBlock",
           "id": "793da958-b762-4f7f-b33d-c50e72ba1775",
@@ -55,10 +35,30 @@
         },
         {
           "componentAttributes": {
-            "richTextValue": "<div style=\"padding: 20px 10px\">\n\t<table>\n           <tr align=\"center\">\n                <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A;\" href=\"/community/s/topic/0TO9D0000000QLYWA2/faq\" target=\"_self\"><h4>FAQ</h4></a></td>\n                <td style=\"width: 2%\"></td>\n                <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A;\" href=\"/community/s/topic/0TO9D0000000QLlWAM/troubleshooting\" target=\"_self\"><h4>Troubleshooting</h4></a></td>\n               \t<td style=\"width: 2%\"></td>\n               \t<td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A;\" href=\"/community/s/topic/0TO9D0000000QLmWAM/tutorials\" target=\"_self\"><h4>Tutorials</h4></a></td>\n           \t</tr>\n    </table>\n</div>"
+            "richTextValue": "<div style=\"padding: 20px 10px\">\n\t<table>\n           <tr align=\"center\">\n                <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A; --hover-color: #0047BB;\" href=\"/community/s/topic/0TO9D0000000QLYWA2/faq\" target=\"_self\"><h4>FAQ</h4></a></td>\n                <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A; --hover-color: #0047BB;\" href=\"/community/s/topic/0TO9D0000000QLlWAM/troubleshooting\" target=\"_self\"><h4>Troubleshooting</h4></a></td>\n               \t<td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A; --hover-color: #0047BB;\" href=\"/community/s/topic/0TO9D0000000QLmWAM/tutorials\" target=\"_self\"><h4>Tutorials</h4></a></td>\n           \t</tr>\n    </table>\n</div>"
           },
           "componentName": "forceCommunity:htmlBlock",
           "id": "55c47609-ce05-489b-8ea3-7328a8fc0c5c",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
+        {
+          "componentAttributes": {
+            "richTextValue": "<p class=\"section-headers\">Product Topics</p>"
+          },
+          "componentName": "forceCommunity:htmlBlock",
+          "id": "c2ac8cbf-b914-435e-ae92-390ed3ea6d83",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
+        {
+          "componentAttributes": {
+            "richTextValue": "<div class=\"rows\">\n    <div class=\"columns left\">\n        <table>\n            <tr>\n                <td colspan=\"2\" class=\"ebs-product-topic-headers\"><img alt=\"EBS Toolbox\" style=\"width: 297px; height: 92px;\" src=\"{!contentAsset.EBS_Toolbox_Logo.1}\" /></td>\n            </tr>\n            <tr align=\"center\">\n                <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A; --hover-color: #0047BB;\" href=\"/community/s/topic/0TO9D0000000QLTWA2/ebs-general\" target=\"_self\"><h4>EBS General</h4></a></td>\n                <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A; --hover-color: #0047BB;\" href=\"/community/s/topic/0TO9D0000000QLTWA2/ebs-general\" target=\"_self\"><h4>EBS Installation and Setup</h4></a></td>\n           \t</tr>\n            <tr align=\"center\">\n                <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A; --hover-color: #0047BB;\" href=\"/community/s/topic/0TO9D0000000QLZWA2/finance\" target=\"_self\"><h4>Finance</h4></a></td>\n            \t<td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A; --hover-color: #0047BB;\" href=\"/community/s/topic/0TO9D0000000QLbWAM/human-resources\" target=\"_self\"><h4>Human Resources</h4></a></td>\n            <tr>\n           <tr align=\"center\">\n                <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A; --hover-color: #0047BB;\" href=\"/community/s/topic/0TO9D0000000QLcWAM/inventory\" target=\"_self\"><h4>Inventory</h4></a></td>\n                <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A; --hover-color: #0047BB;\" href=\"/community/s/topic/0TO9D0000000QLgWAM/product-definition\" target=\"_self\"><h4>Product Definition</h4></a></td>\n            </tr>\n            <tr align=\"center\">\n                <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A; --hover-color: #0047BB;\" href=\"/community/s/topic/0TO9D0000000QLdWAM/order-to-cash\" target=\"_self\"><h4>Order to Cash</h4></a></td>\n                <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A; --hover-color: #0047BB;\" href=\"/community/s/topic/0TO9D0000000QLeWAM/procure-to-pay\" target=\"_self\"><h4>Procure to Pay</h4></a></td>\n            </tr>\n            <tr align=\"center\">\n                <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A; --hover-color: #0047BB;\" href=\"/community/s/topic/0TO9D0000000QLiWAM/projects\" target=\"_self\"><h4>Projects</h4></a></td>\n                <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A; --hover-color: #0047BB;\" href=\"/community/s/topic/0TO9D0000000QLkWAM/system-administrator\" target=\"_self\"><h4>System Administrator</h4></a></td>\n            </tr>\n            <tr align=\"center\">\n                <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A; --hover-color: #0047BB;\" href=\"/community/s/topic/0TO9D0000000QLVWA2/development-platform\" target=\"_self\"><h4>Development Platform</h4></a></td>\n            </tr>\n        </table>\n    </div>\n    <div class=\"columns middle\"></div>\n\t<div class=\"columns right\">\n    \t<table>\n        <tr>\n\t\t\t<td colspan=\"2\" class=\"erp-cloud-product-topic-headers\"><img alt=\"ERP Cloud Toolbox\" style=\"width: 297px; height: 92px;\" src=\"{!contentAsset.ERP_Cloud_Toolbox_Logo.1}\" /></td>\n        </tr>\n        <tr align=\"center\">\n            <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A; --hover-color: #0047BB;\" href=\"/community/s/topic/0TO9D0000000QLWWA2/erp-cloud-generall\" target=\"_self\"><h4>ERP Cloud General</h4></a></td>\n           \t<td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A; --hover-color: #0047BB;\" href=\"/community/s/topic/0TO9D0000000QLXWA2/erp-cloud-installation-and-setup\" target=\"_self\"><h4>ERP Cloud Installation and Setup</h4></a></td>\n        </tr>\n        <tr align=\"center\">\n            <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A; --hover-color: #0047BB;\" href=\"/community/s/topic/0TO9D0000000QLfWAM/procurement-module\" target=\"_self\"><h4>Procurement Module</h4></a></td>\n            <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A; --hover-color: #0047BB;\" href=\"/community/s/topic/0TO9D0000000QLhWAM/product-definition-module\" target=\"_self\"><h4>Product Definition Module</h4></a></td>\n        </tr>\n        <tr align=\"center\">\n            <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A; --hover-color: #0047BB;\" href=\"/community/s/topic/0TO9D0000000QLjWAM/projects-module\" target=\"_self\"><h4>Projects Module</h4></a></td>\n            <td class=\"button-topic-tile\"><a style=\"text-decoration: none; color: #63666A; --hover-color: #0047BB;\" href=\"/community/s/topic/0TO9D0000000QLaWAM/finance-module\" target=\"_self\"><h4>Finance Module</h4></a></td>            \n        </tr>\n    </table>\n\t</div>\n</div>"
+          },
+          "componentName": "forceCommunity:htmlBlock",
+          "id": "fdab2d11-ca6d-433b-b55b-d7e74196a426",
           "renderPriority": "NEUTRAL",
           "renditionMap": {},
           "type": "component"
@@ -69,6 +69,18 @@
       "type": "region"
     },
     {
+      "components": [
+        {
+          "componentAttributes": {
+            "richTextValue": "<div style=\"padding-top: 20px\"/>"
+          },
+          "componentName": "forceCommunity:htmlBlock",
+          "id": "68a3ab2b-0795-4a6f-80ff-14e4104d54e2",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
       "id": "72909d6b-bc8f-473d-818d-ae009c61813f",
       "regionName": "footer",
       "type": "region"
