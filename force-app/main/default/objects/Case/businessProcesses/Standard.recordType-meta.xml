@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>ERP_Cloud</fullName>
+    <fullName>Standard</fullName>
     <active>true</active>
     <businessProcess>Standard</businessProcess>
     <compactLayoutAssignment>Case</compactLayoutAssignment>
-    <description>Record type used for external ERP Cloud cases</description>
-    <label>ERP Cloud</label>
+    <description>Record type used for all non-portal cases</description>
+    <label>Standard</label>
     <picklistValues>
         <picklist>AIW_Supported_Loader__c</picklist>
         <values>
@@ -396,10 +396,6 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Content Published</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>Duplicate</fullName>
             <default>false</default>
         </values>
@@ -445,14 +441,6 @@
         </values>
         <values>
             <fullName>Other</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Request Declined</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Update Complete</fullName>
             <default>false</default>
         </values>
         <values>
@@ -660,14 +648,6 @@
     <picklistValues>
         <picklist>Integrator__c</picklist>
         <values>
-            <fullName>AP Invoice</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>AR Invoices</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>Assets and Assignments</fullName>
             <default>false</default>
         </values>
@@ -677,14 +657,6 @@
         </values>
         <values>
             <fullName>Budgets - Period-Phased</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Cancel Purchase Orders</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Close Purchase Order</fullName>
             <default>false</default>
         </values>
         <values>
@@ -712,10 +684,6 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Project</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>Purchase Orders</fullName>
             <default>false</default>
         </values>
@@ -725,18 +693,6 @@
         </values>
         <values>
             <fullName>Requisitions</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Standard Purchase Orders</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Structures</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Work Definitions</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -900,7 +856,7 @@
         </values>
         <values>
             <fullName>Web</fullName>
-            <default>true</default>
+            <default>false</default>
         </values>
         <values>
             <fullName>Web Meeting</fullName>
@@ -925,7 +881,111 @@
     <picklistValues>
         <picklist>Product_SSP__c</picklist>
         <values>
+            <fullName>AP Invoice Wizard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AR Invoice API Wizard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AR Invoice Wizard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AR Receipt Wizard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agreement %26 Funding Wizard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Application Interface Wizard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Asset Wizard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bill of Materials Wizard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Budget Wizard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Wizard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Element Entry Wizard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee Wizard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Event Wizard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Excel-Out</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Finance Module</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GL Wizard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Item Catalog UDA Wizard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Item Cost Wizard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Item Extension Wizard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Item Wizard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Labor Cost Rate Wizard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Material Transaction Wizard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mobile Stock Take</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PO Receiving Wizard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PO Wizard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Price List Wizard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pricing Modifiers Wizard</fullName>
             <default>false</default>
         </values>
         <values>
@@ -937,7 +997,47 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>Project Transaction Wizard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Project Wizard</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Projects Module</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Requisition Wizard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Routing Wizard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Order Wizard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Quote Wizard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sourcing Wizard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Special Information Wizard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supplier Wizard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Upload Wizard</fullName>
             <default>false</default>
         </values>
     </picklistValues>

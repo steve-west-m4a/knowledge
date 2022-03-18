@@ -3,6 +3,7 @@
     <fullName>SF</fullName>
     <active>true</active>
     <businessProcess>SF</businessProcess>
+    <compactLayoutAssignment>Case</compactLayoutAssignment>
     <description>Record type used for all portal cases</description>
     <label>SF</label>
     <picklistValues>
@@ -390,6 +391,10 @@
     </picklistValues>
     <picklistValues>
         <picklist>Closed_Reason__c</picklist>
+        <values>
+            <fullName>Closed via More4apps Community</fullName>
+            <default>false</default>
+        </values>
         <values>
             <fullName>Duplicate</fullName>
             <default>false</default>
@@ -834,11 +839,23 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>Internal</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Phone</fullName>
             <default>false</default>
         </values>
         <values>
+            <fullName>Self-Service Portal</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Meeting</fullName>
             <default>false</default>
         </values>
     </picklistValues>

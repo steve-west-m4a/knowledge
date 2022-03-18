@@ -102,6 +102,11 @@
                 <default>false</default>
                 <label>Working as Designed</label>
             </value>
+            <value>
+                <fullName>Closed via More4apps Community</fullName>
+                <default>false</default>
+                <label>Closed via More4apps Community</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

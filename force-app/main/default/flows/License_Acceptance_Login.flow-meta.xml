@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>54.0</apiVersion>
+    <decisions>
+        <description
+    >If the Acceptance date is NULL or over 12 months old then we ask for it again</description>
+        <name>Do_we_ask_for_License_Acceptance</name>
+        <label>Do we ask for License Acceptance</label>
+        <locationX>776</locationX>
+        <locationY>326</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Ask_for_Acceptance</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference
+        >$User.License_Agreement_Acceptance__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference
+        >$User.License_Agreement_Acceptance__c</leftValueReference>
+                <operator>LessThan</operator>
+                <rightValue>
+                    <elementReference>AYearAgo</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>End_User_License_Agreement</targetReference>
+            </connector>
+            <label>Ask for Acceptance</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>Only proceed if they accept</description>
+        <name>Is_Accepted</name>
+        <label>Is Accepted</label>
+        <locationX>833</locationX>
+        <locationY>572</locationY>
+        <defaultConnector>
+            <targetReference>End_User_License_Agreement</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Not Accepted</defaultConnectorLabel>
+        <rules>
+            <name>Accepted</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Agreement_to_proceed</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Record_the_Acceptance</targetReference>
+            </connector>
+            <label>Accepted</label>
+        </rules>
+    </decisions>
+    <description
+  >Decide whether to prompt the user for the License Acceptance. Store the date of Acceptance.</description>
+    <formulas>
+        <name>AYearAgo</name>
+        <dataType>Date</dataType>
+        <expression>{!$Flow.CurrentDateTime} - 365</expression>
+    </formulas>
+    <interviewLabel
+  >License Acceptance Login {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>License Acceptance Login</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <recordUpdates>
+        <name>Record_the_Acceptance</name>
+        <label>Record the Acceptance</label>
+        <locationX>1118</locationX>
+        <locationY>571</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$User.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>License_Agreement_Acceptance__c</field>
+            <value>
+                <elementReference>$Flow.CurrentDate</elementReference>
+            </value>
+        </inputAssignments>
+        <object>User</object>
+    </recordUpdates>
+    <screens>
+        <name>End_User_License_Agreement</name>
+        <label>End User License Agreement</label>
+        <locationX>529</locationX>
+        <locationY>572</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>Is_Accepted</targetReference>
+        </connector>
+        <fields>
+            <name>EUL</name>
+            <fieldText
+      >&lt;p&gt;This End User License Agreement (the &quot;Agreement&quot;) is a legal agreement between you (either an individual or an entity) and More4apps NZ Ltd. (the &quot;Company&quot;) regarding the use of Company&apos;s software (the &quot;Software&quot;).&lt;/p&gt;&lt;p&gt;BEFORE YOU CLICK ON THE DOWNLOAD LINKS IN THIS WEBSITE, CAREFULLY READ THE TERMS AND CONDITIONS OF THIS AGREEMENT. BY CLICKING ON THE &quot;ACCEPT&quot; AND &quot;DOWNLOAD&quot; LINKS, YOU ARE CONSENTING TO BE BOUND BY AND ARE BECOMING A PARTY TO THIS AGREEMENT. IF YOU DO NOT AGREE TO ALL OF THE TERMS OF THIS AGREEMENT, CLICK THE &quot;DECLINE&quot; BUTTON AND THE SOFTWARE WILL NOT BE DOWNLOADED TO YOUR COMPUTER.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Copyright. The Software is owned by the Company or its suppliers or licensors and is protected by New Zealand copyright laws and international treaty provisions. We (and our suppliers) own and retain all right title and interest in and to the Software, including patents, trademarks, copyrights, trade secrets and other intellectual property rights embodied or contained therein. Therefore, you may not use, copy, or distribute the Software without authorization.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Restrictions. You may not rent or lease the Software, but you may transfer your rights under this Agreement permanently, provided you transfer this Agreement, the Software and all accompanying printed materials, retain no copies, and the recipient agrees to the terms of this Agreement. You may not reverse engineer, decompile, or disassemble the Software, except to the extent the foregoing restriction is expressly prohibited by applicable law. You may not modify, or create derivative works based upon the Software.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;NO WARRANTIES. THE SOFTWARE IS PROVIDED &quot;AS-IS&quot; WITHOUT ANY WARRANTY WHATSOEVER. YOU ASSUME ALL RISKS AND RESPONSIBILITIES FOR SELECTION OF THE SOFTWARE TO ACHIEVE YOUR INTENDED RESULTS, AND FOR THE INSTALLATION OF, USE OF, AND RESULTS OBTAINED FROM THE SOFTWARE. THE COMPANY MAKES NO WARRANTY THAT THE SOFTWARE WILL BE ERROR FREE OR FREE FROM INTERRUPTION OR FAILURE, OR THAT IT IS COMPATIBLE WITH ANY PARTICLAR HARDWARE OR SOFTWARE. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, COMPANY DISCLAIMS ALL WARRANTIES, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT WITH RESPECT TO THE SOFTWARE AND THE ACCOMPANYING WRITTEN MATERIALS. YOU HEREBY ACKNOWLEDGE THAT THE SOFTWARE MAY NOT BE OR BECOME AVAILABE DUE TO ANY NUMBER OF FACTORS INCLUDING WITHOUT LIMITATION PERIODIC SYSTEM MAINTENANCE, SCHEDULED OR UNSCHEDULED, ACTS OF GOD, TECHNICAL FAILURE OF THE SOFTWARE, TELECOMMUNICATIONS INFRASTRUCTURE, OR DELAY OR DISRUPTION ATTRIBUTABLE TO VIRUSES, DENIAL OF SERVICE ATTACKS, INCREASED OR FLUCTUATING DEMAND, AND ACTIONS AND OMISSIONS OF THRID PARTIES. THEREFORE THE COMPANY EXPRESSLY DISCLAIMS ANY EXPRESS OR IMPLIED WARRANTY REGARDING SYSTEM AND/OR SOFTWARE AVAILABILITY, ACCESSABILITY, OR PERFORMANCE.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;LIMITED LIABILITY; NO LIABILITY FOR CONSEQUENTIAL DAMAGES. YOU ASSUME THE ENTIRE COST OF ANY DAMAGE RESULTING FROM YOUR USE OF THE SOFTWARE AND THE INFORMATION CONTAINED IN OR COMPILED BY THE SOFTWARE, AND THE INTERACTION (OR FAILURE TO INTERACT PROPERLY) WITH ANY OTHER HARDWARE OR SOFTWARE WHETHER PROVIDED BY THE COMPANY OR A THIRD PARTY. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT WILL COMPANY OR ITS SUPPLIERS OR LICENSORS BE LIABLE FOR ANY DAMAGES WHATSOEVER (INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION, LOSS OF BUSINESS INFORMATION, LOSS OF GOODWILL; WORK STOPPAGE; HARDWARE OR SOFTWARE DISRUPTION IMPAIRMENT OR FAILURE, REPAIR COSTS, TIME VALUE OR OTHER PECUNIARY LOSS) ARISING OUT OF THE USE OR INABILITY TO USE THE SOFTWARE, OR THE INCOMPATIBILITY OF THE SOFTWARE WITH ANY HARDWARE SOFTWARE OR USEAGE, EVEN IF SUCH PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. IN NO EVENT WILL COMPANY&apos;S TOTAL LIABILITY TO YOU FOR ALL DAMAGES IN ANY ONE OR MORE CAUSE OF ACTION, WHETHER IN CONTRACT, TORT OR OTHERWISE. EXCEED THE AMOUNT PAID BY YOU FOR THE SOFTWARE.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;U.S. Government-Restricted Rights. The Software and accompanying documentation are deemed to be &quot;commercial computer Software&quot; and &quot;commercial computer Software documentation,&quot; respectively, pursuant to DFAR Section 227.7202 and FAR Section 12.212, as applicable. Any use, modification, reproduction release, performance, display or disclosure of the Software and accompanying documentation by the U.S. Government will be governed solely by the terms of this Agreement and will be prohibited except to the extent expressly permitted by the terms of this Agreement.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Export Restrictions. You may not download, export, or re-export the Software into, or to a national or resident of, any country to which the New Zealand government has embargoed goods. You acknowledge that it is your sole responsibility to comply with any and all government export and other applicable laws and that the Company has no responsibility for compliance with such laws.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;By entering into this agreement, you agree that the Company may collect and retain information about you, including your name, and email address information. The Company employs other companies and individuals to perform functions on its behalf. Examples include fulfilling orders, delivering packages, sending postal mail and e-mail, removing repetitive information from customer lists, analyzing data, providing marketing assistance, and providing customer service. They have access to personal information needed to perform their functions, but may not use it for other purposes.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;General. This Agreement is governed by the laws of the country of New Zealand, without reference to conflict of laws principles. The application of the United Nations Convention of Contracts for the International Sale of Goods is expressly excluded. Any dispute between you and the Company regarding this Agreement will be subject to the exclusive venue of the state courts in the country of New Zealand. If any provision of this Agreement is held invalid, the remainder of this Agreement will continue in full force and effect. No provision hereof shall be deemed waived or modified except in a written addendum signed by an authorized representative of the Company.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Contact Information. Should you have any questions concerning this Agreement, or if you desire to contact the Company for any reason, please email us at info@more4apps.com&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>Agreement_to_proceed</name>
+            <dataType>Boolean</dataType>
+            <defaultValue>
+                <booleanValue>false</booleanValue>
+            </defaultValue>
+            <fieldText
+      >You must accept the More4apps License Agreement to proceed</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <start>
+        <locationX>650</locationX>
+        <locationY>48</locationY>
+        <connector>
+            <targetReference>Do_we_ask_for_License_Acceptance</targetReference>
+        </connector>
+    </start>
+    <status>Draft</status>
+    <variables>
+        <name>LicenseAcceptance</name>
+        <dataType>Boolean</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>
