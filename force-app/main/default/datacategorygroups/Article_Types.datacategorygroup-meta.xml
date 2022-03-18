@@ -3,8 +3,8 @@
     <active>true</active>
     <dataCategory>
         <dataCategory>
-            <label>Tutorials</label>
-            <name>Tutorials</name>
+            <label>How To</label>
+            <name>How_To</name>
         </dataCategory>
         <dataCategory>
             <label>Troubleshooting</label>

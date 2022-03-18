@@ -13,7 +13,7 @@
       "components": [
         {
           "componentAttributes": {
-            "richTextValue": "<h1 style=\"text-align: center;\"><br></h1><h1 style=\"text-align: center;\"><b style=\"font-size: 28px;\">We're sorry, but the page you tried cannot be found.</b></h1><h1 style=\"text-align: center;\"><b style=\"font-size: 28px;\">Please try using the Search or Contact Support&nbsp;for further assistance.</b></h1><h1 style=\"text-align: center;\"><b style=\"font-size: 28px;\">﻿</b></h1>"
+            "richTextValue": "<h1 style=\"text-align: center;\"><br></h1><h1 style=\"text-align: center;\"><b style=\"font-size: 28px;\">We're sorry, but the page you tried cannot be found.</b></h1><h1 style=\"text-align: center;\"><b style=\"font-size: 28px;\">Please try using the Search or Contact Support&nbsp;options for further assistance.</b></h1><h1 style=\"text-align: center;\"><b style=\"font-size: 28px;\">﻿</b></h1>"
           },
           "componentName": "forceCommunity:richTextInline",
           "id": "6ca4726b-8727-41db-9ea9-4798699ad121",

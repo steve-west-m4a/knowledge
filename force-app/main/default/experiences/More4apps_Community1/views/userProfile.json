@@ -1,28 +1,32 @@
 {
   "appPageId": "15c18bce-cd20-41ce-bea0-694f6d19ded6",
-  "componentName": "siteforce:sldsOneColLayout",
+  "componentName": "siteforce:sldsTwoCol48Layout",
   "id": "376c6707-2408-40da-b8d0-baaa462b1985",
   "label": "User Profile",
   "regions": [
     {
-      "components": [
-        {
-          "componentAttributes": {
-            "richTextValue": "<div style=\"background-color:#F2F2F2; padding: 20px 0;\" align=\"center\">\n    <h1>If you need to update your details below, please submit an <a target=\"_blank\" href=\"https://more4apps.com/community-login-request/\">Update Details Request</a></h1> \n</div>"
-          },
-          "componentName": "forceCommunity:htmlBlock",
-          "id": "7778c5ad-b209-4407-8820-97f28b3ce7a4",
-          "renderPriority": "NEUTRAL",
-          "renditionMap": {},
-          "type": "component"
-        }
-      ],
       "id": "4695e808-5c2c-4042-9b43-190b999dac2b",
       "regionName": "header",
       "type": "region"
     },
     {
       "components": [
+        {
+          "componentAttributes": {
+            "bannerText": "",
+            "bannerTextWithKnowledge": "Explore other <a href=\"javascript:void(0)\" class=\"headlineArticles\">articles</a> and <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+            "bannerTextWithoutKnowledge": "Explore other <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+            "pageType": "user",
+            "showSubTopics": false,
+            "title": "My Profile",
+            "uniqueNameOrId": "!Username"
+          },
+          "componentName": "forceCommunity:headline",
+          "id": "a6e99bcb-3073-47b7-b750-e2c57a38c577",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
         {
           "componentAttributes": {
             "knowledgeableAboutTitle": "Knows About",
@@ -35,17 +39,7 @@
             "userId": "{!recordId}"
           },
           "componentName": "forceCommunity:userProfileBody",
-          "id": "41e4c49e-b875-45ba-a4fb-f5de4d148d68",
-          "renderPriority": "NEUTRAL",
-          "renditionMap": {},
-          "type": "component"
-        },
-        {
-          "componentAttributes": {
-            "richTextValue": "<div style=\"padding-top: 50px\"/>"
-          },
-          "componentName": "forceCommunity:htmlBlock",
-          "id": "b6733fea-7ea9-414f-8b01-c4dc78326b82",
+          "id": "2c527365-679b-4ed3-8a73-3ad3e2c7a69a",
           "renderPriority": "NEUTRAL",
           "renditionMap": {},
           "type": "component"
@@ -61,12 +55,101 @@
       "type": "region"
     },
     {
+      "components": [
+        {
+          "componentAttributes": {
+            "richTextValue": "<div style=\"padding-top: 5px\"/>"
+          },
+          "componentName": "forceCommunity:htmlBlock",
+          "id": "6ceba07a-1aa0-41e3-a25b-359f6d7659a3",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
+        {
+          "componentAttributes": {
+            "backgroundColor": "#fff",
+            "borderColor": "transparent",
+            "borderRadius": 5,
+            "borderStyle": "outline",
+            "buttonColor": "",
+            "buttonHoverColor": "rgb(99, 102, 106)",
+            "crossObjectTypeaheadApiNames": [
+              {
+                "isPublic": true,
+                "name": "Case"
+              },
+              {
+                "isPublic": true,
+                "name": "Knowledge__kav"
+              }
+            ],
+            "iconColor": "rgb(255, 255, 255)",
+            "placeholderText": "Search keywords",
+            "placeholderTextColor": "rgb(99, 102, 106)",
+            "publicDropdownBackgroundColor": "rgba(255, 255, 255, 1)",
+            "publicDropdownBackgroundHoverColor": "rgba(250, 250, 250, 1)",
+            "publicDropdownBorderColor": "rgba(240, 240, 240, 1)",
+            "publicDropdownTextColor": "",
+            "publicDropdownTextHoverColor": "rgb(0, 155, 255)",
+            "showSearchButton": true,
+            "textColor": "rgb(99, 102, 106)",
+            "typeaheadResultMax": 5,
+            "useTypeahead": true
+          },
+          "componentName": "forceCommunity:themeSearchHero",
+          "id": "1503a213-233c-483f-9b11-6d6c52110add",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
+        {
+          "componentAttributes": {
+            "richTextValue": "<div align=\"left\">\n\t<table>\n\t\t<tr>\n\t\t\t<td class=\"ebs-toolbox-headers\"><h1 style=\"color: #FFFFFF; font-size: 14pt;\"><img alt=\"EBS Toolbox\" style=\"height: 45px; width: 45px; padding: 10px 10px;\" src=\"{!contentAsset.EBSIcon.1}\"/>EBS Toolbox</h1></td>\n        </tr>\n        <tr>\n            <td class=\"toolbox-button-tile\"><a style=\"text-decoration: none; color: #63666A; --hover-color: #0047BB;\" href=\"https://more4apps.com/support/ebs-toolbox-support/ebs-toolbox-user-documentation/\" target=\"_blank\"><p style=\"font-size: 12pt; font-weight: bold;\">User Documentation</p></a></td>\n        </tr>\n        <tr>\n            <td class=\"toolbox-button-tile\"><a style=\"text-decoration: none; color: #63666A; --hover-color: #0047BB;\" href=\"https://more4apps.com/support/latest-release-details-ebs-toolbox/\" target=\"_blank\"><p style=\"font-size: 12pt; font-weight: bold;\">Latest Release Details</p></a></td>\n        </tr>\n        <tr>\n            <td class=\"toolbox-button-tile\"><a style=\"text-decoration: none; color: #63666A; --hover-color: #0047BB;\" href=\"https://more4apps.com/support/ebs-installation-guide/\" target=\"_blank\"><p style=\"font-size: 12pt; font-weight: bold;\">Installation Guide</p></a></td>\n        </tr>\n        <tr>\n            <td class=\"toolbox-button-tile\"><a style=\"text-decoration: none; color: #63666A; --hover-color: #0047BB;\" href=\"/community/s/ebs-contact-support/\" target=\"_self\"><p style=\"font-size: 12pt; font-weight: bold;\">Support Request</p></a></td>\n        </tr>\n    </table>\n</div>"
+          },
+          "componentName": "forceCommunity:htmlBlock",
+          "id": "903ecaa9-803b-4b11-ab8e-9d3268375b51",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
+        {
+          "componentAttributes": {
+            "richTextValue": "<div align=\"left\">\n\t<table>\n\t\t<tr>\n\t\t\t<td class=\"erp-cloud-toolbox-headers\"><h1 style=\"color: #FFFFFF; font-size: 14pt;\"><img alt=\"ERP Cloud Toolbox\" style=\"height: 45px; width: 45px; padding: 10px 10px;\" src=\"{!contentAsset.ERPCloudIcon.1}\"/>ERP Cloud Toolbox</h1></td>\n\t\t</tr>\n        <tr>\n            <td class=\"toolbox-button-tile\"><a style=\"text-decoration: none; color: #63666A;\" href=\"https://more4apps.com/support/erp-cloud-toolbox-support/erp-cloud-toolbox-user-documentation/\" target=\"_blank\"><p style=\"font-size: 12pt; font-weight: bold;\">User Documentation</p></a></td>\n        </tr>\n        <tr>\n            <td class=\"toolbox-button-tile\"><a style=\"text-decoration: none; color: #63666A;\" href=\"https://more4apps.com/support/latest-release-details-erp-cloud-toolbox/\" target=\"_blank\"><p style=\"font-size: 12pt; font-weight: bold;\">Latest Release Details</p></a></td>\n        </tr>\n        <tr>\n            <td class=\"toolbox-button-tile\"><a style=\"text-decoration: none; color: #63666A;\" href=\"https://more4apps.com/support/erp-cloud-installation-guide/\" target=\"_blank\"><p style=\"font-size: 12pt; font-weight: bold;\">Installation Guide</p></a></td>\n        </tr>\n        <tr>\n            <td class=\"toolbox-button-tile\"><a style=\"text-decoration: none; color: #63666A;\" href=\"/community/s/erp-cloud-contact-support/\" target=\"_self\"><p style=\"font-size: 12pt; font-weight: bold;\">Support Request</p></a></td>\n        </tr>\n    </table>\n</div>"
+          },
+          "componentName": "forceCommunity:htmlBlock",
+          "id": "2329b1c3-2a87-4815-b942-114e5bcbc617",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
+        {
+          "componentAttributes": {
+            "richTextValue": "<div style=\"width: 50%\">\n    <table>\n\t\t<tr align=\"center\">\n\t\t\t<td class=\"button-all-topics\"><a style=\"text-decoration: none; color: #FFFFFF; font-size: 14px;\" href=\"/community/s/topiccatalog/\" target=\"_self\">All Topics</a></td> \n        <tr>\n    </table>\n</div>"
+          },
+          "componentName": "forceCommunity:htmlBlock",
+          "id": "1301b1ff-99c8-4d20-812c-dc6e71763023",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
+        {
+          "componentAttributes": {
+            "richTextValue": "<div style=\"padding-top: 5px\"/>"
+          },
+          "componentName": "forceCommunity:htmlBlock",
+          "id": "549db8a6-d1ff-4306-9b3e-2fc411028656",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
       "id": "7a052084-2904-4503-8b40-143ed0f440d6",
       "regionName": "sidebar",
       "type": "region"
     }
   ],
-  "themeLayoutType": "Inner",
+  "themeLayoutType": "sJdHZmIy8EN20y3GGmaJ5dHdFXOGcL",
   "type": "view",
   "viewType": "detail-005"
 }

@@ -14,6 +14,7 @@ sfdx force:org:create -s -f config/project-scratch-def.json -a oldversion
 
 sfdx force:package:install --wait 10 --publishwait 10 --package "m4a-logging"
 sfdx force:package:install --wait 10 --publishwait 10 --package "Email to Case Premium"
+sfdx force:package:install --wait 10 --publishwait 10 --package "Data Privacy Manager"
 sfdx force:package:install --wait 10 --publishwait 10 --package "m4a-common-meta-pkg"
 sfdx force:package:install --wait 10 --publishwait 10 --package "m4a-product-lov" --noprompt
 

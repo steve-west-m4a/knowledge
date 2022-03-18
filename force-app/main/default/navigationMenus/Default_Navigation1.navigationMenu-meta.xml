@@ -4,8 +4,22 @@
     <containerType>Network</containerType>
     <label>Default Navigation M4A</label>
     <navigationMenuItem>
-        <label>Downloads</label>
+        <label>Support</label>
         <position>1</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/contact-support</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Topics</label>
+        <position>2</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/topiccatalog</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Downloads</label>
+        <position>3</position>
         <publiclyAvailable>true</publiclyAvailable>
         <subMenu>
             <navigationMenuItem>
@@ -24,12 +38,5 @@
             </navigationMenuItem>
         </subMenu>
         <type>MenuLabel</type>
-    </navigationMenuItem>
-    <navigationMenuItem>
-        <label>My Cases</label>
-        <position>2</position>
-        <publiclyAvailable>false</publiclyAvailable>
-        <target>/my-cases</target>
-        <type>InternalLink</type>
     </navigationMenuItem>
 </NavigationMenu>

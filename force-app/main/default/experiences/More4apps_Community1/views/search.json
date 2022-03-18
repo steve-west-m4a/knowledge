@@ -5,6 +5,18 @@
   "label": "Search",
   "regions": [
     {
+      "components": [
+        {
+          "componentAttributes": {
+            "richTextValue": "<div style=\"padding-top: 30px\"/>"
+          },
+          "componentName": "forceCommunity:htmlBlock",
+          "id": "642b980a-c276-4601-9881-57dcd1bd29b2",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
       "id": "f9a9cb31-72f9-4106-a120-20a45921a485",
       "regionName": "header",
       "type": "region"
@@ -47,6 +59,18 @@
       "type": "region"
     },
     {
+      "components": [
+        {
+          "componentAttributes": {
+            "richTextValue": "<div style=\"padding-top: 30px\"/>"
+          },
+          "componentName": "forceCommunity:htmlBlock",
+          "id": "9ff693e4-05e6-435b-aa05-837abe966738",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
       "id": "23ec8354-8775-458f-a47f-80654f185db6",
       "regionName": "footer",
       "type": "region"

@@ -282,6 +282,14 @@
         <topicDescription> </topicDescription>
     </managedTopic>
     <managedTopic>
+        <fullName>More4apps Community.Navigational:How To</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>How To</name>
+        <parentName />
+        <position>17</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
         <fullName>More4apps Community.Navigational:Human Resources</fullName>
         <managedTopicType>Navigational</managedTopicType>
         <name>Human Resources</name>
@@ -625,14 +633,6 @@
         <name>Troubleshooting</name>
         <parentName />
         <position>18</position>
-        <topicDescription> </topicDescription>
-    </managedTopic>
-    <managedTopic>
-        <fullName>More4apps Community.Navigational:Tutorials</fullName>
-        <managedTopicType>Navigational</managedTopicType>
-        <name>Tutorials</name>
-        <parentName />
-        <position>17</position>
         <topicDescription> </topicDescription>
     </managedTopic>
     <managedTopic>
