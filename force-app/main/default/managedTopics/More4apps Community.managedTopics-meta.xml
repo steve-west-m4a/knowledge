@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <ManagedTopics xmlns="http://soap.sforce.com/2006/04/metadata">
     <managedTopic>
+        <fullName>More4apps Community.Content:Finance Module</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>Finance Module</name>
+        <parentName />
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>More4apps Community.Content:Procurement Module</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>Procurement Module</name>
+        <parentName />
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName
+    >More4apps Community.Content:Product Definition Module</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>Product Definition Module</name>
+        <parentName />
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>More4apps Community.Content:Projects Module</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>Projects Module</name>
+        <parentName />
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
         <fullName>More4apps Community.Featured:EBS General</fullName>
         <managedTopicType>Featured</managedTopicType>
         <name>EBS General</name>

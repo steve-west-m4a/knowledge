@@ -1247,7 +1247,7 @@
                         "crossObjectTypeaheadApiNames": [
                           {
                             "isPublic": true,
-                            "name": "Knowledge__kav"
+                            "name": "ManagedContentVersion"
                           }
                         ],
                         "iconColor": "#FFFFFF",

@@ -1,0 +1,175 @@
+{
+  "appPageId": "15c18bce-cd20-41ce-bea0-694f6d19ded6",
+  "componentName": "siteforce:dynamicLayout",
+  "id": "f5f8268f-9d93-4ca7-b1e3-e515ef8e8e42",
+  "label": "Document Detail",
+  "regions": [
+    {
+      "components": [
+        {
+          "componentAttributes": {
+            "background": "background: rgba(0,0,0,0)",
+            "backgroundOverlay": "rgba(0,0,0,0.5)",
+            "contentAreaWidth": 100,
+            "sectionConfig": {
+              "UUID": "9264af6f-3585-47ab-8f81-0f13e861b4bf",
+              "columns": [
+                {
+                  "UUID": "6868b0a1-ccc9-4903-8b50-1217f9807e36",
+                  "columnKey": "1",
+                  "columnName": "Column 1",
+                  "columnWidth": "12",
+                  "seedComponents": []
+                }
+              ]
+            },
+            "sectionHeight": 300
+          },
+          "componentName": "forceCommunity:section",
+          "id": "9264af6f-3585-47ab-8f81-0f13e861b4bf",
+          "regions": [
+            {
+              "components": [
+                {
+                  "componentAttributes": {
+                    "config": {
+                      "layoutDefinition": {
+                        "attributes": {
+                          "dateFormat": "none",
+                          "datetime": "",
+                          "datetimeFontSize": "regular",
+                          "datetimeTextColor": "",
+                          "datetimeTextDecoration": "",
+                          "displayDayOfWeek": false,
+                          "featuredContent": "{!CurrentItem.source.url}",
+                          "featuredImageHeight": "450",
+                          "featuredImageLayout": "cover",
+                          "featuredImagePosition": "center center",
+                          "featuredImageUrl": "",
+                          "featuredImageWidth": 100,
+                          "featuredVideoAspectRatio": "16:9",
+                          "featuredVideoHeight": 450,
+                          "featuredVideoUrl": "",
+                          "featuredVideoUseAspectRatio": false,
+                          "footerMetadata1Text": "",
+                          "footerMetadata2Text": "",
+                          "footerMetadata3Text": "",
+                          "footerMetadataFontSize": "regular",
+                          "footerMetadataTextColor": "",
+                          "footerMetadataTextDecoration": "",
+                          "headerMetadata1Text": "",
+                          "headerMetadata2Text": "",
+                          "headerMetadata3Text": "",
+                          "headerMetadataFontSize": "regular",
+                          "headerMetadataTextColor": "",
+                          "headerMetadataTextDecoration": "",
+                          "headerTextAlignment": "left",
+                          "section1Content": "",
+                          "section1ImageAlignment": "center",
+                          "section1ImageBorderColor": "#ffffff",
+                          "section1ImageBorderStyles": "",
+                          "section1ImageHeight": "450",
+                          "section1ImageLayout": "cover",
+                          "section1ImageOffset": "medium",
+                          "section1ImagePosition": "center center",
+                          "section1ImageUrl": "",
+                          "section1ImageWidth": 50,
+                          "section1Title": "",
+                          "section1TitleFontSize": "regular",
+                          "section1TitleTextColor": "",
+                          "section1TitleTextDecoration": "",
+                          "section2Content": "",
+                          "section2ImageAlignment": "center",
+                          "section2ImageBorderColor": "#ffffff",
+                          "section2ImageBorderStyles": "",
+                          "section2ImageHeight": "450",
+                          "section2ImageLayout": "cover",
+                          "section2ImageOffset": "medium",
+                          "section2ImagePosition": "center center",
+                          "section2ImageUrl": "",
+                          "section2ImageWidth": 50,
+                          "section2Title": "",
+                          "section2TitleFontSize": "regular",
+                          "section2TitleTextColor": "",
+                          "section2TitleTextDecoration": "",
+                          "showDateTime": false,
+                          "showFeaturedContent": true,
+                          "showFeaturedImage": false,
+                          "showFeaturedSection": true,
+                          "showFeaturedVideo": false,
+                          "showFooterMetadata": false,
+                          "showHeaderMetadata": false,
+                          "showSection1": false,
+                          "showSection1Content": true,
+                          "showSection1Image": true,
+                          "showSection1Title": true,
+                          "showSection2": false,
+                          "showSection2Content": true,
+                          "showSection2Image": true,
+                          "showSection2Title": true,
+                          "showSubTitle": false,
+                          "showTitle": true,
+                          "subTitle": "",
+                          "subTitleFontSize": "regular",
+                          "subTitleTextColor": "",
+                          "subTitleTextDecoration": "",
+                          "timeFormat": "none",
+                          "timeZoneDisplay": "short",
+                          "timeZoneOptions": "none",
+                          "title": "{!CurrentItem.title}",
+                          "titleFontSize": "large",
+                          "titleHeadingTag": "h1",
+                          "titleTextColor": "",
+                          "titleTextDecoration": ""
+                        },
+                        "componentName": "forceCommunity:detailLayoutWithSections"
+                      },
+                      "schemaVersion": "V2.0"
+                    }
+                  },
+                  "componentName": "forceCommunity:managedContentDetail",
+                  "id": "24780469-6660-4e25-8bec-244bc4162231",
+                  "renderPriority": "NEUTRAL",
+                  "renditionMap": {},
+                  "type": "component"
+                }
+              ],
+              "id": "6868b0a1-ccc9-4903-8b50-1217f9807e36",
+              "regionLabel": "Column 1",
+              "regionName": "1",
+              "renditionMap": {},
+              "type": "region"
+            }
+          ],
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
+      "id": "164341d6-cb24-46dd-bbe0-3f244574720f",
+      "regionName": "content",
+      "type": "region"
+    },
+    {
+      "components": [
+        {
+          "componentAttributes": {
+            "customHeadTags": "",
+            "description": "",
+            "title": "{!Content.contentTypeLabel}.{!Content.title}"
+          },
+          "componentName": "forceCommunity:seoAssistant",
+          "id": "c536f965-044d-4004-b9ae-b8e596e8f575",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
+      "id": "7be799d0-fe15-4f72-9672-bfd1c443cc63",
+      "regionName": "sfdcHiddenRegion",
+      "type": "region"
+    }
+  ],
+  "themeLayoutType": "Inner",
+  "type": "view",
+  "viewType": "managed-content-cms_document"
+}

@@ -1,0 +1,11 @@
+{
+  "activeViewId": "f5f8268f-9d93-4ca7-b1e3-e515ef8e8e42",
+  "appPageId": "15c18bce-cd20-41ce-bea0-694f6d19ded6",
+  "configurationTags": [],
+  "id": "fa7b8f78-a71a-423d-a5fa-8639acf6b2e9",
+  "label": "Document Detail",
+  "pageAccess": "UseParent",
+  "routeType": "managed-content-cms_document",
+  "type": "route",
+  "urlPrefix": "cms-document"
+}

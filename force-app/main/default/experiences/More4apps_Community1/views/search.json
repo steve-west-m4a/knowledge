@@ -28,6 +28,10 @@
             "scopes": [
               {
                 "isPublic": true,
+                "name": "ManagedContentVersion"
+              },
+              {
+                "isPublic": true,
                 "name": "More4appsDocumentation__x"
               },
               {

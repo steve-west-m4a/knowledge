@@ -160,7 +160,7 @@
         <recordTriggerType>Update</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
     <variables>
         <name>CommunityStandardUserProfileID</name>
         <dataType>String</dataType>
