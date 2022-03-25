@@ -1,68 +1,68 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Network xmlns="http://soap.sforce.com/2006/04/metadata">
-    <allowInternalUserLogin>true</allowInternalUserLogin>
-    <allowMembersToFlag>false</allowMembersToFlag>
-    <changePasswordTemplate
+  <allowInternalUserLogin>true</allowInternalUserLogin>
+  <allowMembersToFlag>false</allowMembersToFlag>
+  <changePasswordTemplate
   >unfiled$public/Community_Password_Changed_Email</changePasswordTemplate>
-    <communityRoles />
-    <disableReputationRecordConversations
+  <communityRoles />
+  <disableReputationRecordConversations
   >false</disableReputationRecordConversations>
-    <emailSenderAddress>vienna.pahi@more4apps.com</emailSenderAddress>
-    <emailSenderName>More4apps Support</emailSenderName>
-    <enableCustomVFErrorPageOverrides>false</enableCustomVFErrorPageOverrides>
-    <enableDirectMessages>true</enableDirectMessages>
-    <enableExperienceBundleBasedSnaOverrideEnabled
+  <emailSenderAddress>vienna.pahi@more4apps.com</emailSenderAddress>
+  <emailSenderName>More4apps Support</emailSenderName>
+  <enableCustomVFErrorPageOverrides>false</enableCustomVFErrorPageOverrides>
+  <enableDirectMessages>true</enableDirectMessages>
+  <enableExperienceBundleBasedSnaOverrideEnabled
   >true</enableExperienceBundleBasedSnaOverrideEnabled>
-    <enableGuestChatter>true</enableGuestChatter>
-    <enableGuestFileAccess>true</enableGuestFileAccess>
-    <enableGuestMemberVisibility>false</enableGuestMemberVisibility>
-    <enableInvitation>false</enableInvitation>
-    <enableKnowledgeable>false</enableKnowledgeable>
-    <enableMemberVisibility>false</enableMemberVisibility>
-    <enableNicknameDisplay>true</enableNicknameDisplay>
-    <enablePrivateMessages>false</enablePrivateMessages>
-    <enableReputation>false</enableReputation>
-    <enableShowAllNetworkSettings>false</enableShowAllNetworkSettings>
-    <enableSiteAsContainer>true</enableSiteAsContainer>
-    <enableTalkingAboutStats>true</enableTalkingAboutStats>
-    <enableTopicAssignmentRules>true</enableTopicAssignmentRules>
-    <enableTopicSuggestions>true</enableTopicSuggestions>
-    <enableUpDownVote>true</enableUpDownVote>
-    <forgotPasswordTemplate
+  <enableGuestChatter>true</enableGuestChatter>
+  <enableGuestFileAccess>true</enableGuestFileAccess>
+  <enableGuestMemberVisibility>false</enableGuestMemberVisibility>
+  <enableInvitation>false</enableInvitation>
+  <enableKnowledgeable>false</enableKnowledgeable>
+  <enableMemberVisibility>false</enableMemberVisibility>
+  <enableNicknameDisplay>true</enableNicknameDisplay>
+  <enablePrivateMessages>false</enablePrivateMessages>
+  <enableReputation>false</enableReputation>
+  <enableShowAllNetworkSettings>false</enableShowAllNetworkSettings>
+  <enableSiteAsContainer>true</enableSiteAsContainer>
+  <enableTalkingAboutStats>true</enableTalkingAboutStats>
+  <enableTopicAssignmentRules>true</enableTopicAssignmentRules>
+  <enableTopicSuggestions>true</enableTopicSuggestions>
+  <enableUpDownVote>true</enableUpDownVote>
+  <forgotPasswordTemplate
   >unfiled$public/Community_Forgot_Password_Reset_Email</forgotPasswordTemplate>
-    <gatherCustomerSentimentData>true</gatherCustomerSentimentData>
-    <logoutUrl
+  <gatherCustomerSentimentData>true</gatherCustomerSentimentData>
+  <logoutUrl
   >https://sandbox-innovation-speed-1441-17f2deb0c95.cs76.force.com/community/s/</logoutUrl>
-    <maxFileSizeKb>2048000</maxFileSizeKb>
-    <networkMemberGroups>
-        <permissionSet>m4a_search</permissionSet>
-        <permissionSet>More4apps_Product_Downloads</permissionSet>
-        <permissionSet>Knowledge_Manager_Permission_Set</permissionSet>
-        <profile>admin</profile>
-        <profile>portal super user</profile>
-        <profile>portal user</profile>
-    </networkMemberGroups>
-    <networkPageOverrides>
-        <changePasswordPageOverrideSetting
+  <maxFileSizeKb>2048000</maxFileSizeKb>
+  <networkMemberGroups>
+    <permissionSet>m4a_search</permissionSet>
+    <permissionSet>More4apps_Product_Downloads</permissionSet>
+    <permissionSet>Knowledge_Manager_Permission_Set</permissionSet>
+    <profile>admin</profile>
+    <profile>community super user</profile>
+    <profile>community standard user</profile>
+  </networkMemberGroups>
+  <networkPageOverrides>
+    <changePasswordPageOverrideSetting
     >Standard</changePasswordPageOverrideSetting>
-        <forgotPasswordPageOverrideSetting
+    <forgotPasswordPageOverrideSetting
     >Standard</forgotPasswordPageOverrideSetting>
-        <homePageOverrideSetting>Standard</homePageOverrideSetting>
-        <loginPageOverrideSetting>Designer</loginPageOverrideSetting>
-        <selfRegProfilePageOverrideSetting
+    <homePageOverrideSetting>Standard</homePageOverrideSetting>
+    <loginPageOverrideSetting>Designer</loginPageOverrideSetting>
+    <selfRegProfilePageOverrideSetting
     >Designer</selfRegProfilePageOverrideSetting>
-    </networkPageOverrides>
-    <picassoSite>More4apps_Community1</picassoSite>
-    <selfRegistration>false</selfRegistration>
-    <sendWelcomeEmail>true</sendWelcomeEmail>
-    <site>More4apps_Community</site>
-    <siteArchiveStatus>NotArchived</siteArchiveStatus>
-    <status>Live</status>
-    <tabs>
-        <defaultTab>home</defaultTab>
-        <standardTab>Chatter</standardTab>
-    </tabs>
-    <urlPathPrefix>community</urlPathPrefix>
-    <welcomeTemplate
+  </networkPageOverrides>
+  <picassoSite>More4apps_Community1</picassoSite>
+  <selfRegistration>false</selfRegistration>
+  <sendWelcomeEmail>true</sendWelcomeEmail>
+  <site>More4apps_Community</site>
+  <siteArchiveStatus>NotArchived</siteArchiveStatus>
+  <status>Live</status>
+  <tabs>
+    <defaultTab>home</defaultTab>
+    <standardTab>Chatter</standardTab>
+  </tabs>
+  <urlPathPrefix>community</urlPathPrefix>
+  <welcomeTemplate
   >unfiled$public/Community_New_Member_Welcome_Email</welcomeTemplate>
 </Network>

@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <NetworkBranding xmlns="http://soap.sforce.com/2006/04/metadata">
     <loginFooterText>More4apps</loginFooterText>
-    <loginLogo>Experiences_Shared_Document_Folder1/Website_More4apps_Logo_png1.png</loginLogo>
+    <loginLogo
+  >Experiences_Shared_Document_Folder/Website_More4apps_Logo_png1.png</loginLogo>
     <loginLogoName>Website More4apps Logo.png</loginLogoName>
     <loginPrimaryColor>#0047BB</loginPrimaryColor>
     <loginQuaternaryColor>#F2F2F2</loginQuaternaryColor>

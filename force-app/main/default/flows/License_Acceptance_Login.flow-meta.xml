@@ -148,7 +148,7 @@
             <targetReference>Do_we_ask_for_License_Acceptance</targetReference>
         </connector>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
     <variables>
         <name>LicenseAcceptance</name>
         <dataType>Boolean</dataType>
