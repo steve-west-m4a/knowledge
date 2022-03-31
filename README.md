@@ -24,7 +24,7 @@ sfdx force:source:deploy -m datacategorygroup:Article_Types
 
 # Case origin & status is weird, does not get installed correctly by the metadata package. Go to the metdata package, switch to this scratch org, and do this:
 
-sfdx force:source:deploy -m StandardValueSet:CaseOrigin
+sfdx force:source:deploy -m StandardValueSet:CaseReason
 sfdx force:source:deploy -m StandardValueSet:CaseStatus
 
 # Need to push with Ignore Warnings so that we don't get "Occasionally, when deployed to a destination org, ID values can become invalid..." errors
